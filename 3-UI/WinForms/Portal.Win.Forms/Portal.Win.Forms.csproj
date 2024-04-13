@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="System\User\FrmUserGroup.cs" />
+    <Compile Remove="System\User\FrmUserGroup.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="System\User\FrmUserGroup.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Base.rar" />
+    <None Remove="Util.rar" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Data" Version="23.2.4" />
+    <PackageReference Include="DevExpress.Utils" Version="23.2.4" />
+    <PackageReference Include="DevExpress.Win" Version="23.2.4" />
+    <PackageReference Include="DevExpress.Win.Design" Version="23.2.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\1-Data\Portal.Data.Services\Portal.Data.Services.csproj" />
+    <ProjectReference Include="..\..\..\2-Shared\Portal.Helpers\Portal.Helpers.csproj" />
+    <ProjectReference Include="..\..\..\2-Shared\Portal.Models\Portal.Model.csproj" />
+    <ProjectReference Include="..\Portal.Win.DxUtils\Portal.Win.DxUtils.csproj" />
+    <ProjectReference Include="..\Portal.Win.Utils\Portal.Win.Utils.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Base\FrmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Base\FrmLogin.cs" />
+    <Compile Update="Base\FrmMainForm.cs" />
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="System\User\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

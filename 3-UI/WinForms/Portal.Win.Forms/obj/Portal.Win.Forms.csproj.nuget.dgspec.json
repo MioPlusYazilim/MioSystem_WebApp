@@ -1,0 +1,550 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj": {}
+  },
+  "projects": {
+    "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj",
+        "projectName": "Portal.Data.Services",
+        "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj",
+        "packagesPath": "C:\\Users\\Süleyman\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data\\Portal.Data.csproj": {
+                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data\\Portal.Data.csproj"
+              },
+              "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj": {
+                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj"
+              },
+              "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj": {
+                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data\\Portal.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data\\Portal.Data.csproj",
+        "projectName": "Portal.Data",
+        "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data\\Portal.Data.csproj",
+        "packagesPath": "C:\\Users\\Süleyman\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj": {
+                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj",
+        "projectName": "Portal.Helpers",
+        "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj",
+        "packagesPath": "C:\\Users\\Süleyman\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj",
+        "projectName": "Portal.Model",
+        "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj",
+        "packagesPath": "C:\\Users\\Süleyman\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.DxUtils\\Portal.Win.DxUtils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.DxUtils\\Portal.Win.DxUtils.csproj",
+        "projectName": "Portal.Win.DxUtils",
+        "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.DxUtils\\Portal.Win.DxUtils.csproj",
+        "packagesPath": "C:\\Users\\Süleyman\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.DxUtils\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj": {
+                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj"
+              },
+              "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj": {
+                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "DevExpress.Data": {
+              "target": "Package",
+              "version": "[23.2.4, )"
+            },
+            "DevExpress.Win.RichEdit": {
+              "target": "Package",
+              "version": "[23.2.4, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj",
+        "projectName": "Portal.Win.Forms",
+        "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj",
+        "packagesPath": "C:\\Users\\Süleyman\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj": {
+                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj"
+              },
+              "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj": {
+                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj"
+              },
+              "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj": {
+                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj"
+              },
+              "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.DxUtils\\Portal.Win.DxUtils.csproj": {
+                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.DxUtils\\Portal.Win.DxUtils.csproj"
+              },
+              "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj": {
+                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "DevExpress.Data": {
+              "target": "Package",
+              "version": "[23.2.4, )"
+            },
+            "DevExpress.Utils": {
+              "target": "Package",
+              "version": "[23.2.4, )"
+            },
+            "DevExpress.Win": {
+              "target": "Package",
+              "version": "[23.2.4, )"
+            },
+            "DevExpress.Win.Design": {
+              "target": "Package",
+              "version": "[23.2.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj",
+        "projectName": "Portal.Win.Utils",
+        "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj",
+        "packagesPath": "C:\\Users\\Süleyman\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Office.Interop.Excel": {
+              "target": "Package",
+              "version": "[15.0.4795.1001, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

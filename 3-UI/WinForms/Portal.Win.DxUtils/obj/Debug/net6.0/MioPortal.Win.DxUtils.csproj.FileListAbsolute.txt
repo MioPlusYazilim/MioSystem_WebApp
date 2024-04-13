@@ -1,0 +1,5 @@
+C:\WorkSpaces\MioSystem_Portal\3-Apps\Windows\MioPortal.Win.DxUtils\obj\Debug\net6.0\MioPortal.Win.DxUtils.csproj.AssemblyReference.cache
+C:\WorkSpaces\MioSystem_Portal\3-Apps\Windows\MioPortal.Win.DxUtils\obj\Debug\net6.0\MioPortal.Win.DxUtils.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkSpaces\MioSystem_Portal\3-Apps\Windows\MioPortal.Win.DxUtils\obj\Debug\net6.0\MioPortal.Win.DxUtils.AssemblyInfoInputs.cache
+C:\WorkSpaces\MioSystem_Portal\3-Apps\Windows\MioPortal.Win.DxUtils\obj\Debug\net6.0\MioPortal.Win.DxUtils.AssemblyInfo.cs
+C:\WorkSpaces\MioSystem_Portal\3-Apps\Windows\MioPortal.Win.DxUtils\obj\Debug\net6.0\MioPortal.Win.DxUtils.csproj.CoreCompileInputs.cache

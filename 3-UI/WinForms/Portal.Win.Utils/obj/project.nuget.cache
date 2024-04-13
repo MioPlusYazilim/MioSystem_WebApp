@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cIi6Y2B56qT6ZVwi71HPSajhGnkqCqOTFLVPAibKkV3VkpRQEEwe6u0ScrTqjw+5S3K2/xTeprJltVaYo6bPkg==",
+  "success": true,
+  "projectFilePath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Süleyman\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
+  ],
+  "logs": []
+}

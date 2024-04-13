@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\2-Shared\Portal.Helpers\Portal.Helpers.csproj" />
+    <ProjectReference Include="..\..\2-Shared\Portal.Models\Portal.Model.csproj" />
+    <ProjectReference Include="..\Portal.Data\Portal.Data.csproj" />
+  </ItemGroup>
+
+</Project>

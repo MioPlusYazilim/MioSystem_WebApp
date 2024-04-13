@@ -1,0 +1,12 @@
+C:\WorkSpaces\MioSystem_WebApp\1-Data\Portal.Data.Helpers\bin\Debug\net8.0\Portal.Data.Helpers.deps.json
+C:\WorkSpaces\MioSystem_WebApp\1-Data\Portal.Data.Helpers\bin\Debug\net8.0\Portal.Data.Helpers.dll
+C:\WorkSpaces\MioSystem_WebApp\1-Data\Portal.Data.Helpers\bin\Debug\net8.0\Portal.Data.Helpers.pdb
+C:\WorkSpaces\MioSystem_WebApp\1-Data\Portal.Data.Helpers\obj\Debug\net8.0\Portal.Data.Helpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkSpaces\MioSystem_WebApp\1-Data\Portal.Data.Helpers\obj\Debug\net8.0\Portal.Data.Helpers.AssemblyInfoInputs.cache
+C:\WorkSpaces\MioSystem_WebApp\1-Data\Portal.Data.Helpers\obj\Debug\net8.0\Portal.Data.Helpers.AssemblyInfo.cs
+C:\WorkSpaces\MioSystem_WebApp\1-Data\Portal.Data.Helpers\obj\Debug\net8.0\Portal.Data.Helpers.csproj.CoreCompileInputs.cache
+C:\WorkSpaces\MioSystem_WebApp\1-Data\Portal.Data.Helpers\obj\Debug\net8.0\Portal.Data.Helpers.sourcelink.json
+C:\WorkSpaces\MioSystem_WebApp\1-Data\Portal.Data.Helpers\obj\Debug\net8.0\Portal.Data.Helpers.dll
+C:\WorkSpaces\MioSystem_WebApp\1-Data\Portal.Data.Helpers\obj\Debug\net8.0\refint\Portal.Data.Helpers.dll
+C:\WorkSpaces\MioSystem_WebApp\1-Data\Portal.Data.Helpers\obj\Debug\net8.0\Portal.Data.Helpers.pdb
+C:\WorkSpaces\MioSystem_WebApp\1-Data\Portal.Data.Helpers\obj\Debug\net8.0\ref\Portal.Data.Helpers.dll

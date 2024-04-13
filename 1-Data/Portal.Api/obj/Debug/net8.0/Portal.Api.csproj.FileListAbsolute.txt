@@ -1,0 +1,7 @@
+C:\WorkSpaces\MioSystem_WebApp\1-Data\Portal.Api\obj\Debug\net8.0\Portal.Api.csproj.AssemblyReference.cache
+C:\WorkSpaces\MioSystem_WebApp\1-Data\Portal.Api\obj\Debug\net8.0\Portal.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkSpaces\MioSystem_WebApp\1-Data\Portal.Api\obj\Debug\net8.0\Portal.Api.AssemblyInfoInputs.cache
+C:\WorkSpaces\MioSystem_WebApp\1-Data\Portal.Api\obj\Debug\net8.0\Portal.Api.AssemblyInfo.cs
+C:\WorkSpaces\MioSystem_WebApp\1-Data\Portal.Api\obj\Debug\net8.0\Portal.Api.csproj.CoreCompileInputs.cache
+C:\WorkSpaces\MioSystem_WebApp\1-Data\Portal.Api\obj\Debug\net8.0\Portal.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\WorkSpaces\MioSystem_WebApp\1-Data\Portal.Api\obj\Debug\net8.0\Portal.Api.sourcelink.json
