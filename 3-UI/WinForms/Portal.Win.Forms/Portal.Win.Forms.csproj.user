@@ -26,6 +26,9 @@
     <Compile Update="Base\FrmBaseMainList.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FrmTestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="System\Employee\FrmEmployee.cs">
       <SubType>Form</SubType>
     </Compile>

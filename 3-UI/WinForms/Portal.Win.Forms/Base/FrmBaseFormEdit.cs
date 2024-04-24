@@ -36,13 +36,13 @@ namespace Portal.Win.Forms
         string modified = string.Empty;
         public string fCaption = string.Empty;
 
-       
 
-        
+
+
         public bool btnKapat = false;
         public bool btnReSize = false;
 
-        
+
 
         DXValidationProvider FormValidator = new DXValidationProvider();
         public object[] _cols = null;
@@ -96,7 +96,7 @@ namespace Portal.Win.Forms
             SetFormCaption();
             if (yetki != null)
                 AddPrintButtons(yetki.menuTag);
-             SetCustomButtons();
+            SetCustomButtons();
         }
         public void SetFindButton()
         {
@@ -117,7 +117,7 @@ namespace Portal.Win.Forms
         }
         public virtual void AddPrintButtons(int MenuTag)
         {
-            
+
         }
 
         private void BtnPrint_ItemClick(object sender, ItemClickEventArgs e)
@@ -208,7 +208,7 @@ namespace Portal.Win.Forms
             catch (Exception ex)
             {
             }
-            
+
         }
         public void ButonEkleEkislemler(BarSubItem btn)
         {
@@ -394,18 +394,18 @@ namespace Portal.Win.Forms
 
         private void barButtonItemLanguage_ItemClick(object sender, ItemClickEventArgs e)
         {
-            
+
         }
 
         private void BarBtnInfo_ItemClick(object sender, ItemClickEventArgs e)
         {
-           
+
         }
 
         private void BarBtnHistory_ItemClick(object sender, ItemClickEventArgs e)
         {
 
-           
+
         }
     }
 }

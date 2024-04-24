@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.DxUtils\\Portal.Win.DxUtils.csproj": {}
+    "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.DxUtils\\Portal.Win.DxUtils.csproj": {}
   },
   "projects": {
-    "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj": {
+    "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj",
+        "projectUniqueName": "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj",
         "projectName": "Portal.Helpers",
-        "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj",
-        "packagesPath": "C:\\Users\\Süleyman\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\obj\\",
+        "projectPath": "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj",
+        "packagesPath": "C:\\Users\\OZKAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\OZKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -52,6 +52,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -72,21 +78,21 @@
         }
       }
     },
-    "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.DxUtils\\Portal.Win.DxUtils.csproj": {
+    "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.DxUtils\\Portal.Win.DxUtils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.DxUtils\\Portal.Win.DxUtils.csproj",
+        "projectUniqueName": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.DxUtils\\Portal.Win.DxUtils.csproj",
         "projectName": "Portal.Win.DxUtils",
-        "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.DxUtils\\Portal.Win.DxUtils.csproj",
-        "packagesPath": "C:\\Users\\Süleyman\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.DxUtils\\obj\\",
+        "projectPath": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.DxUtils\\Portal.Win.DxUtils.csproj",
+        "packagesPath": "C:\\Users\\OZKAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.DxUtils\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\OZKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -104,11 +110,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj": {
-                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj"
+              "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj": {
+                "projectPath": "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj"
               },
-              "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj": {
-                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj"
+              "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj": {
+                "projectPath": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj"
               }
             }
           }
@@ -135,6 +141,10 @@
             "DevExpress.Win.RichEdit": {
               "target": "Package",
               "version": "[23.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
             },
             "System.Drawing.Common": {
               "target": "Package",
@@ -164,21 +174,21 @@
         }
       }
     },
-    "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj": {
+    "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj",
+        "projectUniqueName": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj",
         "projectName": "Portal.Win.Utils",
-        "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj",
-        "packagesPath": "C:\\Users\\Süleyman\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\obj\\",
+        "projectPath": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj",
+        "packagesPath": "C:\\Users\\OZKAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\OZKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -213,6 +223,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Microsoft.Office.Interop.Excel": {
               "target": "Package",
               "version": "[15.0.4795.1001, )"
