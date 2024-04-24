@@ -112,12 +112,12 @@ namespace Portal.Data.Context
                 using (SqlCommand sqlcmd = new SqlCommand())
                 {
                     sqlcmd.Connection = sqlcon;
-                    sqlcmd.CommandText = "SELECT getdate()[tarih]";
+                    sqlcmd.CommandText = "SELECT getdate()[ServerDate]";
                     using (SqlDataReader sqlrdr = sqlcmd.ExecuteReader())
                     {
                         while (sqlrdr.Read())
                         {
-                            dateTime = Convert.ToDateTime(sqlrdr["tarih"]);
+                            dateTime = Convert.ToDateTime(sqlrdr["ServerDate"]);
                         }
                     }
 

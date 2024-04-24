@@ -30,6 +30,7 @@
         {
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmBaseFormEdit));
+            DevExpress.Utils.Animation.PushTransition pushTransition1 = new DevExpress.Utils.Animation.PushTransition();
             ImgNavButton123 = new DevExpress.Utils.ImageCollection(components);
             ImgTabControl = new DevExpress.Utils.ImageCollection(components);
             ImgBarMenu = new DevExpress.Utils.ImageCollection(components);
@@ -52,6 +53,7 @@
             barDockControlRight = new DevExpress.XtraBars.BarDockControl();
             barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            workspaceManager1 = new DevExpress.Utils.WorkspaceManager(components);
             FormbindingSource = new BindingSource(components);
             ((System.ComponentModel.ISupportInitialize)ImgNavButton123).BeginInit();
             ((System.ComponentModel.ISupportInitialize)ImgTabControl).BeginInit();
@@ -322,7 +324,7 @@
             barDockControlTop.Location = new Point(0, 0);
             barDockControlTop.Manager = BarMenuMgn;
             barDockControlTop.Margin = new Padding(3, 4, 3, 4);
-            barDockControlTop.Size = new Size(828, 30);
+            barDockControlTop.Size = new Size(828, 24);
             // 
             // barDockControlBottom
             // 
@@ -337,19 +339,19 @@
             // 
             barDockControlLeft.CausesValidation = false;
             barDockControlLeft.Dock = DockStyle.Left;
-            barDockControlLeft.Location = new Point(0, 30);
+            barDockControlLeft.Location = new Point(0, 24);
             barDockControlLeft.Manager = BarMenuMgn;
             barDockControlLeft.Margin = new Padding(3, 4, 3, 4);
-            barDockControlLeft.Size = new Size(0, 465);
+            barDockControlLeft.Size = new Size(0, 471);
             // 
             // barDockControlRight
             // 
             barDockControlRight.CausesValidation = false;
             barDockControlRight.Dock = DockStyle.Right;
-            barDockControlRight.Location = new Point(828, 30);
+            barDockControlRight.Location = new Point(828, 24);
             barDockControlRight.Manager = BarMenuMgn;
             barDockControlRight.Margin = new Padding(3, 4, 3, 4);
-            barDockControlRight.Size = new Size(0, 465);
+            barDockControlRight.Size = new Size(0, 471);
             // 
             // barButtonItem1
             // 
@@ -360,15 +362,20 @@
             // panelControl1
             // 
             panelControl1.Dock = DockStyle.Fill;
-            panelControl1.Location = new Point(0, 30);
+            panelControl1.Location = new Point(0, 24);
             panelControl1.Name = "panelControl1";
-            panelControl1.Size = new Size(828, 465);
+            panelControl1.Size = new Size(828, 471);
             panelControl1.TabIndex = 4;
+           // 
+            // workspaceManager1
+            // 
+            workspaceManager1.TargetControl = panelControl1;
+            workspaceManager1.TransitionType = pushTransition1;
             // 
             // FrmBaseFormEdit
             // 
             Appearance.Options.UseFont = true;
-            AutoScaleDimensions = new SizeF(8F, 15F);
+            AutoScaleDimensions = new SizeF(6F, 11F);
             ClientSize = new Size(828, 495);
             Controls.Add(panelControl1);
             Controls.Add(barDockControlLeft);
@@ -416,5 +423,6 @@
         protected DevExpress.XtraBars.BarSubItem barBtnPrint;
         protected DevExpress.XtraBars.BarSubItem BarBtnExtra;
         private DevExpress.XtraBars.BarButtonItem barButtonItemLanguage;
+        private DevExpress.Utils.WorkspaceManager workspaceManager1;
     }
 }

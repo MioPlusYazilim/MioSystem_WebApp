@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj": {}
+    "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj": {}
   },
   "projects": {
-    "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj": {
+    "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj",
+        "projectUniqueName": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj",
         "projectName": "Portal.Win.Utils",
-        "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj",
-        "packagesPath": "C:\\Users\\Süleyman\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\obj\\",
+        "projectPath": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj",
+        "packagesPath": "C:\\Users\\OZKAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\OZKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -42,12 +42,21 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Microsoft.Office.Interop.Excel": {
               "target": "Package",
               "version": "[15.0.4795.1001, )"
@@ -69,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -118,15 +118,5 @@ namespace Portal.Win.Forms
                 }
             }
         }
-
-        private void ResimPictureEdit_EditValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void OfficeIDLookUpEdit_EditValueChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

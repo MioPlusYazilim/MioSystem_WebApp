@@ -1010,6 +1010,9 @@
       "Portal.Helpers/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.1"
+        },
         "compile": {
           "bin/placeholder/Portal.Helpers.dll": {}
         },
@@ -1020,6 +1023,9 @@
       "Portal.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.1"
+        },
         "compile": {
           "bin/placeholder/Portal.Model.dll": {}
         },
@@ -2783,6 +2789,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "AutoMapper >= 13.0.0",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.1",
       "Newtonsoft.Json >= 13.0.3",
       "Portal.Data >= 1.0.0",
       "Portal.Helpers >= 1.0.0",
@@ -2790,25 +2797,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Süleyman\\.nuget\\packages\\": {},
+    "C:\\Users\\OZKAN\\.nuget\\packages\\": {},
     "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj",
+      "projectUniqueName": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj",
       "projectName": "Portal.Data.Services",
-      "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj",
-      "packagesPath": "C:\\Users\\Süleyman\\.nuget\\packages\\",
-      "outputPath": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\obj\\",
+      "projectPath": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj",
+      "packagesPath": "C:\\Users\\OZKAN\\.nuget\\packages\\",
+      "outputPath": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\OZKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -2826,14 +2833,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data\\Portal.Data.csproj": {
-              "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data\\Portal.Data.csproj"
+            "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Portal.Data.csproj": {
+              "projectPath": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Portal.Data.csproj"
             },
-            "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj": {
-              "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj"
+            "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj": {
+              "projectPath": "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj"
             },
-            "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj": {
-              "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj"
+            "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj": {
+              "projectPath": "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj"
             }
           }
         }
@@ -2842,6 +2849,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2851,6 +2863,10 @@
           "AutoMapper": {
             "target": "Package",
             "version": "[13.0.0, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[8.0.1, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
@@ -2873,7 +2889,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
