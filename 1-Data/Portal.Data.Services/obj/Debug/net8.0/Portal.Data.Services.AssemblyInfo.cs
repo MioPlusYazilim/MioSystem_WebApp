@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Portal.Data.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a67842f6fd6cf66a03c0ae38ce3559f8e3da662f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Portal.Data.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Portal.Data.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
