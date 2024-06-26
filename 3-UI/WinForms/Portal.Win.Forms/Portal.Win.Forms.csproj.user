@@ -2,10 +2,19 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="Base\FrmBaseFormEdit.cs">
+    <Compile Update="Base\FrmAppBaseForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Base\FrmBaseForm.cs">
+    <Compile Update="Base\FrmAppBaseFormEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Base\FrmAppBaseFormMainList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Base\FrmAppMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Base\FrmAppBaseFormModul.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Base\FrmLogin.cs">
@@ -23,17 +32,14 @@
     <Compile Update="Base\PopUpDialog.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Base\FrmBaseMainList.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="FrmTestForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="System\Employee\FrmEmployee.cs">
+    <Compile Update="UI\Account\FrmAccountMainList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="System\User\FrmUserGroup.cs">
-      <SubType>UserControl</SubType>
+    <Compile Update="UI\System\Employee\FrmEmployee.cs">
+      <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
 </Project>

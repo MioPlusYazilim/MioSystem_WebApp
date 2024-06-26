@@ -8,12 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="System\User\FrmUserGroup.cs" />
-    <Compile Remove="System\User\FrmUserGroup.Designer.cs" />
+    <Compile Remove="UI\System\User\FrmUserGroup.cs" />
+    <Compile Remove="UI\System\User\FrmUserGroup.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Remove="System\User\FrmUserGroup.resx" />
+    <EmbeddedResource Remove="UI\System\User\FrmUserGroup.resx" />
   </ItemGroup>
 
   <ItemGroup>
@@ -48,10 +48,20 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Update="UI\System\FrmDashboardMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="System\User\" />
+    <Folder Include="UI\Cruise\" />
+    <Folder Include="UI\FlightTicket\" />
+    <Folder Include="UI\Hotel\" />
+    <Folder Include="UI\RentACar\" />
+    <Folder Include="UI\System\User\" />
+    <Folder Include="UI\Tour\" />
+    <Folder Include="UI\Transfer\" />
+    <Folder Include="UI\Visa\" />
   </ItemGroup>
 
   <ItemGroup>

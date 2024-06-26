@@ -6480,25 +6480,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\OZKAN\\.nuget\\packages\\": {},
+    "C:\\Users\\Süleyman\\.nuget\\packages\\": {},
     "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj",
+      "projectUniqueName": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj",
       "projectName": "Portal.Win.Forms",
-      "projectPath": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj",
-      "packagesPath": "C:\\Users\\OZKAN\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\obj\\",
+      "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj",
+      "packagesPath": "C:\\Users\\Süleyman\\.nuget\\packages\\",
+      "outputPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\OZKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -6516,20 +6516,20 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj": {
-              "projectPath": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj"
+            "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj": {
+              "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj"
             },
-            "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj": {
-              "projectPath": "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj"
+            "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj": {
+              "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj"
             },
-            "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj": {
-              "projectPath": "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj"
+            "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj": {
+              "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj"
             },
-            "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.DxUtils\\Portal.Win.DxUtils.csproj": {
-              "projectPath": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.DxUtils\\Portal.Win.DxUtils.csproj"
+            "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.DxUtils\\Portal.Win.DxUtils.csproj": {
+              "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.DxUtils\\Portal.Win.DxUtils.csproj"
             },
-            "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj": {
-              "projectPath": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj"
+            "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj": {
+              "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj"
             }
           }
         }

@@ -49,7 +49,7 @@ namespace Portal.Win.Forms
                         switch (FormType)
                         {
                             case 2:
-                                if ((OpenForm.GetType() == checkForm.GetFormTypeFromDll(EditFormName)) && ((FrmBaseFormEdit)OpenForm).FormID == FormID && ((FrmBaseFormEdit)OpenForm).yetki.menuCardType == MyYetki.menuCardType)
+                                if ((OpenForm.GetType() == checkForm.GetFormTypeFromDll(EditFormName)) && ((FrmAppBaseFormEdit)OpenForm).FormID == FormID && ((FrmAppBaseFormEdit)OpenForm).yetki.menuCardType == MyYetki.menuCardType)
                                 {
                                     OpenForm.BringToFront();
                                     FormExist = true;
@@ -83,13 +83,13 @@ namespace Portal.Win.Forms
                             //        FormExist = true;
                             //    }
                             //    break;
-                            case 8:
-                                if ((OpenForm.GetType() == checkForm.GetFormTypeFromDll(ListFormName)) && ((FrmBaseMainList)OpenForm).FormID == MyYetki.menuCardType && ((FrmBaseMainList)OpenForm).yetki.menuCardType == MyYetki.menuCardType)
-                                {
-                                    OpenForm.BringToFront();
-                                    FormExist = true;
-                                }
-                                break;
+                            //case 8:
+                            //    if ((OpenForm.GetType() == checkForm.GetFormTypeFromDll(ListFormName)) && ((frm)OpenForm).FormID == MyYetki.menuCardType && ((FrmAppBaseFormModul)OpenForm).yetki.menuCardType == MyYetki.menuCardType)
+                            //    {
+                            //        OpenForm.BringToFront();
+                            //        FormExist = true;
+                            //    }
+                            //    break;
                             //case 9:
                             //    if ((OpenForm.GetType() == checkForm.GetFormTypeFromDll(EditFormName)) && ((TempReportPivot)OpenForm).FormID == FormID && ((TempReportPivot)OpenForm).yetki.menuCardType == MyYetki.menuCardType)
                             //    {
@@ -108,8 +108,8 @@ namespace Portal.Win.Forms
                     switch (FormType)
                     {
                         case 2://BaseForm Form
-                            myform = new CheckForm().OpenForm<FrmBaseFormEdit>(args);
-                            ((FrmBaseFormEdit)myform).SetFormResources();
+                            myform = new CheckForm().OpenForm<FrmAppBaseFormEdit>(args);
+                            ((FrmAppBaseFormEdit)myform).SetFormResources();
                             break;
                         //case 3: //ListForm(Main)
                         //    myform = new CheckForm().OpenForm<TempList>(args);
@@ -127,10 +127,10 @@ namespace Portal.Win.Forms
                         //    myform = new CheckForm().OpenForm<TempFreeForm>(args);
                         //    ((TempFreeForm)myform).SetFormResources();
                         //    break;
-                        case 8: //TempMaiList
-                            myform = new CheckForm().OpenForm<FrmBaseMainList>(args);
-                            ((FrmBaseMainList)myform).SetFormResources();
-                            break;
+                        //case 8: //TempMaiList
+                        //    myform = new CheckForm().OpenForm<FrmAppBaseFormModul>(args);
+                        //    ((FrmAppBaseFormModul)myform).SetFormResources();
+                        //    break;
                         //case 9: //ReportPivot
                         //    myform = new CheckForm().OpenForm<TempReportPivot>(args);
                         //    ((TempReportPivot)myform).SetFormResources();
@@ -167,7 +167,7 @@ namespace Portal.Win.Forms
                             {
                                 case 2:
                                 case 8:
-                                    if ((OpenForm.GetType() == checkForm.GetFormTypeFromDll(EditFormName)) && ((FrmBaseFormEdit)OpenForm).FormID == FormID && ((FrmBaseFormEdit)OpenForm).yetki.menuCardType == MyYetki.menuCardType)
+                                    if ((OpenForm.GetType() == checkForm.GetFormTypeFromDll(EditFormName)) && ((FrmAppBaseFormEdit)OpenForm).FormID == FormID && ((FrmAppBaseFormEdit)OpenForm).yetki.menuCardType == MyYetki.menuCardType)
                                     {
                                         OpenForm.BringToFront();
                                         FormExist = true;
@@ -192,8 +192,8 @@ namespace Portal.Win.Forms
                         {
                             case 2://BaseForm Form
                             case 8:
-                                myform = new CheckForm().OpenForm<FrmBaseFormEdit>(args);
-                                ((FrmBaseFormEdit)myform).SetFormResources();
+                                myform = new CheckForm().OpenForm<FrmAppBaseFormEdit>(args);
+                                ((FrmAppBaseFormEdit)myform).SetFormResources();
                                 break;
                             //case 7: //FreeForm
                             //    myform = new CheckForm().OpenForm<TempFreeForm>(args);

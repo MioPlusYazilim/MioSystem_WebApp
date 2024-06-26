@@ -9,12 +9,13 @@ namespace Portal.Data.Services
 {
     public interface IEmployeeService : IBaseClientService
     {
+        
         SaveResult AddOrUpdateEmployee(Employee_Dto model);
         Task<SaveResult> AddOrUpdateEmployeeAsync(Employee_Dto model);
         SaveResult DeleteEmployee(int id);
         Task<SaveResult> DeleteEmployeeAsync(int id);
-        List<EmployeeMainListWM> EmployeeMainList();
-        Task<List<EmployeeMainListWM>> EmployeeMainListAsync();
+        object EmployeeMainList();
+        Task<object> EmployeeMainListAsync();
         Employee_Dto GetEmployee(int id);
         Task<Employee_Dto> GetEmployeeAsync(int id);
         List<SelectItem> GetEmployeeSelectList();
@@ -135,7 +136,7 @@ namespace Portal.Data.Services
             return await Task.Run(() => DeleteEmployee(id));
         }
 
-        public List<EmployeeMainListWM> EmployeeMainList()
+        public object EmployeeMainList()
         {
 
             return clientContext.Employees
@@ -155,7 +156,7 @@ namespace Portal.Data.Services
                                 .Where(x => loginResponse.authoryGroup == 2 ? (loginResponse.authoryLevel == 1 ? x.id == loginResponse.employeeID : x.cariList.Intersect(loginResponse.customerIDs).ToList().Count > 0) : true)
                                 .ToList();
         }
-        public async Task<List<EmployeeMainListWM>> EmployeeMainListAsync()
+        public async Task<object> EmployeeMainListAsync()
         {
 
             return await Task.Run(EmployeeMainList);

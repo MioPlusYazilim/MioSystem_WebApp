@@ -12,7 +12,7 @@ using Portal.Win.Forms.Base;
 
 namespace Portal.Win.Forms
 {
-    public partial class FrmLogin : FrmBaseForm
+    public partial class FrmLogin : FrmAppBaseForm
     {
         public string version = string.Empty;
         public bool CheckUser = false;
@@ -131,22 +131,28 @@ namespace Portal.Win.Forms
 
         private void dxValidationProvider1_ValidationFailed(object sender, DevExpress.XtraEditors.DXErrorProvider.ValidationFailedEventArgs e)
         {
-            DevExpress.XtraEditors.BaseEdit edit = e.InvalidControl as DevExpress.XtraEditors.BaseEdit;
-            if (edit == null)
-                return;
+            try
+            {
+                DevExpress.XtraEditors.BaseEdit edit = (DevExpress.XtraEditors.BaseEdit)e.InvalidControl;
+                if (edit == null)
+                    return;
 
-            BaseEditViewInfo viewInfo = edit.GetViewInfo() as BaseEditViewInfo;
-            if (viewInfo == null)
-                return;
+                BaseEditViewInfo viewInfo = (BaseEditViewInfo)edit.GetViewInfo();
+                if (viewInfo == null)
+                    return;
 
-            if (edit.ToolTipController == null)
-                edit.ToolTipController = new ToolTipControllerDefault();
+                edit.ToolTipController ??= new ToolTipControllerDefault();
 
-            ToolTipControlInfo info = new ToolTipControlInfo(e.InvalidControl, e.ErrorText);
-            info.ToolTipPosition = edit.PointToScreen(viewInfo.ErrorIconBounds.Location);
+                ToolTipControlInfo info = new ToolTipControlInfo(e.InvalidControl, e.ErrorText);
+                info.ToolTipPosition = edit.PointToScreen(viewInfo.ErrorIconBounds.Location);
 
-            edit.ToolTipController.InitialDelay = 0;
-            edit.ToolTipController.ShowHint(info);
+                edit.ToolTipController.InitialDelay = 0;
+                edit.ToolTipController.ShowHint(info);
+            }
+            catch (Exception ex)
+            {
+            }
+            
         }
 
         private void pictureEditSettings_Click(object sender, EventArgs e)

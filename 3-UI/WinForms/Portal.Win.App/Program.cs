@@ -96,10 +96,9 @@ namespace Portal.Win.MioSystem
 
                 //    using (FrmDataLayerLoad loader = new FrmDataLayerLoad(activeUser))
                 //        loader.ShowDialog();
-
-                FrmMainForm MyMain = new FrmMainForm();
-                MyMain.Text = "MioPortal Ultimate ";
-                    Application.Run(MyMain);
+                FrmAppMainForm appMainForm = new FrmAppMainForm();
+                appMainForm.Text = "MioPortal Ultimate ";
+                    Application.Run(appMainForm);
                 }
             }
         }

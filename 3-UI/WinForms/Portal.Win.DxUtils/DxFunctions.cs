@@ -1128,7 +1128,8 @@ namespace Portal.Win.DxUtils
                 {
                     if (view.Columns[i].FieldName == "Modified")
                         bulundu = true;
-
+                    if (view.Columns[i].FieldName.EndsWith("id"))
+                        view.Columns[i].Visible = false;
                     if (view.Columns[i].FieldName.EndsWith("ID"))
                         view.Columns[i].Visible = false;
                     if (view.Columns[i].FieldName.EndsWith("IDs"))

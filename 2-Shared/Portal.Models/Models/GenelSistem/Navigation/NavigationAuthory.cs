@@ -4,22 +4,23 @@ namespace Portal.Model
 {
     public class NavigationRole : BaseModel
     {
-        public int modulID { get; set; }
-        public int formType { get; set; }
-        public int menuTag { get; set; }
-        public int menuCardType { get; set; }
-        public bool isInternational { get; set; }
-        public string menuName { get; set; }
-        public string editFormName { get; set; }
-        public string editFormPath { get; set; }
-        public string listFormName { get; set; }
-        public string formCaption { get; set; }
-        public string editFormCaption { get; set; }
-        public bool allowList { get; set; }
-        public bool allowNew { get; set; }
-        public bool allowDelete { get; set; }
-        public bool allowEdit { get; set; }
-        public bool allowPrint { get; set; }
-        public string reportIDs { get; set; }
+        public int modulID { get; set; } = 0;
+        public int formType { get; set; } = 0;
+        public int menuTag { get; set; } = 0;
+        public int menuCardType { get; set; } = 0;
+        public bool isInternational { get; set; } = false;
+        public string menuName { get; set; } = string.Empty;
+        public string editFormName { get; set; } = string.Empty;
+        public string editFormPath { get; set; } = string.Empty;
+        public string listFormName { get; set; } = string.Empty;
+        public string formCaption { get; set; } = string.Empty;
+        public string editFormCaption { get; set; } = string.Empty;
+        public string listMethodName { get; set; } = string.Empty;
+        public bool allowList { get; set; } = false;
+        public bool allowNew { get; set; } = false;
+        public bool allowDelete { get; set; } = false;
+        public bool allowEdit { get; set; } = false;
+        public bool allowPrint { get; set; } = false;
+        public string reportIDs { get; set; } = string.Empty;
     }
 }

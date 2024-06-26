@@ -1,7 +1,72 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\WorkSpaces\\MioSystem_WebApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF74047-C6C9-407C-B549-41AD0F4116B0}|3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\3-ui\\winforms\\portal.win.forms\\base\\frmappbaseformmodul.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AF74047-C6C9-407C-B549-41AD0F4116B0}|3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj|solutionrelative:3-ui\\winforms\\portal.win.forms\\base\\frmappbaseformmodul.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF74047-C6C9-407C-B549-41AD0F4116B0}|3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj|c:\\workspaces\\miosystem_webapp\\3-ui\\winforms\\portal.win.forms\\ui\\account\\frmaccountmainlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AF74047-C6C9-407C-B549-41AD0F4116B0}|3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj|solutionrelative:3-ui\\winforms\\portal.win.forms\\ui\\account\\frmaccountmainlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF74047-C6C9-407C-B549-41AD0F4116B0}|3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\3-ui\\winforms\\portal.win.forms\\base\\frmappbaseformmainlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AF74047-C6C9-407C-B549-41AD0F4116B0}|3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj|solutionrelative:3-ui\\winforms\\portal.win.forms\\base\\frmappbaseformmainlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF74047-C6C9-407C-B549-41AD0F4116B0}|3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj|c:\\workspaces\\miosystem_webapp\\3-ui\\winforms\\portal.win.forms\\base\\frmappbaseformedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AF74047-C6C9-407C-B549-41AD0F4116B0}|3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj|solutionrelative:3-ui\\winforms\\portal.win.forms\\base\\frmappbaseformedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF74047-C6C9-407C-B549-41AD0F4116B0}|3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\3-ui\\winforms\\portal.win.forms\\base\\frmappmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AF74047-C6C9-407C-B549-41AD0F4116B0}|3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj|solutionrelative:3-ui\\winforms\\portal.win.forms\\base\\frmappmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF74047-C6C9-407C-B549-41AD0F4116B0}|3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\3-ui\\winforms\\portal.win.forms\\base\\frmmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AF74047-C6C9-407C-B549-41AD0F4116B0}|3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj|solutionrelative:3-ui\\winforms\\portal.win.forms\\base\\frmmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF74047-C6C9-407C-B549-41AD0F4116B0}|3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\3-ui\\winforms\\portal.win.forms\\base\\frmappmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7AF74047-C6C9-407C-B549-41AD0F4116B0}|3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj|solutionrelative:3-ui\\winforms\\portal.win.forms\\base\\frmappmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF74047-C6C9-407C-B549-41AD0F4116B0}|3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\3-ui\\winforms\\portal.win.forms\\ui\\system\\frmdashboardmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AF74047-C6C9-407C-B549-41AD0F4116B0}|3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj|solutionrelative:3-ui\\winforms\\portal.win.forms\\ui\\system\\frmdashboardmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762C87FD-B19D-4F05-8F03-2AF1649F9DD7}|1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\1-data\\portal.data.services\\dataservis\\authenticate\\authenticateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762C87FD-B19D-4F05-8F03-2AF1649F9DD7}|1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj|solutionrelative:1-data\\portal.data.services\\dataservis\\authenticate\\authenticateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF74047-C6C9-407C-B549-41AD0F4116B0}|3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\3-ui\\winforms\\portal.win.forms\\base\\frmmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7AF74047-C6C9-407C-B549-41AD0F4116B0}|3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj|solutionrelative:3-ui\\winforms\\portal.win.forms\\base\\frmmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF74047-C6C9-407C-B549-41AD0F4116B0}|3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\3-ui\\winforms\\portal.win.forms\\base\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AF74047-C6C9-407C-B549-41AD0F4116B0}|3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj|solutionrelative:3-ui\\winforms\\portal.win.forms\\base\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF74047-C6C9-407C-B549-41AD0F4116B0}|3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\3-ui\\winforms\\portal.win.forms\\base\\frmappbaseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AF74047-C6C9-407C-B549-41AD0F4116B0}|3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj|solutionrelative:3-ui\\winforms\\portal.win.forms\\base\\frmappbaseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF74047-C6C9-407C-B549-41AD0F4116B0}|3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\3-ui\\winforms\\portal.win.forms\\base\\frmappbaseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7AF74047-C6C9-407C-B549-41AD0F4116B0}|3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj|solutionrelative:3-ui\\winforms\\portal.win.forms\\base\\frmappbaseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762C87FD-B19D-4F05-8F03-2AF1649F9DD7}|1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\1-data\\portal.data.services\\dataservis\\modul\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762C87FD-B19D-4F05-8F03-2AF1649F9DD7}|1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj|solutionrelative:1-data\\portal.data.services\\dataservis\\modul\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\1-data\\portal.data\\entities\\globalentities\\navigation\\navigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\globalentities\\navigation\\navigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF74047-C6C9-407C-B549-41AD0F4116B0}|3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\3-ui\\winforms\\portal.win.forms\\frmtestform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7AF74047-C6C9-407C-B549-41AD0F4116B0}|3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj|solutionrelative:3-ui\\winforms\\portal.win.forms\\frmtestform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +91,204 @@
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmAccountMainList.cs",
+              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\UI\\Account\\FrmAccountMainList.cs",
+              "RelativeDocumentMoniker": "3-UI\\WinForms\\Portal.Win.Forms\\UI\\Account\\FrmAccountMainList.cs",
+              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\UI\\Account\\FrmAccountMainList.cs",
+              "RelativeToolTip": "3-UI\\WinForms\\Portal.Win.Forms\\UI\\Account\\FrmAccountMainList.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAmwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T06:40:08.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmAppBaseFormEdit.cs",
+              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppBaseFormEdit.cs",
+              "RelativeDocumentMoniker": "3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppBaseFormEdit.cs",
+              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppBaseFormEdit.cs",
+              "RelativeToolTip": "3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppBaseFormEdit.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAwD4AAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T06:25:38.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmAppBaseFormMainList.cs",
+              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppBaseFormMainList.cs",
+              "RelativeDocumentMoniker": "3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppBaseFormMainList.cs",
+              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppBaseFormMainList.cs",
+              "RelativeToolTip": "3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppBaseFormMainList.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAwCYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T17:07:57.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmAppBaseFormModul.cs",
+              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppBaseFormModul.cs",
+              "RelativeDocumentMoniker": "3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppBaseFormModul.cs",
+              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppBaseFormModul.cs",
+              "RelativeToolTip": "3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppBaseFormModul.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAgwD8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T17:02:38.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmAppMainForm.cs",
+              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppMainForm.cs",
+              "RelativeDocumentMoniker": "3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppMainForm.cs",
+              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppMainForm.cs",
+              "RelativeToolTip": "3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppMainForm.cs",
+              "ViewState": "AQIAAE0BAAAAAAAAAAAAwGEBAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:47:40.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmMainForm.cs",
+              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmMainForm.cs",
+              "RelativeDocumentMoniker": "3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmMainForm.cs",
+              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmMainForm.cs",
+              "RelativeToolTip": "3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmMainForm.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwDIAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T14:48:17.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmAppMainForm.cs [Design]",
+              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppMainForm.cs",
+              "RelativeDocumentMoniker": "3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppMainForm.cs",
+              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppMainForm.cs [Design]",
+              "RelativeToolTip": "3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppMainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:48:42.253Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmDashboardMain.cs",
+              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\UI\\System\\FrmDashboardMain.cs",
+              "RelativeDocumentMoniker": "3-UI\\WinForms\\Portal.Win.Forms\\UI\\System\\FrmDashboardMain.cs",
+              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\UI\\System\\FrmDashboardMain.cs",
+              "RelativeToolTip": "3-UI\\WinForms\\Portal.Win.Forms\\UI\\System\\FrmDashboardMain.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T14:18:22.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrmMainForm.cs [Design]",
+              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmMainForm.cs",
+              "RelativeDocumentMoniker": "3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmMainForm.cs",
+              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmMainForm.cs [Design]",
+              "RelativeToolTip": "3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmMainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T08:45:43.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthenticateService.cs",
+              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\DataServis\\Authenticate\\AuthenticateService.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data.Services\\DataServis\\Authenticate\\AuthenticateService.cs",
+              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\DataServis\\Authenticate\\AuthenticateService.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data.Services\\DataServis\\Authenticate\\AuthenticateService.cs",
+              "ViewState": "AQIAADgBAAAAAAAAAAAuwEoBAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T10:41:08.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmLogin.cs",
+              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmLogin.cs",
+              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmLogin.cs",
+              "RelativeToolTip": "3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmLogin.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAADgvzsAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:34:41.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FrmAppBaseForm.cs [Design]",
+              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppBaseForm.cs",
+              "RelativeDocumentMoniker": "3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppBaseForm.cs",
+              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppBaseForm.cs [Design]",
+              "RelativeToolTip": "3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppBaseForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:13:27.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FrmAppBaseForm.cs",
+              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppBaseForm.cs",
+              "RelativeDocumentMoniker": "3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppBaseForm.cs",
+              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppBaseForm.cs",
+              "RelativeToolTip": "3-UI\\WinForms\\Portal.Win.Forms\\Base\\FrmAppBaseForm.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T16:39:12.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Navigation.cs",
+              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\GlobalEntities\\Navigation\\Navigation.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\GlobalEntities\\Navigation\\Navigation.cs",
+              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\GlobalEntities\\Navigation\\Navigation.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\GlobalEntities\\Navigation\\Navigation.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA9wBwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T10:42:27.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\DataServis\\Modul\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data.Services\\DataServis\\Modul\\EmployeeService.cs",
+              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\DataServis\\Modul\\EmployeeService.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data.Services\\DataServis\\Modul\\EmployeeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T09:17:46.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FrmTestForm.cs [Design]",
+              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\FrmTestForm.cs",
+              "RelativeDocumentMoniker": "3-UI\\WinForms\\Portal.Win.Forms\\FrmTestForm.cs",
+              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\FrmTestForm.cs [Design]",
+              "RelativeToolTip": "3-UI\\WinForms\\Portal.Win.Forms\\FrmTestForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T16:40:12.401Z"
             }
           ]
         }

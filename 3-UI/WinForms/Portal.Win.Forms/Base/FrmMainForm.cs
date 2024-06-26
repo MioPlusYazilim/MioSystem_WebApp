@@ -12,7 +12,7 @@ using Portal.Win.Forms.Base;
 
 namespace Portal.Win.Forms
 {
-    public partial class FrmMainForm : FrmBaseForm
+    public partial class FrmMainForm : FrmAppBaseForm
     {
         public static DateTime SQLServerDate = DateTime.Now;
         public static bool RefreshDefaults = false;
@@ -226,8 +226,26 @@ namespace Portal.Win.Forms
 
         private void barButtonSettings_ItemClick(object sender, ItemClickEventArgs e)
         {
-            using (PopUpDialog pd = new PopUpDialog(this, new FrmSettings()))
-                pd.ShowDialog();
+            bool bulundu = false;
+            foreach (Form OpenForm in Application.OpenForms)
+            {
+                if (OpenForm is XtraForm)
+                {
+                    if (OpenForm.GetType() == new CheckForm().GetFormTypeFromDll("FrmSettings"))
+                    {
+                        bulundu = true;
+                        ((XtraForm)OpenForm).BringToFront();
+                        break;
+                    }
+
+                }
+            }
+            if (bulundu == false)
+            {
+                FrmSettings frmSettings = new FrmSettings();
+                frmSettings.MdiParent = this;
+                frmSettings.Show();
+            }
         }
 
         private void barButtonYetkiYenile_ItemClick(object sender, ItemClickEventArgs e)
