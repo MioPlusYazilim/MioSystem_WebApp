@@ -17,16 +17,13 @@ namespace Portal.Data.Entities.GlobalEntities
         public bool MenuActive { get; set; } = false;
         public string MenuIconType { get; set; } = string.Empty;
         public string MenuIcon { get; set; } = string.Empty;
-        public string MenuLink { get; set; } = string.Empty;
+        public string? MenuLink { get; set; } = string.Empty;
         public int MenuTag { get; set; } = 0;
-        public int? MenuCardType { get; set; }
-        public bool IsInternational { get; set; }
         public string EditFormName { get; set; } = string.Empty;
-        public string ListFormName { get; set; } = string.Empty;
         public string EditFormPath { get; set; } = string.Empty;
-        public string ListFormPath { get; set; } = string.Empty;
         public string MenuPath { get; set; } = string.Empty;
-        public string? ListMethodName { get; set; } = string.Empty;
+        public string? ListSourceName { get; set; } = string.Empty;
+        public int ListSourceType { get; set; } = 0; // 0: View 1: StoredProc 2: Entity
 
         public void Dispose()
         {

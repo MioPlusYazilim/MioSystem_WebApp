@@ -1,19 +1,18 @@
 ﻿using DevExpress.LookAndFeel;
 using DevExpress.Utils;
+using DevExpress.XtraEditors;
 using DevExpress.XtraEditors.ViewInfo;
-using Portal.Win.DxUtils;
-using Newtonsoft.Json;
+using MioSystem.DxUtils;
 using Portal.Data.Services;
 using Portal.Helpers;
 using Portal.Model;
-using Portal.Win.Utils;
 using System.Data.SqlClient;
-using Portal.Win.Forms.Base;
 
 namespace Portal.Win.Forms
 {
-    public partial class FrmLogin : FrmAppBaseForm
+    public partial class FrmLogin : XtraForm
     {
+        public Login loginUser = Login.GetLoginUser();
         public string version = string.Empty;
         public bool CheckUser = false;
         private void chkHatirla_CheckedChanged(object sender, EventArgs e)
@@ -57,7 +56,7 @@ namespace Portal.Win.Forms
 
                     if (result.isSuccess)
                     {
-                        SetLoginUserInfo((LoginResponse)result.returnValue);
+                        SetLoginUserInfo((Login)result.returnValue);
                         DialogResult = DialogResult.OK;
                         dxFunctions.CloseWaitForm();
                         Close();
@@ -66,7 +65,7 @@ namespace Portal.Win.Forms
                     else
                     {
                         dxFunctions.CloseWaitForm();
-                        MessageManager.MessageBoxHata("Dikkat", result.errorMessage, "");
+                       // MessageManager.MessageBoxHata("Dikkat", result.errorMessage, "");
                     }
                 }
             }
@@ -76,7 +75,7 @@ namespace Portal.Win.Forms
             }
         }
 
-        void SetLoginUserInfo(LoginResponse response)
+        void SetLoginUserInfo(Login response)
         {
             loginUser.employeeID = response.employeeID;
             loginUser.fullName = response.fullName;
@@ -86,9 +85,9 @@ namespace Portal.Win.Forms
             loginUser.companyCode = response.companyCode;
             loginUser.token = response.token;
             loginUser.refreshToken = response.refreshToken;
-            loginUser.navigationAuthories = response.navigationAuthories;
-            loginUser.mainMenuNavigations = response.mainMenuNavigations;
-            loginUser.settingsMenuNavigations = response.settingsMenuNavigations;
+            loginUser.authories = response.authories;
+            loginUser.mainMenu = response.mainMenu;
+            loginUser.settingsMenu = response.settingsMenu;
             loginUser.winTheme = response.winTheme ?? "Office 2013 Light Gray";
             loginUser.displayLanguage = response.displayLanguage;
             loginUser.clientKey = response.clientKey;

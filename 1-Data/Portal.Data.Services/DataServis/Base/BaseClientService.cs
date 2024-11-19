@@ -14,9 +14,9 @@ namespace Portal.Data.Services
         public  ClientDataContext clientContext;
         public  GlobalDataContext globalContext;
         public IMapper mapper;
-        public readonly LoginResponse loginResponse;
+        public readonly Login loginResponse;
 
-        public BaseClientService(LoginResponse _loginResponse)
+        public BaseClientService(Login _loginResponse)
         {
             this.loginResponse = _loginResponse;
             SetDbContext();
@@ -24,7 +24,7 @@ namespace Portal.Data.Services
         }
         public BaseClientService()
         {
-            this.loginResponse = LoginResponse.GetLoginResponse();
+            this.loginResponse = Login.GetLoginUser();
             SetDbContext();
             mapper = createMapConfig().CreateMapper();
         }

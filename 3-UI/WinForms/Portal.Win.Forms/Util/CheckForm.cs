@@ -1,10 +1,9 @@
 ﻿using DevExpress.XtraEditors;
-using Portal.Model;
-using Portal.Helpers;
-using Portal.Data.Services;
-using Portal.Win.Utils;
-using System.Reflection;
+using MioSystem.Utils;
 using Portal.Data.Services.GlobalContextService;
+using Portal.Helpers;
+using Portal.Model;
+using System.Reflection;
 
 namespace Portal.Win.Forms
 {
@@ -50,7 +49,7 @@ namespace Portal.Win.Forms
         {
             try
             {
-                NavigationRole yetki = (NavigationRole)new ObjectConvert().ToObject(args, "NavigationAuthory");
+                NavigationAuthory yetki = (NavigationAuthory)new ObjectConvert().ToObject(args, "NavigationAuthory");
                 return (T)Activator.CreateInstance(GetFormTypeFromDll(yetki.editFormName), (object)args);
             }
             catch (Exception ex)

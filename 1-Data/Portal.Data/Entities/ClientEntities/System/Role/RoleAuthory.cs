@@ -17,6 +17,7 @@ namespace Portal.Data.Entities.ClientEntities
         public bool AllowDelete { get; set; }
         public bool AllowPrint { get; set; }
         public string ReportIDs { get; set; }
+        public int ListTypeID { get; set; }
         public virtual Role role { get; set; }
     }
 
@@ -30,14 +31,6 @@ namespace Portal.Data.Entities.ClientEntities
 
             // Properties, Table & Column Mappings
             builder.Property(t => t.ID).HasColumnName("ID").ValueGeneratedOnAdd();
-            builder.Property(t => t.RoleID).HasColumnName("RoleID").IsRequired();
-            builder.Property(t => t.MenuID).HasColumnName("MenuID").IsRequired();
-            builder.Property(t => t.AllowList).HasColumnName("AllowList").IsRequired();
-            builder.Property(t => t.AllowNew).HasColumnName("AllowNew").IsRequired();
-            builder.Property(t => t.AllowEdit).HasColumnName("AllowEdit").IsRequired();
-            builder.Property(t => t.AllowDelete).HasColumnName("AllowDelete").IsRequired();
-            builder.Property(t => t.AllowPrint).HasColumnName("AllowPrint").IsRequired();
-            builder.Property(t => t.ReportIDs).HasColumnName("ReportIDs").HasMaxLength(4000);
 
             builder.Ignore(i => i.Deleted);
             builder.ToTable("RoleAuthory");

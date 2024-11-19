@@ -36,7 +36,7 @@ namespace Portal.Win.Forms
             {
                 int FormID = new ObjectConvert().ToInt32(args, "FormID");
                 int FormType = new ObjectConvert().ToInt32(args, "FormType");
-                NavigationRole MyYetki = (NavigationRole)new ObjectConvert().ToObject(args, "NavigationAuthory");
+                NavigationAuthory MyYetki = (NavigationAuthory)new ObjectConvert().ToObject(args, "NavigationAuthory");
                 string EditFormName = MyYetki.editFormName;
                 string ListFormName = MyYetki.listFormName;
 
@@ -49,7 +49,7 @@ namespace Portal.Win.Forms
                         switch (FormType)
                         {
                             case 2:
-                                if ((OpenForm.GetType() == checkForm.GetFormTypeFromDll(EditFormName)) && ((FrmAppBaseFormEdit)OpenForm).FormID == FormID && ((FrmAppBaseFormEdit)OpenForm).yetki.menuCardType == MyYetki.menuCardType)
+                                if ((OpenForm.GetType() == checkForm.GetFormTypeFromDll(EditFormName)) && ((FrmBaseFormEdit)OpenForm).FormID == FormID && ((FrmBaseFormEdit)OpenForm).yetki.menuCardType == MyYetki.menuCardType)
                                 {
                                     OpenForm.BringToFront();
                                     FormExist = true;
@@ -108,8 +108,8 @@ namespace Portal.Win.Forms
                     switch (FormType)
                     {
                         case 2://BaseForm Form
-                            myform = new CheckForm().OpenForm<FrmAppBaseFormEdit>(args);
-                            ((FrmAppBaseFormEdit)myform).SetFormResources();
+                            myform = new CheckForm().OpenForm<FrmBaseFormEdit>(args);
+                            ((FrmBaseFormEdit)myform).SetFormResources();
                             break;
                         //case 3: //ListForm(Main)
                         //    myform = new CheckForm().OpenForm<TempList>(args);
@@ -152,7 +152,7 @@ namespace Portal.Win.Forms
             {
                 int FormID = new ObjectConvert().ToInt32(args, "FormID");
                 int FormType = new ObjectConvert().ToInt32(args, "FormType");
-                NavigationRole MyYetki = (NavigationRole)new ObjectConvert().ToObject(args, "NavigationAuthory");
+                NavigationAuthory MyYetki = (NavigationAuthory)new ObjectConvert().ToObject(args, "NavigationAuthory");
                 string EditFormName = MyYetki.editFormName;
                 string ListFormName = MyYetki.listFormName;
                 string FormCaption = MyYetki.editFormCaption;
@@ -167,7 +167,7 @@ namespace Portal.Win.Forms
                             {
                                 case 2:
                                 case 8:
-                                    if ((OpenForm.GetType() == checkForm.GetFormTypeFromDll(EditFormName)) && ((FrmAppBaseFormEdit)OpenForm).FormID == FormID && ((FrmAppBaseFormEdit)OpenForm).yetki.menuCardType == MyYetki.menuCardType)
+                                    if ((OpenForm.GetType() == checkForm.GetFormTypeFromDll(EditFormName)) && ((FrmBaseFormEdit)OpenForm).FormID == FormID && ((FrmBaseFormEdit)OpenForm).yetki.menuCardType == MyYetki.menuCardType)
                                     {
                                         OpenForm.BringToFront();
                                         FormExist = true;
@@ -192,8 +192,8 @@ namespace Portal.Win.Forms
                         {
                             case 2://BaseForm Form
                             case 8:
-                                myform = new CheckForm().OpenForm<FrmAppBaseFormEdit>(args);
-                                ((FrmAppBaseFormEdit)myform).SetFormResources();
+                                myform = new CheckForm().OpenForm<FrmBaseFormEdit>(args);
+                                ((FrmBaseFormEdit)myform).SetFormResources();
                                 break;
                             //case 7: //FreeForm
                             //    myform = new CheckForm().OpenForm<TempFreeForm>(args);

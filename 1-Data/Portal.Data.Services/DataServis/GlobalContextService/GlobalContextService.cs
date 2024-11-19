@@ -8,8 +8,6 @@ namespace Portal.Data.Services.GlobalContextService
 {
     public interface IGlobalContextService : IBaseGlobalService
     {
-        List<NavigationM> GetAdminNavigationTree();
-        Task<List<NavigationM>> GetAdminNavigationTreeAsync();
         string GetSystemMessageValue(int MessageID);
         string GetSystemMessageValue(string MessageName);
 
@@ -63,62 +61,10 @@ namespace Portal.Data.Services.GlobalContextService
         {
         }
 
-        public List<NavigationM> GetAdminNavigationTree()
-        {
-            var defaultMenulist = (from menu in dbContext.Navigations
-                                   join translation in dbContext.NavigationTranslations on menu.ID equals translation.ParentID
-                                   where translation.LanguageCode.Equals(LoginResponse.GetLoginResponse().workingLang) && menu.MenuActive
-                                   select new NavigationM()
-                                   {
-                                       id = menu.ID,
-                                       modulID = menu.ModulID,
-                                       parentID = menu.ParentID,
-                                       menuLevel = menu.MenuLevel,
-                                       menuOrder = menu.MenuOrder,
-                                       formType = menu.MenuFormType,
-                                       menuIcon = menu.MenuIcon,
-                                       menuLink = menu.MenuLink,
-                                       menuTag = menu.MenuTag,
-                                       menuCardType = menu.MenuCardType ?? 0,
-                                       isInternational = menu.IsInternational,
-                                       menuName = translation.MenuName ?? "",
-                                       formCaption = translation.FormCaption ?? "",
-                                       editFormCaption = translation.EditFormCaption ?? "",
-                                       menuPath = menu.MenuPath ?? "",
-                                       allowList = false,
-                                       allowDelete = false,
-                                       allowEdit = false,
-                                       allowNew = false,
-                                       allowPrint = false,
-                                       reportIDs = ""
-                                   }).ToList();
-
-            List<NavigationM> MenuLevel0 = new List<NavigationM>();
-            List<NavigationM> MenuLevel1 = new List<NavigationM>();
-
-            foreach (var item in defaultMenulist.Where(x => x.menuLevel == 2).ToList())
-            {
-                var mlv1 = MenuLevel1.FirstOrDefault(x => x.id == item.parentID);
-                mlv1 ??= defaultMenulist.FirstOrDefault(x => x.id == item.parentID);
-                mlv1.items.Add(item);
-            }
-            foreach (var item in MenuLevel1)
-            {
-                var mlv0 = MenuLevel0.FirstOrDefault(x => x.id == item.parentID);
-                mlv0 ??= defaultMenulist.FirstOrDefault(x => x.id == item.parentID);
-                mlv0.items.Add(item);
-            }
-            return MenuLevel0;
-        }
-        public async Task<List<NavigationM>> GetAdminNavigationTreeAsync()
-        {
-            return await Task.Run(GetAdminNavigationTree);
-        }
-
         public string GetSystemMessageValue(int MessageID)
         {
             return dbContext.SystemMessagesTranslations
-                            .Where(x => x.ParentID == MessageID && x.LanguageCode == LoginResponse.GetLoginResponse().workingLang)
+                            .Where(x => x.ParentID == MessageID && x.LanguageCode == Login.GetLoginUser().workingLang)
                             .Select(x => x.FieldValue)
                             .FirstOrDefault() ?? "";
         }
@@ -130,7 +76,7 @@ namespace Portal.Data.Services.GlobalContextService
                 return string.Empty;
 
             return dbContext.SystemMessagesTranslations
-                              .Where(x => x.ParentID == msg.ID && x.LanguageCode == LoginResponse.GetLoginResponse().workingLang)
+                              .Where(x => x.ParentID == msg.ID && x.LanguageCode == Login.GetLoginUser().workingLang)
                               .Select(x => x.FieldValue)
                               .FirstOrDefault() ?? "";
         }
@@ -166,8 +112,8 @@ namespace Portal.Data.Services.GlobalContextService
 
         public List<SelectItem> GetProcessLocationSelectList()
         {
-            return new List<SelectItem>() { new() { value = 1, name = LoginResponse.GetLoginResponse().workingLang=="tr-TR"?"Yurt içi":"Domestic" },
-                                            new() {value=2,name=LoginResponse.GetLoginResponse().workingLang=="tr-TR"?"Yurt dışı":"International" }};
+            return new List<SelectItem>() { new() { value = 1, name = Login.GetLoginUser().workingLang=="tr-TR"?"Yurt içi":"Domestic" },
+                                            new() {value=2,name=Login.GetLoginUser().workingLang=="tr-TR"?"Yurt dışı":"International" }};
         }
         public async Task<List<SelectItem>> GetProcessLocationSelectListAsync()
         {
@@ -177,7 +123,7 @@ namespace Portal.Data.Services.GlobalContextService
         public List<SelectItem> GetFlightDirectionSelectList()
         {
             return dbContext.FlightDirections
-                            .Where(x => x.LanguageCode == LoginResponse.GetLoginResponse().workingLang)
+                            .Where(x => x.LanguageCode == Login.GetLoginUser().workingLang)
                             .Select(s => new SelectItem()
                             {
                                 value = s.GroupValue,
@@ -193,7 +139,7 @@ namespace Portal.Data.Services.GlobalContextService
         public List<SelectItem> GetFlightTicketStatusSelectList()
         {
             return dbContext.TicketStatusType
-                            .Where(x => x.LanguageCode == LoginResponse.GetLoginResponse().workingLang)
+                            .Where(x => x.LanguageCode == Login.GetLoginUser().workingLang)
                             .Select(s => new SelectItem()
                             {
                                 value = s.ID,
@@ -208,7 +154,7 @@ namespace Portal.Data.Services.GlobalContextService
         public List<SelectItem> GetFlightCabinTypeSelectList()
         {
             return dbContext.FlightCabinTypes
-                            .Where(x => x.LanguageCode == LoginResponse.GetLoginResponse().workingLang)
+                            .Where(x => x.LanguageCode == Login.GetLoginUser().workingLang)
                             .Select(s => new SelectItem()
                             {
                                 value = s.ID,
@@ -223,7 +169,7 @@ namespace Portal.Data.Services.GlobalContextService
         public List<SelectItem> GetFlightLineZoneSelectList()
         {
             return dbContext.FlightLineZones
-                            .Where(x => x.LanguageCode == LoginResponse.GetLoginResponse().workingLang)
+                            .Where(x => x.LanguageCode == Login.GetLoginUser().workingLang)
                             .Select(s => new SelectItem()
                             {
                                 value = s.ID,
@@ -238,7 +184,7 @@ namespace Portal.Data.Services.GlobalContextService
         public List<SelectItem> GetFlightLineDistanceSelectList()
         {
             return dbContext.FlightLineDistances
-                            .Where(x => x.LanguageCode == LoginResponse.GetLoginResponse().workingLang)
+                            .Where(x => x.LanguageCode == Login.GetLoginUser().workingLang)
                             .Select(s => new SelectItem()
                             {
                                 value = s.ID,
@@ -253,7 +199,7 @@ namespace Portal.Data.Services.GlobalContextService
         public List<SelectItem> GetFlightTicketTypeSelectList()
         {
             return dbContext.TicketTypes
-                            .Where(x => x.LanguageCode == LoginResponse.GetLoginResponse().workingLang)
+                            .Where(x => x.LanguageCode == Login.GetLoginUser().workingLang)
                             .Select(s => new SelectItem()
                             {
                                 value = s.ID,

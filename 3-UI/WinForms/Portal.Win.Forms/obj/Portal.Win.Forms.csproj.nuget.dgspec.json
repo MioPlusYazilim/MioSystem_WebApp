@@ -15,11 +15,13 @@
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -29,6 +31,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -107,11 +110,13 @@
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -121,6 +126,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -189,11 +195,13 @@
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -203,6 +211,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -263,11 +272,13 @@
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -277,6 +288,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -326,22 +338,24 @@
         }
       }
     },
-    "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.DxUtils\\Portal.Win.DxUtils.csproj": {
+    "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.DxUtils\\MioSystem.DxUtils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.DxUtils\\Portal.Win.DxUtils.csproj",
-        "projectName": "Portal.Win.DxUtils",
-        "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.DxUtils\\Portal.Win.DxUtils.csproj",
+        "projectUniqueName": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.DxUtils\\MioSystem.DxUtils.csproj",
+        "projectName": "MioSystem.DxUtils",
+        "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.DxUtils\\MioSystem.DxUtils.csproj",
         "packagesPath": "C:\\Users\\Süleyman\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.DxUtils\\obj\\",
+        "outputPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.DxUtils\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -351,6 +365,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -361,8 +376,8 @@
               "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj": {
                 "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj"
               },
-              "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj": {
-                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj"
+              "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.Utils\\MioSystem.Utils.csproj": {
+                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.Utils\\MioSystem.Utils.csproj"
               }
             }
           }
@@ -384,11 +399,11 @@
           "dependencies": {
             "DevExpress.Data": {
               "target": "Package",
-              "version": "[23.2.4, )"
+              "version": "[24.1.7, )"
             },
             "DevExpress.Win.RichEdit": {
               "target": "Package",
-              "version": "[23.2.4, )"
+              "version": "[24.1.7, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -422,131 +437,24 @@
         }
       }
     },
-    "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj": {
+    "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.Utils\\MioSystem.Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj",
-        "projectName": "Portal.Win.Forms",
-        "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj",
+        "projectUniqueName": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.Utils\\MioSystem.Utils.csproj",
+        "projectName": "MioSystem.Utils",
+        "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.Utils\\MioSystem.Utils.csproj",
         "packagesPath": "C:\\Users\\Süleyman\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\obj\\",
+        "outputPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.Utils\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0-windows"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0-windows7.0": {
-            "targetAlias": "net8.0-windows",
-            "projectReferences": {
-              "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj": {
-                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj"
-              },
-              "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj": {
-                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj"
-              },
-              "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj": {
-                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj"
-              },
-              "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.DxUtils\\Portal.Win.DxUtils.csproj": {
-                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.DxUtils\\Portal.Win.DxUtils.csproj"
-              },
-              "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj": {
-                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0-windows7.0": {
-          "targetAlias": "net8.0-windows",
-          "dependencies": {
-            "DevExpress.Data": {
-              "target": "Package",
-              "version": "[23.2.4, )"
-            },
-            "DevExpress.Utils": {
-              "target": "Package",
-              "version": "[23.2.4, )"
-            },
-            "DevExpress.Win": {
-              "target": "Package",
-              "version": "[23.2.4, )"
-            },
-            "DevExpress.Win.Design": {
-              "target": "Package",
-              "version": "[23.2.4, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.1, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App": {
-              "privateAssets": "none"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj",
-        "projectName": "Portal.Win.Utils",
-        "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\Portal.Win.Utils.csproj",
-        "packagesPath": "C:\\Users\\Süleyman\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Utils\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -556,6 +464,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -603,6 +512,118 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj",
+        "projectName": "Portal.Win.Forms",
+        "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\Portal.Win.Forms.csproj",
+        "packagesPath": "C:\\Users\\Süleyman\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\Portal.Win.Forms\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj": {
+                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj"
+              },
+              "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj": {
+                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj"
+              },
+              "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj": {
+                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj"
+              },
+              "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.DxUtils\\MioSystem.DxUtils.csproj": {
+                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.DxUtils\\MioSystem.DxUtils.csproj"
+              },
+              "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.Utils\\MioSystem.Utils.csproj": {
+                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.Utils\\MioSystem.Utils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "DevExpress.Data": {
+              "target": "Package",
+              "version": "[24.1.7, )"
+            },
+            "DevExpress.Utils": {
+              "target": "Package",
+              "version": "[24.1.7, )"
+            },
+            "DevExpress.Win": {
+              "target": "Package",
+              "version": "[24.1.7, )"
+            },
+            "DevExpress.Win.Design": {
+              "target": "Package",
+              "version": "[24.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"

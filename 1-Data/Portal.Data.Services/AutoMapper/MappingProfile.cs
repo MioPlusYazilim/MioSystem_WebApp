@@ -9,7 +9,7 @@ namespace Portal.Api.Mapper
         public MappingProfile()
         {
             CreateMap<Employee, Employee_Dto>().ReverseMap();
-            CreateMap<EmployeeParameters, EmployeeParameters_Dto>().ReverseMap();
+            CreateMap<EmployeeAuthorization, EmployeeParameters_Dto>().ReverseMap();
             CreateMap<EmployeeSystemCode, EmployeeSystemCode_Dto>().ReverseMap();
 
             CreateMap<Role, Role_Dto>().ReverseMap();

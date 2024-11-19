@@ -27,20 +27,6 @@ namespace Portal.Data.Entities.GlobalEntities
             // Primary Key
             builder.HasKey(t => t.UserName);
 
-            // Properties, Table & Column Mappings
-            builder.Property(t => t.UserName).HasColumnName("UserName").IsRequired();
-            builder.Property(t => t.UserPass).HasColumnName("UserPass").IsRequired();
-            builder.Property(t => t.EMail).HasColumnName("EMail").IsRequired();
-            builder.Property(t => t.Active).HasColumnName("Active").IsRequired();
-            builder.Property(t => t.EmployeeID).HasColumnName("EmployeeID").IsRequired();
-            builder.Property(t => t.ClientKey).HasColumnName("ClientKey").IsRequired();
-            builder.Property(t => t.RefreshToken).HasColumnName("RefreshToken");
-            builder.Property(t => t.RefreshTokenExpireDate).HasColumnName("RefreshTokenExpireDate");
-            builder.Property(t => t.ResetPasswordToken).HasColumnName("ResetPasswordToken");
-            builder.Property(t => t.ResetPasswordTokenExpireDate).HasColumnName("ResetPasswordTokenExpireDate");
-
-
-
             builder.ToTable("ClientUser");
             // Navigate Properties
         }

@@ -5,6 +5,7 @@ using DevExpress.XtraEditors;
 using DevExpress.XtraGrid.Views.Grid;
 using DevExpress.XtraGrid.Views.Grid.ViewInfo;
 using DevExpress.XtraPrinting;
+using MioSystem.DxUtils;
 using Portal.Helpers;
 using Portal.Model;
 using Portal.Win.DxUtils;
@@ -14,7 +15,7 @@ using System.Data.SqlClient;
 
 namespace Portal.Win.Forms
 {
-    public partial class FrmDashboardMain : FrmAppBaseForm
+    public partial class FrmDashboardMain : FrmBaseForm
     {
         DxFunctions dxFunctions;
         MioUtils mutils;

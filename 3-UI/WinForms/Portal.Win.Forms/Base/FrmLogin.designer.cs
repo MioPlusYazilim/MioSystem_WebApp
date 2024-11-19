@@ -28,509 +28,488 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            components = new System.ComponentModel.Container();
             DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule conditionValidationRule2 = new DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLogin));
             DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule conditionValidationRule1 = new DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule();
-            this.tePassword = new DevExpress.XtraEditors.TextEdit();
-            this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
-            this.imCBLanguage = new DevExpress.XtraEditors.ImageComboBoxEdit();
-            this.ImgFlags = new DevExpress.Utils.ImageCollection(this.components);
-            this.pictureEditSettings = new DevExpress.XtraEditors.PictureEdit();
-            this.chkHatirla = new DevExpress.XtraEditors.CheckEdit();
-            this.versionLabelControl = new DevExpress.XtraEditors.LabelControl();
-            this.pictureEdit2 = new DevExpress.XtraEditors.PictureEdit();
-            this.btnCancel = new DevExpress.XtraEditors.SimpleButton();
-            this.btnOk = new DevExpress.XtraEditors.SimpleButton();
-            this.teUserName = new DevExpress.XtraEditors.TextEdit();
-            this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
-            this.itemForCancelButton = new DevExpress.XtraLayout.LayoutControlItem();
-            this.itemForOKButton = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem4 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.emptySpaceItem1 = new DevExpress.XtraLayout.EmptySpaceItem();
-            this.emptySpaceItem3 = new DevExpress.XtraLayout.EmptySpaceItem();
-            this.emptySpaceItem4 = new DevExpress.XtraLayout.EmptySpaceItem();
-            this.emptySpaceItem2 = new DevExpress.XtraLayout.EmptySpaceItem();
-            this.itemForUserName = new DevExpress.XtraLayout.LayoutControlItem();
-            this.itemForUserPass = new DevExpress.XtraLayout.LayoutControlItem();
-            this.emptySpaceItem5 = new DevExpress.XtraLayout.EmptySpaceItem();
-            this.emptySpaceItem8 = new DevExpress.XtraLayout.EmptySpaceItem();
-            this.itemForSettings = new DevExpress.XtraLayout.LayoutControlItem();
-            this.emptySpaceItem9 = new DevExpress.XtraLayout.EmptySpaceItem();
-            this.itemForCopyRight = new DevExpress.XtraLayout.EmptySpaceItem();
-            this.itemForLanguage = new DevExpress.XtraLayout.LayoutControlItem();
-            this.itemForRememberMe = new DevExpress.XtraLayout.LayoutControlItem();
-            this.defaultLookAndFeel1 = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
-            this.dxValidationProvider1 = new DevExpress.XtraEditors.DXErrorProvider.DXValidationProvider(this.components);
-            this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            ((System.ComponentModel.ISupportInitialize)(this.tePassword.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
-            this.layoutControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imCBLanguage.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ImgFlags)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEditSettings.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkHatirla.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.teUserName.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.itemForCancelButton)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.itemForOKButton)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.itemForUserName)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.itemForUserPass)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.itemForSettings)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.itemForCopyRight)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.itemForLanguage)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.itemForRememberMe)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dxValidationProvider1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
-            this.panelControl1.SuspendLayout();
-            this.SuspendLayout();
+            tePassword = new DevExpress.XtraEditors.TextEdit();
+            layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
+            imCBLanguage = new DevExpress.XtraEditors.ImageComboBoxEdit();
+            ImgFlags = new DevExpress.Utils.ImageCollection(components);
+            pictureEditSettings = new DevExpress.XtraEditors.PictureEdit();
+            chkHatirla = new DevExpress.XtraEditors.CheckEdit();
+            versionLabelControl = new DevExpress.XtraEditors.LabelControl();
+            pictureEdit2 = new DevExpress.XtraEditors.PictureEdit();
+            btnCancel = new DevExpress.XtraEditors.SimpleButton();
+            btnOk = new DevExpress.XtraEditors.SimpleButton();
+            teUserName = new DevExpress.XtraEditors.TextEdit();
+            layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
+            itemForCancelButton = new DevExpress.XtraLayout.LayoutControlItem();
+            itemForOKButton = new DevExpress.XtraLayout.LayoutControlItem();
+            layoutControlItem4 = new DevExpress.XtraLayout.LayoutControlItem();
+            layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
+            emptySpaceItem1 = new DevExpress.XtraLayout.EmptySpaceItem();
+            emptySpaceItem3 = new DevExpress.XtraLayout.EmptySpaceItem();
+            emptySpaceItem4 = new DevExpress.XtraLayout.EmptySpaceItem();
+            emptySpaceItem2 = new DevExpress.XtraLayout.EmptySpaceItem();
+            itemForUserName = new DevExpress.XtraLayout.LayoutControlItem();
+            itemForUserPass = new DevExpress.XtraLayout.LayoutControlItem();
+            emptySpaceItem5 = new DevExpress.XtraLayout.EmptySpaceItem();
+            emptySpaceItem8 = new DevExpress.XtraLayout.EmptySpaceItem();
+            itemForSettings = new DevExpress.XtraLayout.LayoutControlItem();
+            emptySpaceItem9 = new DevExpress.XtraLayout.EmptySpaceItem();
+            itemForCopyRight = new DevExpress.XtraLayout.EmptySpaceItem();
+            itemForLanguage = new DevExpress.XtraLayout.LayoutControlItem();
+            itemForRememberMe = new DevExpress.XtraLayout.LayoutControlItem();
+            defaultLookAndFeel1 = new DevExpress.LookAndFeel.DefaultLookAndFeel(components);
+            dxValidationProvider1 = new DevExpress.XtraEditors.DXErrorProvider.DXValidationProvider(components);
+            panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            ((System.ComponentModel.ISupportInitialize)tePassword.Properties).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)layoutControl1).BeginInit();
+            layoutControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)imCBLanguage.Properties).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)ImgFlags).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureEditSettings.Properties).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)chkHatirla.Properties).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureEdit2.Properties).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)teUserName.Properties).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)layoutControlGroup1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)itemForCancelButton).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)itemForOKButton).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)layoutControlItem4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)layoutControlItem5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)emptySpaceItem1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)emptySpaceItem3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)emptySpaceItem4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)emptySpaceItem2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)itemForUserName).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)itemForUserPass).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)emptySpaceItem5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)emptySpaceItem8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)itemForSettings).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)emptySpaceItem9).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)itemForCopyRight).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)itemForLanguage).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)itemForRememberMe).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dxValidationProvider1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)panelControl1).BeginInit();
+            panelControl1.SuspendLayout();
+            SuspendLayout();
             // 
             // tePassword
             // 
-            this.tePassword.EnterMoveNextControl = true;
-            this.tePassword.Location = new System.Drawing.Point(108, 112);
-            this.tePassword.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.tePassword.Name = "tePassword";
-            this.tePassword.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
-            this.tePassword.Properties.UseSystemPasswordChar = true;
-            this.tePassword.Size = new System.Drawing.Size(238, 20);
-            this.tePassword.StyleController = this.layoutControl1;
-            this.tePassword.TabIndex = 1;
+            tePassword.EnterMoveNextControl = true;
+            tePassword.Location = new Point(145, 144);
+            tePassword.Margin = new Padding(5, 4, 5, 4);
+            tePassword.Name = "tePassword";
+            tePassword.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
+            tePassword.Properties.UseSystemPasswordChar = true;
+            tePassword.Size = new Size(252, 22);
+            tePassword.StyleController = layoutControl1;
+            tePassword.TabIndex = 1;
             conditionValidationRule2.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
             conditionValidationRule2.ErrorText = "Kullanıcı Şifre Belirtmelisiniz";
-            this.dxValidationProvider1.SetValidationRule(this.tePassword, conditionValidationRule2);
-            this.tePassword.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tePassword_KeyPress);
+            dxValidationProvider1.SetValidationRule(tePassword, conditionValidationRule2);
+            tePassword.KeyPress += tePassword_KeyPress;
             // 
             // layoutControl1
             // 
-            this.layoutControl1.BackColor = System.Drawing.Color.Transparent;
-            this.layoutControl1.Controls.Add(this.imCBLanguage);
-            this.layoutControl1.Controls.Add(this.pictureEditSettings);
-            this.layoutControl1.Controls.Add(this.chkHatirla);
-            this.layoutControl1.Controls.Add(this.versionLabelControl);
-            this.layoutControl1.Controls.Add(this.pictureEdit2);
-            this.layoutControl1.Controls.Add(this.btnCancel);
-            this.layoutControl1.Controls.Add(this.btnOk);
-            this.layoutControl1.Controls.Add(this.tePassword);
-            this.layoutControl1.Controls.Add(this.teUserName);
-            this.layoutControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.layoutControl1.Location = new System.Drawing.Point(2, 2);
-            this.layoutControl1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.layoutControl1.Name = "layoutControl1";
-            this.layoutControl1.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new System.Drawing.Rectangle(931, 133, 466, 387);
-            this.layoutControl1.Root = this.layoutControlGroup1;
-            this.layoutControl1.Size = new System.Drawing.Size(386, 233);
-            this.layoutControl1.TabIndex = 386;
-            this.layoutControl1.Text = "layoutControl1";
+            layoutControl1.BackColor = Color.Transparent;
+            layoutControl1.Controls.Add(imCBLanguage);
+            layoutControl1.Controls.Add(pictureEditSettings);
+            layoutControl1.Controls.Add(chkHatirla);
+            layoutControl1.Controls.Add(versionLabelControl);
+            layoutControl1.Controls.Add(pictureEdit2);
+            layoutControl1.Controls.Add(btnCancel);
+            layoutControl1.Controls.Add(btnOk);
+            layoutControl1.Controls.Add(tePassword);
+            layoutControl1.Controls.Add(teUserName);
+            layoutControl1.Dock = DockStyle.Fill;
+            layoutControl1.Location = new Point(2, 2);
+            layoutControl1.Margin = new Padding(5, 4, 5, 4);
+            layoutControl1.Name = "layoutControl1";
+            layoutControl1.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new Rectangle(931, 133, 466, 387);
+            layoutControl1.Root = layoutControlGroup1;
+            layoutControl1.Size = new Size(451, 279);
+            layoutControl1.TabIndex = 386;
+            layoutControl1.Text = "layoutControl1";
             // 
             // imCBLanguage
             // 
-            this.imCBLanguage.EditValue = "Türkçe";
-            this.imCBLanguage.Location = new System.Drawing.Point(108, 134);
-            this.imCBLanguage.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.imCBLanguage.Name = "imCBLanguage";
-            this.imCBLanguage.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.imCBLanguage.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Türkçe", "tr-TR", 0),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("English", "en-EN", 1)});
-            this.imCBLanguage.Properties.SmallImages = this.ImgFlags;
-            this.imCBLanguage.Size = new System.Drawing.Size(126, 20);
-            this.imCBLanguage.StyleController = this.layoutControl1;
-            this.imCBLanguage.TabIndex = 387;
-            this.imCBLanguage.SelectedIndexChanged += new System.EventHandler(this.imCBLanguage_SelectedIndexChanged);
+            imCBLanguage.EditValue = "Türkçe";
+            imCBLanguage.Location = new Point(145, 170);
+            imCBLanguage.Margin = new Padding(5, 4, 5, 4);
+            imCBLanguage.Name = "imCBLanguage";
+            imCBLanguage.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] { new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo) });
+            imCBLanguage.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] { new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Türkçe", "tr-TR", 0), new DevExpress.XtraEditors.Controls.ImageComboBoxItem("English", "en-EN", 1) });
+            imCBLanguage.Properties.SmallImages = ImgFlags;
+            imCBLanguage.Size = new Size(121, 22);
+            imCBLanguage.StyleController = layoutControl1;
+            imCBLanguage.TabIndex = 387;
+            imCBLanguage.SelectedIndexChanged += imCBLanguage_SelectedIndexChanged;
             // 
             // ImgFlags
             // 
-            this.ImgFlags.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("ImgFlags.ImageStream")));
-            this.ImgFlags.Images.SetKeyName(0, "Turkey.png");
-            this.ImgFlags.Images.SetKeyName(1, "gb.png");
+            ImgFlags.ImageStream = (DevExpress.Utils.ImageCollectionStreamer)resources.GetObject("ImgFlags.ImageStream");
+            ImgFlags.Images.SetKeyName(0, "Turkey.png");
+            ImgFlags.Images.SetKeyName(1, "gb.png");
             // 
             // pictureEditSettings
             // 
-            this.pictureEditSettings.EditValue = ((object)(resources.GetObject("pictureEditSettings.EditValue")));
-            this.pictureEditSettings.Location = new System.Drawing.Point(6, 167);
-            this.pictureEditSettings.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureEditSettings.Name = "pictureEditSettings";
-            this.pictureEditSettings.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.pictureEditSettings.Properties.Appearance.Options.UseBackColor = true;
-            this.pictureEditSettings.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.pictureEditSettings.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
-            this.pictureEditSettings.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom;
-            this.pictureEditSettings.Size = new System.Drawing.Size(30, 28);
-            this.pictureEditSettings.StyleController = this.layoutControl1;
-            this.pictureEditSettings.TabIndex = 386;
-            this.pictureEditSettings.Click += new System.EventHandler(this.pictureEditSettings_Click);
+            pictureEditSettings.EditValue = resources.GetObject("pictureEditSettings.EditValue");
+            pictureEditSettings.Location = new Point(14, 210);
+            pictureEditSettings.Margin = new Padding(5, 4, 5, 4);
+            pictureEditSettings.Name = "pictureEditSettings";
+            pictureEditSettings.Properties.Appearance.BackColor = Color.Transparent;
+            pictureEditSettings.Properties.Appearance.Options.UseBackColor = true;
+            pictureEditSettings.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            pictureEditSettings.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            pictureEditSettings.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom;
+            pictureEditSettings.Size = new Size(32, 33);
+            pictureEditSettings.StyleController = layoutControl1;
+            pictureEditSettings.TabIndex = 386;
+            pictureEditSettings.Click += pictureEditSettings_Click;
             // 
             // chkHatirla
             // 
-            this.chkHatirla.EnterMoveNextControl = true;
-            this.chkHatirla.Location = new System.Drawing.Point(313, 136);
-            this.chkHatirla.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.chkHatirla.Name = "chkHatirla";
-            this.chkHatirla.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.chkHatirla.Properties.Appearance.ForeColor = System.Drawing.Color.Silver;
-            this.chkHatirla.Properties.Appearance.Options.UseFont = true;
-            this.chkHatirla.Properties.Appearance.Options.UseForeColor = true;
-            this.chkHatirla.Properties.Caption = "";
-            this.chkHatirla.Size = new System.Drawing.Size(33, 20);
-            this.chkHatirla.StyleController = this.layoutControl1;
-            this.chkHatirla.TabIndex = 4;
-            this.chkHatirla.CheckedChanged += new System.EventHandler(this.chkHatirla_CheckedChanged);
+            chkHatirla.EnterMoveNextControl = true;
+            chkHatirla.Location = new Point(371, 172);
+            chkHatirla.Margin = new Padding(5, 4, 5, 4);
+            chkHatirla.Name = "chkHatirla";
+            chkHatirla.Properties.Appearance.Font = new Font("Tahoma", 9F, FontStyle.Italic);
+            chkHatirla.Properties.Appearance.ForeColor = Color.Silver;
+            chkHatirla.Properties.Appearance.Options.UseFont = true;
+            chkHatirla.Properties.Appearance.Options.UseForeColor = true;
+            chkHatirla.Properties.Caption = "";
+            chkHatirla.Size = new Size(27, 24);
+            chkHatirla.StyleController = layoutControl1;
+            chkHatirla.TabIndex = 4;
+            chkHatirla.CheckedChanged += chkHatirla_CheckedChanged;
             // 
             // versionLabelControl
             // 
-            this.versionLabelControl.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.versionLabelControl.Appearance.Options.UseFont = true;
-            this.versionLabelControl.Appearance.Options.UseTextOptions = true;
-            this.versionLabelControl.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Bottom;
-            this.versionLabelControl.Location = new System.Drawing.Point(241, 6);
-            this.versionLabelControl.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.versionLabelControl.Name = "versionLabelControl";
-            this.versionLabelControl.Size = new System.Drawing.Size(139, 66);
-            this.versionLabelControl.StyleController = this.layoutControl1;
-            this.versionLabelControl.TabIndex = 384;
-            this.versionLabelControl.Text = "STANDART";
+            versionLabelControl.Appearance.Font = new Font("Times New Roman", 9F, FontStyle.Bold | FontStyle.Italic);
+            versionLabelControl.Appearance.Options.UseFont = true;
+            versionLabelControl.Appearance.Options.UseTextOptions = true;
+            versionLabelControl.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Bottom;
+            versionLabelControl.Location = new Point(288, 14);
+            versionLabelControl.Margin = new Padding(5, 4, 5, 4);
+            versionLabelControl.Name = "versionLabelControl";
+            versionLabelControl.Size = new Size(149, 80);
+            versionLabelControl.StyleController = layoutControl1;
+            versionLabelControl.TabIndex = 384;
+            versionLabelControl.Text = "STANDART";
             // 
             // pictureEdit2
             // 
-            this.pictureEdit2.EditValue = ((object)(resources.GetObject("pictureEdit2.EditValue")));
-            this.pictureEdit2.Location = new System.Drawing.Point(6, 6);
-            this.pictureEdit2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureEdit2.Name = "pictureEdit2";
-            this.pictureEdit2.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.pictureEdit2.Properties.Appearance.Options.UseBackColor = true;
-            this.pictureEdit2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.pictureEdit2.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.pictureEdit2.Size = new System.Drawing.Size(219, 66);
-            this.pictureEdit2.StyleController = this.layoutControl1;
-            this.pictureEdit2.TabIndex = 385;
+            pictureEdit2.EditValue = resources.GetObject("pictureEdit2.EditValue");
+            pictureEdit2.Location = new Point(14, 14);
+            pictureEdit2.Margin = new Padding(5, 4, 5, 4);
+            pictureEdit2.Name = "pictureEdit2";
+            pictureEdit2.Properties.Appearance.BackColor = Color.Transparent;
+            pictureEdit2.Properties.Appearance.Options.UseBackColor = true;
+            pictureEdit2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            pictureEdit2.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
+            pictureEdit2.Size = new Size(254, 80);
+            pictureEdit2.StyleController = layoutControl1;
+            pictureEdit2.TabIndex = 385;
             // 
             // btnCancel
             // 
-            this.btnCancel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCancel.BackgroundImage")));
-            this.btnCancel.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnCancel.ImageOptions.Image")));
-            this.btnCancel.Location = new System.Drawing.Point(273, 167);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(88, 28);
-            this.btnCancel.StyleController = this.layoutControl1;
-            this.btnCancel.TabIndex = 6;
-            this.btnCancel.Text = "&Vazgeç";
-            this.btnCancel.Click += new System.EventHandler(this.simpleButton1_Click);
-            this.btnCancel.Paint += new System.Windows.Forms.PaintEventHandler(this.btnOk_Paint);
+            btnCancel.BackgroundImage = (Image)resources.GetObject("btnCancel.BackgroundImage");
+            btnCancel.ImageOptions.Image = (Image)resources.GetObject("btnCancel.ImageOptions.Image");
+            btnCancel.Location = new Point(314, 210);
+            btnCancel.Margin = new Padding(5, 4, 5, 4);
+            btnCancel.Name = "btnCancel";
+            btnCancel.Size = new Size(101, 33);
+            btnCancel.StyleController = layoutControl1;
+            btnCancel.TabIndex = 6;
+            btnCancel.Text = "&Vazgeç";
+            btnCancel.Click += simpleButton1_Click;
+            btnCancel.Paint += btnOk_Paint;
             // 
             // btnOk
             // 
-            this.btnOk.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnOk.BackgroundImage")));
-            this.btnOk.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnOk.ImageOptions.Image")));
-            this.btnOk.Location = new System.Drawing.Point(183, 167);
-            this.btnOk.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.btnOk.Name = "btnOk";
-            this.btnOk.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.True;
-            this.btnOk.Size = new System.Drawing.Size(88, 28);
-            this.btnOk.StyleController = this.layoutControl1;
-            this.btnOk.TabIndex = 5;
-            this.btnOk.Text = "&Tamam";
-            this.btnOk.Click += new System.EventHandler(this.simpleButton2_Click);
-            this.btnOk.Paint += new System.Windows.Forms.PaintEventHandler(this.btnOk_Paint);
+            btnOk.BackgroundImage = (Image)resources.GetObject("btnOk.BackgroundImage");
+            btnOk.ImageOptions.Image = (Image)resources.GetObject("btnOk.ImageOptions.Image");
+            btnOk.Location = new Point(209, 210);
+            btnOk.Margin = new Padding(5, 4, 5, 4);
+            btnOk.Name = "btnOk";
+            btnOk.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.True;
+            btnOk.Size = new Size(101, 33);
+            btnOk.StyleController = layoutControl1;
+            btnOk.TabIndex = 5;
+            btnOk.Text = "&Tamam";
+            btnOk.Click += simpleButton2_Click;
+            btnOk.Paint += btnOk_Paint;
             // 
             // teUserName
             // 
-            this.teUserName.EnterMoveNextControl = true;
-            this.teUserName.Location = new System.Drawing.Point(108, 90);
-            this.teUserName.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.teUserName.Name = "teUserName";
-            this.teUserName.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
-            this.teUserName.Size = new System.Drawing.Size(238, 20);
-            this.teUserName.StyleController = this.layoutControl1;
-            this.teUserName.TabIndex = 0;
+            teUserName.EnterMoveNextControl = true;
+            teUserName.Location = new Point(145, 118);
+            teUserName.Margin = new Padding(5, 4, 5, 4);
+            teUserName.Name = "teUserName";
+            teUserName.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
+            teUserName.Size = new Size(252, 22);
+            teUserName.StyleController = layoutControl1;
+            teUserName.TabIndex = 0;
             conditionValidationRule1.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
             conditionValidationRule1.ErrorText = "Kullanıcı Adı Belirtmelisiniz";
-            this.dxValidationProvider1.SetValidationRule(this.teUserName, conditionValidationRule1);
+            dxValidationProvider1.SetValidationRule(teUserName, conditionValidationRule1);
             // 
             // layoutControlGroup1
             // 
-            this.layoutControlGroup1.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
-            this.layoutControlGroup1.GroupBordersVisible = false;
-            this.layoutControlGroup1.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
-            this.itemForCancelButton,
-            this.itemForOKButton,
-            this.layoutControlItem4,
-            this.layoutControlItem5,
-            this.emptySpaceItem1,
-            this.emptySpaceItem3,
-            this.emptySpaceItem4,
-            this.emptySpaceItem2,
-            this.itemForUserName,
-            this.itemForUserPass,
-            this.emptySpaceItem5,
-            this.emptySpaceItem8,
-            this.itemForSettings,
-            this.emptySpaceItem9,
-            this.itemForCopyRight,
-            this.itemForLanguage,
-            this.itemForRememberMe});
-            this.layoutControlGroup1.Name = "Root";
-            this.layoutControlGroup1.Size = new System.Drawing.Size(386, 233);
-            this.layoutControlGroup1.TextVisible = false;
+            layoutControlGroup1.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
+            layoutControlGroup1.GroupBordersVisible = false;
+            layoutControlGroup1.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] { itemForCancelButton, itemForOKButton, layoutControlItem4, layoutControlItem5, emptySpaceItem1, emptySpaceItem3, emptySpaceItem4, emptySpaceItem2, itemForUserName, itemForUserPass, emptySpaceItem5, emptySpaceItem8, itemForSettings, emptySpaceItem9, itemForCopyRight, itemForLanguage, itemForRememberMe });
+            layoutControlGroup1.Name = "Root";
+            layoutControlGroup1.Size = new Size(451, 279);
+            layoutControlGroup1.TextVisible = false;
             // 
             // itemForCancelButton
             // 
-            this.itemForCancelButton.Control = this.btnCancel;
-            this.itemForCancelButton.Location = new System.Drawing.Point(267, 161);
-            this.itemForCancelButton.MaxSize = new System.Drawing.Size(90, 30);
-            this.itemForCancelButton.MinSize = new System.Drawing.Size(90, 30);
-            this.itemForCancelButton.Name = "itemForCancelButton";
-            this.itemForCancelButton.Size = new System.Drawing.Size(90, 30);
-            this.itemForCancelButton.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
-            this.itemForCancelButton.TextSize = new System.Drawing.Size(0, 0);
-            this.itemForCancelButton.TextVisible = false;
+            itemForCancelButton.Control = btnCancel;
+            itemForCancelButton.Location = new Point(300, 196);
+            itemForCancelButton.MaxSize = new Size(105, 37);
+            itemForCancelButton.MinSize = new Size(105, 37);
+            itemForCancelButton.Name = "itemForCancelButton";
+            itemForCancelButton.Size = new Size(105, 37);
+            itemForCancelButton.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
+            itemForCancelButton.TextSize = new Size(0, 0);
+            itemForCancelButton.TextVisible = false;
             // 
             // itemForOKButton
             // 
-            this.itemForOKButton.Control = this.btnOk;
-            this.itemForOKButton.Location = new System.Drawing.Point(177, 161);
-            this.itemForOKButton.MaxSize = new System.Drawing.Size(90, 30);
-            this.itemForOKButton.MinSize = new System.Drawing.Size(90, 30);
-            this.itemForOKButton.Name = "itemForOKButton";
-            this.itemForOKButton.Size = new System.Drawing.Size(90, 30);
-            this.itemForOKButton.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
-            this.itemForOKButton.TextSize = new System.Drawing.Size(0, 0);
-            this.itemForOKButton.TextVisible = false;
+            itemForOKButton.Control = btnOk;
+            itemForOKButton.Location = new Point(195, 196);
+            itemForOKButton.MaxSize = new Size(105, 37);
+            itemForOKButton.MinSize = new Size(105, 37);
+            itemForOKButton.Name = "itemForOKButton";
+            itemForOKButton.Size = new Size(105, 37);
+            itemForOKButton.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
+            itemForOKButton.TextSize = new Size(0, 0);
+            itemForOKButton.TextVisible = false;
             // 
             // layoutControlItem4
             // 
-            this.layoutControlItem4.Control = this.pictureEdit2;
-            this.layoutControlItem4.Location = new System.Drawing.Point(0, 0);
-            this.layoutControlItem4.MaxSize = new System.Drawing.Size(221, 68);
-            this.layoutControlItem4.MinSize = new System.Drawing.Size(221, 68);
-            this.layoutControlItem4.Name = "layoutControlItem4";
-            this.layoutControlItem4.Size = new System.Drawing.Size(221, 68);
-            this.layoutControlItem4.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
-            this.layoutControlItem4.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem4.TextVisible = false;
+            layoutControlItem4.Control = pictureEdit2;
+            layoutControlItem4.Location = new Point(0, 0);
+            layoutControlItem4.MaxSize = new Size(258, 84);
+            layoutControlItem4.MinSize = new Size(258, 84);
+            layoutControlItem4.Name = "layoutControlItem4";
+            layoutControlItem4.Size = new Size(258, 84);
+            layoutControlItem4.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
+            layoutControlItem4.TextSize = new Size(0, 0);
+            layoutControlItem4.TextVisible = false;
             // 
             // layoutControlItem5
             // 
-            this.layoutControlItem5.Control = this.versionLabelControl;
-            this.layoutControlItem5.Location = new System.Drawing.Point(235, 0);
-            this.layoutControlItem5.MinSize = new System.Drawing.Size(68, 19);
-            this.layoutControlItem5.Name = "layoutControlItem5";
-            this.layoutControlItem5.Size = new System.Drawing.Size(141, 68);
-            this.layoutControlItem5.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
-            this.layoutControlItem5.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem5.TextVisible = false;
+            layoutControlItem5.Control = versionLabelControl;
+            layoutControlItem5.Location = new Point(274, 0);
+            layoutControlItem5.MinSize = new Size(79, 23);
+            layoutControlItem5.Name = "layoutControlItem5";
+            layoutControlItem5.Size = new Size(153, 84);
+            layoutControlItem5.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
+            layoutControlItem5.TextSize = new Size(0, 0);
+            layoutControlItem5.TextVisible = false;
             // 
             // emptySpaceItem1
             // 
-            this.emptySpaceItem1.AllowHotTrack = false;
-            this.emptySpaceItem1.Location = new System.Drawing.Point(221, 0);
-            this.emptySpaceItem1.MaxSize = new System.Drawing.Size(14, 68);
-            this.emptySpaceItem1.MinSize = new System.Drawing.Size(14, 68);
-            this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(14, 68);
-            this.emptySpaceItem1.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
-            this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
+            emptySpaceItem1.AllowHotTrack = false;
+            emptySpaceItem1.Location = new Point(258, 0);
+            emptySpaceItem1.MaxSize = new Size(16, 84);
+            emptySpaceItem1.MinSize = new Size(16, 84);
+            emptySpaceItem1.Name = "emptySpaceItem1";
+            emptySpaceItem1.Size = new Size(16, 84);
+            emptySpaceItem1.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
+            emptySpaceItem1.TextSize = new Size(0, 0);
             // 
             // emptySpaceItem3
             // 
-            this.emptySpaceItem3.AllowHotTrack = false;
-            this.emptySpaceItem3.Location = new System.Drawing.Point(342, 68);
-            this.emptySpaceItem3.MaxSize = new System.Drawing.Size(34, 0);
-            this.emptySpaceItem3.MinSize = new System.Drawing.Size(34, 10);
-            this.emptySpaceItem3.Name = "emptySpaceItem3";
-            this.emptySpaceItem3.Size = new System.Drawing.Size(34, 83);
-            this.emptySpaceItem3.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
-            this.emptySpaceItem3.TextSize = new System.Drawing.Size(0, 0);
+            emptySpaceItem3.AllowHotTrack = false;
+            emptySpaceItem3.Location = new Point(387, 84);
+            emptySpaceItem3.MaxSize = new Size(40, 0);
+            emptySpaceItem3.MinSize = new Size(40, 12);
+            emptySpaceItem3.Name = "emptySpaceItem3";
+            emptySpaceItem3.Size = new Size(40, 100);
+            emptySpaceItem3.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
+            emptySpaceItem3.TextSize = new Size(0, 0);
             // 
             // emptySpaceItem4
             // 
-            this.emptySpaceItem4.AllowHotTrack = false;
-            this.emptySpaceItem4.Location = new System.Drawing.Point(0, 68);
-            this.emptySpaceItem4.MaxSize = new System.Drawing.Size(34, 0);
-            this.emptySpaceItem4.MinSize = new System.Drawing.Size(34, 10);
-            this.emptySpaceItem4.Name = "emptySpaceItem4";
-            this.emptySpaceItem4.Size = new System.Drawing.Size(34, 83);
-            this.emptySpaceItem4.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
-            this.emptySpaceItem4.TextSize = new System.Drawing.Size(0, 0);
+            emptySpaceItem4.AllowHotTrack = false;
+            emptySpaceItem4.Location = new Point(0, 84);
+            emptySpaceItem4.MaxSize = new Size(40, 0);
+            emptySpaceItem4.MinSize = new Size(40, 12);
+            emptySpaceItem4.Name = "emptySpaceItem4";
+            emptySpaceItem4.Size = new Size(40, 100);
+            emptySpaceItem4.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
+            emptySpaceItem4.TextSize = new Size(0, 0);
             // 
             // emptySpaceItem2
             // 
-            this.emptySpaceItem2.AllowHotTrack = false;
-            this.emptySpaceItem2.Location = new System.Drawing.Point(34, 68);
-            this.emptySpaceItem2.MaxSize = new System.Drawing.Size(0, 16);
-            this.emptySpaceItem2.MinSize = new System.Drawing.Size(5, 16);
-            this.emptySpaceItem2.Name = "emptySpaceItem2";
-            this.emptySpaceItem2.Size = new System.Drawing.Size(308, 16);
-            this.emptySpaceItem2.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
-            this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
+            emptySpaceItem2.AllowHotTrack = false;
+            emptySpaceItem2.Location = new Point(40, 84);
+            emptySpaceItem2.MaxSize = new Size(0, 20);
+            emptySpaceItem2.MinSize = new Size(6, 20);
+            emptySpaceItem2.Name = "emptySpaceItem2";
+            emptySpaceItem2.Size = new Size(347, 20);
+            emptySpaceItem2.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
+            emptySpaceItem2.TextSize = new Size(0, 0);
             // 
             // itemForUserName
             // 
-            this.itemForUserName.Control = this.teUserName;
-            this.itemForUserName.Location = new System.Drawing.Point(34, 84);
-            this.itemForUserName.Name = "itemForUserName";
-            this.itemForUserName.Size = new System.Drawing.Size(308, 22);
-            this.itemForUserName.Text = "Kullanıcı Adı";
-            this.itemForUserName.TextSize = new System.Drawing.Size(62, 13);
+            itemForUserName.Control = teUserName;
+            itemForUserName.Location = new Point(40, 104);
+            itemForUserName.Name = "itemForUserName";
+            itemForUserName.Size = new Size(347, 26);
+            itemForUserName.Text = "Kullanıcı Adı";
+            itemForUserName.TextSize = new Size(77, 16);
             // 
             // itemForUserPass
             // 
-            this.itemForUserPass.Control = this.tePassword;
-            this.itemForUserPass.Location = new System.Drawing.Point(34, 106);
-            this.itemForUserPass.Name = "itemForUserPass";
-            this.itemForUserPass.Size = new System.Drawing.Size(308, 22);
-            this.itemForUserPass.Text = "Kullanıcı Şifre";
-            this.itemForUserPass.TextSize = new System.Drawing.Size(62, 13);
+            itemForUserPass.Control = tePassword;
+            itemForUserPass.Location = new Point(40, 130);
+            itemForUserPass.Name = "itemForUserPass";
+            itemForUserPass.Size = new Size(347, 26);
+            itemForUserPass.Text = "Kullanıcı Şifre";
+            itemForUserPass.TextSize = new Size(77, 16);
             // 
             // emptySpaceItem5
             // 
-            this.emptySpaceItem5.AllowHotTrack = false;
-            this.emptySpaceItem5.Location = new System.Drawing.Point(357, 161);
-            this.emptySpaceItem5.MaxSize = new System.Drawing.Size(19, 0);
-            this.emptySpaceItem5.MinSize = new System.Drawing.Size(19, 10);
-            this.emptySpaceItem5.Name = "emptySpaceItem5";
-            this.emptySpaceItem5.Size = new System.Drawing.Size(19, 30);
-            this.emptySpaceItem5.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
-            this.emptySpaceItem5.TextSize = new System.Drawing.Size(0, 0);
+            emptySpaceItem5.AllowHotTrack = false;
+            emptySpaceItem5.Location = new Point(405, 196);
+            emptySpaceItem5.MaxSize = new Size(22, 0);
+            emptySpaceItem5.MinSize = new Size(22, 12);
+            emptySpaceItem5.Name = "emptySpaceItem5";
+            emptySpaceItem5.Size = new Size(22, 37);
+            emptySpaceItem5.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
+            emptySpaceItem5.TextSize = new Size(0, 0);
             // 
             // emptySpaceItem8
             // 
-            this.emptySpaceItem8.AllowHotTrack = false;
-            this.emptySpaceItem8.Location = new System.Drawing.Point(0, 151);
-            this.emptySpaceItem8.MaxSize = new System.Drawing.Size(0, 10);
-            this.emptySpaceItem8.MinSize = new System.Drawing.Size(10, 10);
-            this.emptySpaceItem8.Name = "emptySpaceItem8";
-            this.emptySpaceItem8.Size = new System.Drawing.Size(376, 10);
-            this.emptySpaceItem8.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
-            this.emptySpaceItem8.TextSize = new System.Drawing.Size(0, 0);
+            emptySpaceItem8.AllowHotTrack = false;
+            emptySpaceItem8.Location = new Point(0, 184);
+            emptySpaceItem8.MaxSize = new Size(0, 12);
+            emptySpaceItem8.MinSize = new Size(12, 12);
+            emptySpaceItem8.Name = "emptySpaceItem8";
+            emptySpaceItem8.Size = new Size(427, 12);
+            emptySpaceItem8.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
+            emptySpaceItem8.TextSize = new Size(0, 0);
             // 
             // itemForSettings
             // 
-            this.itemForSettings.Control = this.pictureEditSettings;
-            this.itemForSettings.Location = new System.Drawing.Point(0, 161);
-            this.itemForSettings.Name = "itemForSettings";
-            this.itemForSettings.Size = new System.Drawing.Size(32, 30);
-            this.itemForSettings.TextSize = new System.Drawing.Size(0, 0);
-            this.itemForSettings.TextVisible = false;
+            itemForSettings.Control = pictureEditSettings;
+            itemForSettings.Location = new Point(0, 196);
+            itemForSettings.Name = "itemForSettings";
+            itemForSettings.Size = new Size(36, 37);
+            itemForSettings.TextSize = new Size(0, 0);
+            itemForSettings.TextVisible = false;
             // 
             // emptySpaceItem9
             // 
-            this.emptySpaceItem9.AllowHotTrack = false;
-            this.emptySpaceItem9.Location = new System.Drawing.Point(32, 161);
-            this.emptySpaceItem9.Name = "emptySpaceItem9";
-            this.emptySpaceItem9.Size = new System.Drawing.Size(145, 30);
-            this.emptySpaceItem9.TextSize = new System.Drawing.Size(0, 0);
+            emptySpaceItem9.AllowHotTrack = false;
+            emptySpaceItem9.Location = new Point(36, 196);
+            emptySpaceItem9.Name = "emptySpaceItem9";
+            emptySpaceItem9.Size = new Size(159, 37);
+            emptySpaceItem9.TextSize = new Size(0, 0);
             // 
             // itemForCopyRight
             // 
-            this.itemForCopyRight.AllowHotTrack = false;
-            this.itemForCopyRight.AppearanceItemCaption.Options.UseTextOptions = true;
-            this.itemForCopyRight.AppearanceItemCaption.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Bottom;
-            this.itemForCopyRight.Location = new System.Drawing.Point(0, 191);
-            this.itemForCopyRight.Name = "itemForCopyRight";
-            this.itemForCopyRight.Size = new System.Drawing.Size(376, 32);
-            this.itemForCopyRight.Text = "Copyright © 2007-2018";
-            this.itemForCopyRight.TextSize = new System.Drawing.Size(62, 0);
-            this.itemForCopyRight.TextVisible = true;
+            itemForCopyRight.AllowHotTrack = false;
+            itemForCopyRight.AppearanceItemCaption.Options.UseTextOptions = true;
+            itemForCopyRight.AppearanceItemCaption.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Bottom;
+            itemForCopyRight.Location = new Point(0, 233);
+            itemForCopyRight.Name = "itemForCopyRight";
+            itemForCopyRight.Size = new Size(427, 22);
+            itemForCopyRight.Text = "Copyright © 2007-2018";
+            itemForCopyRight.TextSize = new Size(77, 0);
+            itemForCopyRight.TextVisible = true;
             // 
             // itemForLanguage
             // 
-            this.itemForLanguage.Control = this.imCBLanguage;
-            this.itemForLanguage.Location = new System.Drawing.Point(34, 128);
-            this.itemForLanguage.Name = "itemForLanguage";
-            this.itemForLanguage.Size = new System.Drawing.Size(196, 23);
-            this.itemForLanguage.Text = "Çalışma Dili";
-            this.itemForLanguage.TextSize = new System.Drawing.Size(62, 13);
+            itemForLanguage.Control = imCBLanguage;
+            itemForLanguage.Location = new Point(40, 156);
+            itemForLanguage.Name = "itemForLanguage";
+            itemForLanguage.Size = new Size(216, 28);
+            itemForLanguage.Text = "Çalışma Dili";
+            itemForLanguage.TextSize = new Size(77, 16);
             // 
             // itemForRememberMe
             // 
-            this.itemForRememberMe.Control = this.chkHatirla;
-            this.itemForRememberMe.Location = new System.Drawing.Point(230, 128);
-            this.itemForRememberMe.MaxSize = new System.Drawing.Size(112, 23);
-            this.itemForRememberMe.MinSize = new System.Drawing.Size(112, 23);
-            this.itemForRememberMe.Name = "itemForRememberMe";
-            this.itemForRememberMe.Padding = new DevExpress.XtraLayout.Utils.Padding(10, 1, 3, 3);
-            this.itemForRememberMe.Size = new System.Drawing.Size(112, 23);
-            this.itemForRememberMe.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
-            this.itemForRememberMe.Text = "Beni Hatırla";
-            this.itemForRememberMe.TextSize = new System.Drawing.Size(62, 13);
+            itemForRememberMe.Control = chkHatirla;
+            itemForRememberMe.Location = new Point(256, 156);
+            itemForRememberMe.MaxSize = new Size(131, 28);
+            itemForRememberMe.MinSize = new Size(131, 28);
+            itemForRememberMe.Name = "itemForRememberMe";
+            itemForRememberMe.Padding = new DevExpress.XtraLayout.Utils.Padding(12, 1, 4, 4);
+            itemForRememberMe.Size = new Size(131, 28);
+            itemForRememberMe.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
+            itemForRememberMe.Text = "Beni Hatırla";
+            itemForRememberMe.TextSize = new Size(77, 16);
             // 
             // dxValidationProvider1
             // 
-            this.dxValidationProvider1.ValidationFailed += new DevExpress.XtraEditors.DXErrorProvider.ValidationFailedEventHandler(this.dxValidationProvider1_ValidationFailed);
+            dxValidationProvider1.ValidationFailed += dxValidationProvider1_ValidationFailed;
             // 
             // panelControl1
             // 
-            this.panelControl1.Controls.Add(this.layoutControl1);
-            this.panelControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelControl1.Location = new System.Drawing.Point(0, 0);
-            this.panelControl1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(390, 237);
-            this.panelControl1.TabIndex = 387;
+            panelControl1.Controls.Add(layoutControl1);
+            panelControl1.Dock = DockStyle.Fill;
+            panelControl1.Location = new Point(0, 0);
+            panelControl1.Margin = new Padding(5, 4, 5, 4);
+            panelControl1.Name = "panelControl1";
+            panelControl1.Size = new Size(455, 283);
+            panelControl1.TabIndex = 387;
             // 
             // FrmLogin
             // 
-            this.Appearance.BackColor = System.Drawing.Color.White;
-            this.Appearance.Options.UseBackColor = true;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(390, 237);
-            this.Controls.Add(this.panelControl1);
-            this.FormBorderEffect = DevExpress.XtraEditors.FormBorderEffect.Shadow;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.IconOptions.Icon = ((System.Drawing.Icon)(resources.GetObject("FrmLogin.IconOptions.Icon")));
-            this.KeyPreview = true;
-            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.Name = "FrmLogin";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MioSystem";
-            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Splash_KeyPress);
-            ((System.ComponentModel.ISupportInitialize)(this.tePassword.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
-            this.layoutControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.imCBLanguage.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ImgFlags)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEditSettings.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkHatirla.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.teUserName.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.itemForCancelButton)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.itemForOKButton)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.itemForUserName)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.itemForUserPass)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.itemForSettings)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.itemForCopyRight)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.itemForLanguage)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.itemForRememberMe)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dxValidationProvider1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
-            this.panelControl1.ResumeLayout(false);
-            this.ResumeLayout(false);
-
+            Appearance.BackColor = Color.White;
+            Appearance.Options.UseBackColor = true;
+            AutoScaleDimensions = new SizeF(7F, 16F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(455, 283);
+            Controls.Add(panelControl1);
+            FormBorderEffect = DevExpress.XtraEditors.FormBorderEffect.Shadow;
+            FormBorderStyle = FormBorderStyle.FixedToolWindow;
+            IconOptions.Icon = (Icon)resources.GetObject("FrmLogin.IconOptions.Icon");
+            KeyPreview = true;
+            Margin = new Padding(5, 4, 5, 4);
+            Name = "FrmLogin";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "MioSystem";
+            KeyPress += Splash_KeyPress;
+            ((System.ComponentModel.ISupportInitialize)tePassword.Properties).EndInit();
+            ((System.ComponentModel.ISupportInitialize)layoutControl1).EndInit();
+            layoutControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)imCBLanguage.Properties).EndInit();
+            ((System.ComponentModel.ISupportInitialize)ImgFlags).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureEditSettings.Properties).EndInit();
+            ((System.ComponentModel.ISupportInitialize)chkHatirla.Properties).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureEdit2.Properties).EndInit();
+            ((System.ComponentModel.ISupportInitialize)teUserName.Properties).EndInit();
+            ((System.ComponentModel.ISupportInitialize)layoutControlGroup1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)itemForCancelButton).EndInit();
+            ((System.ComponentModel.ISupportInitialize)itemForOKButton).EndInit();
+            ((System.ComponentModel.ISupportInitialize)layoutControlItem4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)layoutControlItem5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)emptySpaceItem1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)emptySpaceItem3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)emptySpaceItem4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)emptySpaceItem2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)itemForUserName).EndInit();
+            ((System.ComponentModel.ISupportInitialize)itemForUserPass).EndInit();
+            ((System.ComponentModel.ISupportInitialize)emptySpaceItem5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)emptySpaceItem8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)itemForSettings).EndInit();
+            ((System.ComponentModel.ISupportInitialize)emptySpaceItem9).EndInit();
+            ((System.ComponentModel.ISupportInitialize)itemForCopyRight).EndInit();
+            ((System.ComponentModel.ISupportInitialize)itemForLanguage).EndInit();
+            ((System.ComponentModel.ISupportInitialize)itemForRememberMe).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dxValidationProvider1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)panelControl1).EndInit();
+            panelControl1.ResumeLayout(false);
+            ResumeLayout(false);
         }
 
         #endregion

@@ -68,6 +68,9 @@
             ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             dataLayoutControl1 = new DevExpress.XtraDataLayout.DataLayoutControl();
             dataLayoutControl2 = new DevExpress.XtraDataLayout.DataLayoutControl();
+            officeNavigationBar1 = new DevExpress.XtraBars.Navigation.OfficeNavigationBar();
+            navigationBarItem1 = new DevExpress.XtraBars.Navigation.NavigationBarItem();
+            navigationBarItem2 = new DevExpress.XtraBars.Navigation.NavigationBarItem();
             lookUpEdit3 = new DevExpress.XtraEditors.LookUpEdit();
             lookUpEdit2 = new DevExpress.XtraEditors.LookUpEdit();
             lookUpEdit1 = new DevExpress.XtraEditors.LookUpEdit();
@@ -90,17 +93,15 @@
             emptySpaceItem1 = new DevExpress.XtraLayout.EmptySpaceItem();
             layoutControlGroup3 = new DevExpress.XtraLayout.LayoutControlGroup();
             emptySpaceItem4 = new DevExpress.XtraLayout.EmptySpaceItem();
+            layoutControlItem9 = new DevExpress.XtraLayout.LayoutControlItem();
             Root = new DevExpress.XtraLayout.LayoutControlGroup();
             layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
-            officeNavigationBar1 = new DevExpress.XtraBars.Navigation.OfficeNavigationBar();
-            layoutControlItem9 = new DevExpress.XtraLayout.LayoutControlItem();
-            navigationBarItem1 = new DevExpress.XtraBars.Navigation.NavigationBarItem();
-            navigationBarItem2 = new DevExpress.XtraBars.Navigation.NavigationBarItem();
             ((System.ComponentModel.ISupportInitialize)ribbonControl1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataLayoutControl1).BeginInit();
             dataLayoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataLayoutControl2).BeginInit();
             dataLayoutControl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)officeNavigationBar1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)lookUpEdit3.Properties).BeginInit();
             ((System.ComponentModel.ISupportInitialize)lookUpEdit2.Properties).BeginInit();
             ((System.ComponentModel.ISupportInitialize)lookUpEdit1.Properties).BeginInit();
@@ -123,10 +124,9 @@
             ((System.ComponentModel.ISupportInitialize)emptySpaceItem1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)layoutControlGroup3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)emptySpaceItem4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)layoutControlItem9).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Root).BeginInit();
             ((System.ComponentModel.ISupportInitialize)layoutControlItem1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)officeNavigationBar1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)layoutControlItem9).BeginInit();
             SuspendLayout();
             // 
             // ribbonControl1
@@ -216,12 +216,12 @@
             barWorkspaceMenuItem1.Caption = "barWorkspaceMenuItem1";
             barWorkspaceMenuItem1.Id = 9;
             barWorkspaceMenuItem1.Name = "barWorkspaceMenuItem1";
+            barWorkspaceMenuItem1.WorkspaceManager = workspaceManager1;
             // 
             // workspaceManager1
             // 
             workspaceManager1.TargetControl = this;
             workspaceManager1.TransitionType = pushTransition1;
-            barWorkspaceMenuItem1.WorkspaceManager = workspaceManager1;
             // 
             // barButtonGroup1
             // 
@@ -424,6 +424,26 @@
             dataLayoutControl2.TabIndex = 0;
             dataLayoutControl2.Text = "dataLayoutControl2";
             // 
+            // officeNavigationBar1
+            // 
+            officeNavigationBar1.AutoSize = false;
+            officeNavigationBar1.Items.AddRange(new DevExpress.XtraBars.Navigation.NavigationBarItem[] { navigationBarItem1, navigationBarItem2 });
+            officeNavigationBar1.Location = new Point(2, 264);
+            officeNavigationBar1.Name = "officeNavigationBar1";
+            officeNavigationBar1.Size = new Size(474, 199);
+            officeNavigationBar1.TabIndex = 7;
+            officeNavigationBar1.Text = "officeNavigationBar1";
+            // 
+            // navigationBarItem1
+            // 
+            navigationBarItem1.Name = "navigationBarItem1";
+            navigationBarItem1.Text = "Item1";
+            // 
+            // navigationBarItem2
+            // 
+            navigationBarItem2.Name = "navigationBarItem2";
+            navigationBarItem2.Text = "Item2";
+            // 
             // lookUpEdit3
             // 
             lookUpEdit3.Location = new Point(411, 118);
@@ -534,12 +554,14 @@
             // 
             // layoutControlItem2
             // 
+            layoutControlItem2.AppearanceItemCaption.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            layoutControlItem2.AppearanceItemCaption.Options.UseFont = true;
             layoutControlItem2.Control = textEdit1;
             layoutControlItem2.Location = new Point(0, 0);
             layoutControlItem2.Name = "layoutControlItem2";
             layoutControlItem2.Size = new Size(544, 26);
             layoutControlItem2.Text = "First Name";
-            layoutControlItem2.TextSize = new Size(108, 16);
+            layoutControlItem2.TextSize = new Size(108, 17);
             // 
             // layoutControlItem3
             // 
@@ -625,6 +647,15 @@
             emptySpaceItem4.Size = new Size(479, 203);
             emptySpaceItem4.TextSize = new Size(0, 0);
             // 
+            // layoutControlItem9
+            // 
+            layoutControlItem9.Control = officeNavigationBar1;
+            layoutControlItem9.Location = new Point(0, 262);
+            layoutControlItem9.Name = "layoutControlItem9";
+            layoutControlItem9.Size = new Size(478, 203);
+            layoutControlItem9.TextSize = new Size(0, 0);
+            layoutControlItem9.TextVisible = false;
+            // 
             // Root
             // 
             Root.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
@@ -644,36 +675,6 @@
             layoutControlItem1.TextSize = new Size(0, 0);
             layoutControlItem1.TextVisible = false;
             // 
-            // officeNavigationBar1
-            // 
-            officeNavigationBar1.AutoSize = false;
-            officeNavigationBar1.Dock = DockStyle.Bottom;
-            officeNavigationBar1.Items.AddRange(new DevExpress.XtraBars.Navigation.NavigationBarItem[] { navigationBarItem1, navigationBarItem2 });
-            officeNavigationBar1.Location = new Point(2, 264);
-            officeNavigationBar1.Name = "officeNavigationBar1";
-            officeNavigationBar1.Size = new Size(474, 199);
-            officeNavigationBar1.TabIndex = 7;
-            officeNavigationBar1.Text = "officeNavigationBar1";
-            // 
-            // layoutControlItem9
-            // 
-            layoutControlItem9.Control = officeNavigationBar1;
-            layoutControlItem9.Location = new Point(0, 262);
-            layoutControlItem9.Name = "layoutControlItem9";
-            layoutControlItem9.Size = new Size(478, 203);
-            layoutControlItem9.TextSize = new Size(0, 0);
-            layoutControlItem9.TextVisible = false;
-            // 
-            // navigationBarItem1
-            // 
-            navigationBarItem1.Name = "navigationBarItem1";
-            navigationBarItem1.Text = "Item1";
-            // 
-            // navigationBarItem2
-            // 
-            navigationBarItem2.Name = "navigationBarItem2";
-            navigationBarItem2.Text = "Item2";
-            // 
             // FrmTestForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -689,6 +690,7 @@
             dataLayoutControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataLayoutControl2).EndInit();
             dataLayoutControl2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)officeNavigationBar1).EndInit();
             ((System.ComponentModel.ISupportInitialize)lookUpEdit3.Properties).EndInit();
             ((System.ComponentModel.ISupportInitialize)lookUpEdit2.Properties).EndInit();
             ((System.ComponentModel.ISupportInitialize)lookUpEdit1.Properties).EndInit();
@@ -711,10 +713,9 @@
             ((System.ComponentModel.ISupportInitialize)emptySpaceItem1).EndInit();
             ((System.ComponentModel.ISupportInitialize)layoutControlGroup3).EndInit();
             ((System.ComponentModel.ISupportInitialize)emptySpaceItem4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)layoutControlItem9).EndInit();
             ((System.ComponentModel.ISupportInitialize)Root).EndInit();
             ((System.ComponentModel.ISupportInitialize)layoutControlItem1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)officeNavigationBar1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)layoutControlItem9).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }

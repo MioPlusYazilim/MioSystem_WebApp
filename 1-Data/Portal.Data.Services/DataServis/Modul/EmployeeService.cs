@@ -34,7 +34,7 @@ namespace Portal.Data.Services
             var config = new MapperConfiguration(cfg =>
             {
                 cfg.CreateMap<Employee, Employee_Dto>().ReverseMap();
-                cfg.CreateMap<EmployeeParameters, EmployeeParameters_Dto>().ReverseMap();
+                cfg.CreateMap<EmployeeAuthorization, EmployeeParameters_Dto>().ReverseMap();
                 cfg.CreateMap<EmployeeSystemCode, EmployeeSystemCode_Dto>().ReverseMap();
 
             });
@@ -56,7 +56,7 @@ namespace Portal.Data.Services
                 {
                     var mEntity = mapper.Map<Employee>(model);
                     employee = clientContext.Employees
-                                            .Include(i => i.employeeParameters)
+                                            .Include(i => i.employeeAuthorizations)
                                             .Include(i => i.employeeSystemCodes)
                                             .FirstOrDefault(x => x.ID == model.id);
 
@@ -106,7 +106,7 @@ namespace Portal.Data.Services
                 using (UnitOfWork uow = new UnitOfWork(clientContext))
                 {
                     var user = clientContext.Employees
-                                        .Include(i => i.employeeParameters)
+                                        .Include(i => i.employeeAuthorizations)
                                         .Include(i => i.employeeSystemCodes)
                                         .FirstOrDefault(x => x.ID == id);
 
@@ -140,17 +140,17 @@ namespace Portal.Data.Services
         {
 
             return clientContext.Employees
-                                .Include(i => i.employeeParameters)
+                                .Include(i => i.employeeAuthorizations)
                                 .Select(s => new EmployeeMainListWM
                                 {
                                     id = s.ID,
                                     fullName = s.LongName,
                                     email = s.Email,
                                     mobilePhone = s.GSMNumber,
-                                    authoryGroup = s.employeeParameters.AuthoryGroup < 2 ? "Personel" : "Müşteri",
-                                    authoryLevel = s.employeeParameters.AuthoryLevel == 1 ? "Personel" : s.employeeParameters.AuthoryLevel == 2 ? "Departman Admin" : "Admin",
-                                    authorizedCustomerIDs = s.employeeParameters.AuthorizedCustomerIDs,
-                                    authorizedCustomerGroupIDs = s.employeeParameters.AuthorizedCustomerGroupIDs
+                                    authoryGroup = s.employeeAuthorizations.AuthoryGroup < 2 ? "Personel" : "Müşteri",
+                                    authoryLevel = s.employeeAuthorizations.AuthoryLevel == 1 ? "Personel" : s.employeeAuthorizations.AuthoryLevel == 2 ? "Departman Admin" : "Admin",
+                                    authorizedCustomerIDs = s.employeeAuthorizations.AuthorizedCustomerIDs,
+                                    authorizedCustomerGroupIDs = s.employeeAuthorizations.AuthorizedCustomerGroupIDs
                                 })
                                 .ToList()
                                 .Where(x => loginResponse.authoryGroup == 2 ? (loginResponse.authoryLevel == 1 ? x.id == loginResponse.employeeID : x.cariList.Intersect(loginResponse.customerIDs).ToList().Count > 0) : true)
@@ -165,7 +165,7 @@ namespace Portal.Data.Services
         public Employee_Dto GetEmployee(int id)
         {
             var user = clientContext.Employees
-                                      .Include(i => i.employeeParameters)
+                                      .Include(i => i.employeeAuthorizations)
                                       .Include(i => i.employeeSystemCodes)
                                       .FirstOrDefault(x => x.ID == id);
             if (user == null)

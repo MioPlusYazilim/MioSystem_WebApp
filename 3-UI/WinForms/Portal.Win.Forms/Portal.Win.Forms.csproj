@@ -22,10 +22,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="DevExpress.Data" Version="23.2.4" />
-    <PackageReference Include="DevExpress.Utils" Version="23.2.4" />
-    <PackageReference Include="DevExpress.Win" Version="23.2.4" />
-    <PackageReference Include="DevExpress.Win.Design" Version="23.2.4" />
+    <PackageReference Include="DevExpress.Data" Version="24.1.7" />
+    <PackageReference Include="DevExpress.Utils" Version="24.1.7" />
+    <PackageReference Include="DevExpress.Win" Version="24.1.7" />
+    <PackageReference Include="DevExpress.Win.Design" Version="24.1.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.1" />
   </ItemGroup>
 
@@ -33,8 +33,8 @@
     <ProjectReference Include="..\..\..\1-Data\Portal.Data.Services\Portal.Data.Services.csproj" />
     <ProjectReference Include="..\..\..\2-Shared\Portal.Helpers\Portal.Helpers.csproj" />
     <ProjectReference Include="..\..\..\2-Shared\Portal.Models\Portal.Model.csproj" />
-    <ProjectReference Include="..\Portal.Win.DxUtils\Portal.Win.DxUtils.csproj" />
-    <ProjectReference Include="..\Portal.Win.Utils\Portal.Win.Utils.csproj" />
+    <ProjectReference Include="..\MioSystem.DxUtils\MioSystem.DxUtils.csproj" />
+    <ProjectReference Include="..\MioSystem.Utils\MioSystem.Utils.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -42,11 +42,15 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Base\FrmLogin.cs" />
-    <Compile Update="Base\FrmMainForm.cs" />
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
     <Compile Update="UI\System\FrmDashboardMain.cs">
       <SubType>Form</SubType>
@@ -69,6 +73,13 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
 
 </Project>

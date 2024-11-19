@@ -2,25 +2,19 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="Base\FrmAppBaseForm.cs">
+    <Compile Update="Base\FrmBaseForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Base\FrmAppBaseFormEdit.cs">
+    <Compile Update="Base\FrmBaseFormMainList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Base\FrmAppBaseFormMainList.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Base\FrmAppMainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Base\FrmAppBaseFormModul.cs">
+    <Compile Update="Base\FrmBaseFormEdit.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Base\FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Base\FrmMainForm.cs">
+    <Compile Update="Base\FrmMainForm_Eski.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Base\FrmSettings.cs">
@@ -30,6 +24,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Base\PopUpDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmTestForm.cs">

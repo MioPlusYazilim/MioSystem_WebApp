@@ -1,13 +1,12 @@
 ﻿using DevExpress.XtraGrid.Views.Grid;
-using DevExpress.XtraPrinting;
-using Portal.Model;
-using Portal.Helpers;
+using MioSystem.Utils;
 using Portal.Data.Services;
-using Portal.Win.Utils;
+using Portal.Helpers;
+using Portal.Model;
 
 namespace Portal.Win.Forms
 {
-    public partial class FrmEmployee : FrmAppBaseFormEdit
+    public partial class FrmEmployee : FrmBaseFormEdit
     {
         EmployeeService employeeService;
         public FrmEmployee(object[] args)

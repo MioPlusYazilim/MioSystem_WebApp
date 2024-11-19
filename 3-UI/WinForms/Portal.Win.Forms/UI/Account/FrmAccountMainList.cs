@@ -14,7 +14,7 @@ using System.Data.SqlClient;
 
 namespace Portal.Win.Forms
 {
-    public partial class FrmAccountMainList : FrmAppBaseFormMainList
+    public partial class FrmAccountMainList : FrmBaseFormMainList
     {
         public FrmAccountMainList(object[] args)
         {

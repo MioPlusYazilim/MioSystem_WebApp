@@ -9,7 +9,7 @@ namespace Portal.Data.Entities.ClientEntities
     {
         public Employee()
         {
-            employeeParameters = new EmployeeParameters();
+            employeeAuthorizations = new EmployeeAuthorization();
             employeeSystemCodes = new List<EmployeeSystemCode>();
         }
 
@@ -23,7 +23,7 @@ namespace Portal.Data.Entities.ClientEntities
         public int CompanyID { get; set; }
         public bool FState { get; set; }
 
-        public virtual EmployeeParameters employeeParameters { get; set; }
+        public virtual EmployeeAuthorization employeeAuthorizations { get; set; }
         public virtual List<EmployeeSystemCode> employeeSystemCodes { get; set; }
     }
 
@@ -50,7 +50,7 @@ namespace Portal.Data.Entities.ClientEntities
             builder.HasQueryFilter(m => EF.Property<bool>(m, "Deleted") == false);
             builder.ToTable("Employee");
             // Navigate Properties
-            builder.HasOne(s => s.employeeParameters).WithOne(ad => ad.employee).HasForeignKey<EmployeeParameters>(fk => fk.EmployeeID).OnDelete(DeleteBehavior.Cascade);
+            builder.HasOne(s => s.employeeAuthorizations).WithOne(ad => ad.employee).HasForeignKey<EmployeeAuthorization>(fk => fk.EmployeeID).OnDelete(DeleteBehavior.Cascade);
             builder.HasMany(s => s.employeeSystemCodes).WithOne(ad => ad.employee).HasForeignKey(fk => fk.EmployeeID).OnDelete(DeleteBehavior.Cascade);
 
         }

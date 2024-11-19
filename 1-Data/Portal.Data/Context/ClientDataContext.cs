@@ -21,7 +21,7 @@ namespace Portal.Data.Context
         public DbSet<Company> Companies { get; set; }
         public DbSet<CompanyGetInfoView> CompanyGetInfoViews { get; set; }
         public DbSet<Employee> Employees { get; set; }
-        public DbSet<EmployeeParameters> EmployeeParameters { get; set; }
+        public DbSet<EmployeeAuthorization> EmployeeAuthorizations { get; set; }
         public DbSet<EmployeeSystemCode> EmployeeSystemCodes { get; set; }
         public DbSet<EmployeeSelectView> EmployeeSelectViews { get; set; }
 
@@ -58,7 +58,7 @@ namespace Portal.Data.Context
             modelBuilder.ApplyConfiguration(new Company_Configuration());
             modelBuilder.ApplyConfiguration(new CompanyGetInfoView_Configuration());
             modelBuilder.ApplyConfiguration(new Employee_Configuration());
-            modelBuilder.ApplyConfiguration(new EmployeeParameters_Configuration());
+            modelBuilder.ApplyConfiguration(new EmployeeAuthorization_Configuration());
             modelBuilder.ApplyConfiguration(new EmployeeSystemCode_Configuration());
 
             modelBuilder.ApplyConfiguration(new EmployeeSelectView_Configuration());

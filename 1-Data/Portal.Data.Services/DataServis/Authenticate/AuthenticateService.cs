@@ -1,9 +1,13 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Azure;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Portal.Data.Context;
+using Portal.Data.Entities.ClientEntities;
 using Portal.Data.Entities.GlobalEntities;
 using Portal.Helpers;
 using Portal.Model;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace Portal.Data.Services
 {
@@ -19,10 +23,10 @@ namespace Portal.Data.Services
     public class AuthenticateService : IAuthenticateService
     {
         private GlobalDataContext globalDataContext;
-        public readonly LoginResponse loginResponse;
+        public readonly Login loginResponse;
         private static readonly char[] separator = new char[] { ';' };
 
-        public AuthenticateService(LoginResponse _loginResponse)
+        public AuthenticateService(Login _loginResponse)
         {
             this.loginResponse = _loginResponse;
             SetDbContext();
@@ -30,7 +34,7 @@ namespace Portal.Data.Services
         }
         public AuthenticateService()
         {
-            this.loginResponse = LoginResponse.GetLoginResponse();
+            this.loginResponse = Model.Login.GetLoginUser();
             SetDbContext();
         }
 
@@ -110,9 +114,9 @@ namespace Portal.Data.Services
             });
         }
 
-        LoginResponse GetLoginResponse(ClientUser clientUser)
+        Login GetLoginResponse(ClientUser clientUser)
         {
-            var response = new LoginResponse();
+            var response = new Login();
             if (clientUser == null)
                 return response;
 
@@ -127,85 +131,36 @@ namespace Portal.Data.Services
 
             using (ClientDataContext dbContext = new ClientDataContext(connstr))
             {
-                var employee = dbContext.Employees.Include(i => i.employeeParameters).FirstOrDefault(x => x.ID == clientUser.EmployeeID);
+                var employee = dbContext.Employees.Include(i => i.employeeAuthorizations).FirstOrDefault(x => x.ID == clientUser.EmployeeID);
                 if (employee == null)
-                    return new LoginResponse();
+                    return new Login();
                 var company = dbContext.Companies.FirstOrDefault(x => x.ID == employee.CompanyID);
                 if(company == null)
-                    return new LoginResponse();
+                    return new Login();
 
                 response.clientKey = client.ClientValue;
                 response.companyID = employee.CompanyID;
                 response.companyName = company.CodeName;
                 response.companyCode = company.Code;
-                response.authoryGroup = employee.employeeParameters.AuthoryGroup;
-                response.authoryLevel = employee.employeeParameters.AuthoryLevel;
-                response.winTheme = employee.employeeParameters.WinTheme;
-                response.webTheme = employee.employeeParameters.WebTheme;
-                response.displayLanguage = employee.employeeParameters.DisplayLanguage;
+                response.authoryGroup = employee.employeeAuthorizations.AuthoryGroup;
+                response.authoryLevel = employee.employeeAuthorizations.AuthoryLevel;
+                response.winTheme = employee.employeeAuthorizations.WinTheme;
+                response.webTheme = employee.employeeAuthorizations.WebTheme;
+                response.displayLanguage = employee.employeeAuthorizations.DisplayLanguage;
 
-                response.customerIDs = (employee.employeeParameters.AuthorizedCustomerIDs ?? "0").Split(';', StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToList();
-                response.customerGroupIDs = (employee.employeeParameters.AuthorizedCustomerGroupIDs ?? "0").Split(';', StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToList();
+                response.customerIDs = (employee.employeeAuthorizations.AuthorizedCustomerIDs ?? "0").Split(';', StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToList();
+                response.customerGroupIDs = (employee.employeeAuthorizations.AuthorizedCustomerGroupIDs ?? "0").Split(';', StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToList();
 
                 response.employeeID = employee.ID;
                 response.fullName = employee.LongName;
                 response.email = employee.Email;
                 response.profileImagePath = string.Empty;
-                var authories = dbContext.RoleAuthories.Where(x => x.RoleID == employee.employeeParameters.AuthoryRole).ToList();
-                var translations = (from nv in globalDataContext.Navigations
-                                    join tr in globalDataContext.NavigationTranslations on nv.ID equals tr.ParentID
-                                    where tr.LanguageCode == loginResponse.workingLang
-                                    select (new NavigationRole()
-                                    {
-                                        id = 0,
-                                        menuTag = nv.MenuTag,
-                                        modulID = nv.ModulID,
-                                        formType = nv.MenuFormType,
-                                        menuCardType = nv.MenuCardType ?? 0,
-                                        isInternational = nv.IsInternational,
-                                        menuName = tr.MenuName,
-                                        editFormName = nv.EditFormName,
-                                        editFormPath = nv.EditFormPath,
-                                        listFormName = nv.ListFormName,
-                                        formCaption = tr.FormCaption??"",
-                                        editFormCaption = tr.EditFormCaption ?? "",
-                                        listMethodName = nv.ListMethodName??"",
-                                        allowList = false,
-                                        allowNew = false,
-                                        allowEdit = false,
-                                        allowDelete = false,
-                                        allowPrint = false,
-                                        reportIDs = ""
-                                    })).ToList();
-
-                response.navigationAuthories = (from au in authories
-                                                join nv in translations on au.MenuID equals nv.menuTag
-                                                select (new NavigationRole()
-                                                {
-                                                    id = au.ID,
-                                                    menuTag = au.MenuID,
-                                                    modulID = nv.modulID,
-                                                    formType = nv.formType,
-                                                    menuCardType = nv.menuCardType,
-                                                    isInternational = nv.isInternational,
-                                                    menuName = nv.menuName,
-                                                    editFormName = nv.editFormName,
-                                                    editFormPath = nv.editFormPath,
-                                                    listFormName = nv.listFormName,
-                                                    formCaption = nv.formCaption ?? "",
-                                                    editFormCaption = nv.editFormCaption ?? "",
-                                                    listMethodName = nv.listMethodName??"",
-                                                    allowList = au.AllowList,
-                                                    allowNew = au.AllowNew,
-                                                    allowEdit = au.AllowEdit,
-                                                    allowDelete = au.AllowDelete,
-                                                    allowPrint = au.AllowPrint,
-                                                    reportIDs = au.ReportIDs
-                                                })).ToList();
 
 
-                response.mainMenuNavigations = GetUserNavigationTree(response.navigationAuthories);
-                response.settingsMenuNavigations = GetUserSettingsNavigationTree(response.navigationAuthories);
+                var roleAuthories = dbContext.RoleAuthories.Where(x => x.AllowList && x.RoleID == employee.employeeAuthorizations.AuthoryRole).ToList();
+                response.authories = GetUserAuthories(roleAuthories);
+                response.mainMenu = GetUserMenuTree(response.authories, true);
+                response.settingsMenu = GetUserMenuTree(response.authories, false);
             }
 
             globalDataContext.SaveChanges();
@@ -213,187 +168,117 @@ namespace Portal.Data.Services
             return response;
         }
 
-        private List<NavigationM> GetUserNavigationTree(List<NavigationRole> authories)
+        private List<NavigationAuthory> GetUserAuthories(List<RoleAuthory> roleAuthories)
         {
-            var authListIDs = authories.Select(x => x.menuTag).ToList();
-            var defaultMenulist = (from menu in globalDataContext.Navigations
-                                   join translation in globalDataContext.NavigationTranslations on menu.ID equals translation.ParentID
-                                   where translation.LanguageCode.Equals(loginResponse.workingLang) && menu.MenuActive
-                                   select new NavigationM()
+            var roleAuthIDs = roleAuthories.Select(s=>s.MenuID).ToList();
+            var navigationAuths = (from nvg in globalDataContext.Navigations.AsNoTracking()
+                                   join trs in globalDataContext.NavigationTranslations.AsNoTracking() on nvg.ID equals trs.ParentID
+                                   where roleAuthIDs.Contains(nvg.MenuTag)
+                                         && trs.LanguageCode == loginResponse.workingLang
+                                         && nvg.MenuActive
+                                   select (new NavigationAuthory()
                                    {
-                                       id = menu.ID,
-                                       modulID = menu.ModulID,
-                                       parentID = menu.ParentID,
-                                       menuLevel = menu.MenuLevel,
-                                       menuOrder = menu.MenuOrder,
-                                       formType = menu.MenuFormType,
-                                       menuIcon = menu.MenuIcon,
-                                       menuLink = menu.MenuLink ?? "",
-                                       menuTag = menu.MenuTag,
-                                       menuCardType = menu.MenuCardType ?? 0,
-                                       isInternational = menu.IsInternational,
-                                       menuName = translation.MenuName ?? "",
-                                       formCaption = translation.FormCaption ?? "",
-                                       editFormCaption = translation.EditFormCaption ?? "",
-                                       editFormName = menu.EditFormName ?? "",
-                                       listFormName = menu.ListFormName ?? "",
-                                       menuPath = menu.MenuPath ?? "",
-                                       listMethodName = menu.ListMethodName ?? "",
-                                       allowList = false,
-                                       allowDelete = false,
-                                       allowEdit = false,
-                                       allowNew = false,
-                                       allowPrint = false,
-                                       reportIDs = ""
-                                   }).ToList();
+                                       id = nvg.ID,
+                                       authoryID = nvg.MenuTag,
+                                       modulID = nvg.ModulID,
+                                       formType = nvg.MenuFormType,
+                                       menuName = trs.MenuName,
+                                       editFormName = nvg.EditFormName,
+                                       editFormPath = nvg.EditFormPath,
+                                       listFormCaption = trs.ListFormCaption ?? "",
+                                       editFormCaption = trs.EditFormCaption ?? "",
+                                       listSourceName = nvg.ListSourceName ?? "",
+                                       listSourceType = nvg.ListSourceType
+                                   })).ToList();
 
-            //defaultMenulist = defaultMenulist.OrderBy(o => o.menuLevel).ThenBy(o => o.menuOrder).ToList();
-            var menuitemList = defaultMenulist.Where(x => authListIDs.Contains(x.menuTag) && x.formType > 1);
-
-            foreach (var menuitem in menuitemList)
+            foreach (var auth in navigationAuths)
             {
-                var auth = authories.FirstOrDefault(x => x.menuTag == menuitem.menuTag);
-                menuitem.allowList = auth.allowList;
-                menuitem.allowNew = auth.allowNew;
-                menuitem.allowEdit = auth.allowEdit;
-                menuitem.allowDelete = auth.allowDelete;
-                menuitem.allowPrint = auth.allowPrint;
-                menuitem.reportIDs = auth.reportIDs;
+                var roleAuth = roleAuthories.FirstOrDefault(x => x.MenuID == auth.authoryID);
+                if (roleAuth != null)
+                {
+                    auth.allowList = roleAuth.AllowList;
+                    auth.allowNew = roleAuth.AllowNew;
+                    auth.allowEdit = roleAuth.AllowEdit;
+                    auth.allowDelete = roleAuth.AllowDelete;
+                    auth.allowPrint = roleAuth.AllowPrint;
+                    auth.listTypeID = roleAuth.ListTypeID;
+                    auth.reportIDs = "";
+
+                }
             }
 
-            List<NavigationM> MenuLevel0 = new List<NavigationM>();
-            List<NavigationM> MenuLevel1 = new List<NavigationM>();
-
-            foreach (var item in menuitemList)
-            {
-                try
-                {
-                    var mlv1 = MenuLevel1.FirstOrDefault(x => x.id == item.parentID);
-                    if (mlv1 == null)
-                    {
-                        mlv1 = defaultMenulist.FirstOrDefault(x => x.id == item.parentID);
-                        if (mlv1 != null)
-                            MenuLevel1.Add(mlv1);
-                    }
-                    if (mlv1 != null)
-                        mlv1.items.Add(item);
-                }
-                catch (System.Exception ex)
-                {
-                }
-
-            }
-            foreach (var item in MenuLevel1)
-            {
-                try
-                {
-                    var mlv0 = MenuLevel0.FirstOrDefault(x => x.id == item.parentID);
-                    if (mlv0 == null)
-                    {
-                        mlv0 = defaultMenulist.FirstOrDefault(x => x.id == item.parentID);
-                        if (mlv0 != null)
-                            MenuLevel0.Add(mlv0);
-                    }
-                    if (mlv0 != null)
-                        mlv0.items.Add(item);
-                }
-                catch (System.Exception ex)
-                {
-                }
-
-            }
-            return MenuLevel0;
+            return navigationAuths;
         }
 
-        private List<NavigationM> GetUserSettingsNavigationTree(List<NavigationRole> authories)
+        private List<NavigationMenu> GetUserMenuTree(List<NavigationAuthory> authories, bool isMainMenu)
         {
-            var authListIDs = authories.Select(x => x.menuTag).ToList();
-            var defaultMenulist = (from menu in globalDataContext.Navigations
-                                   join translation in globalDataContext.NavigationTranslations on menu.ID equals translation.ParentID
-                                   where translation.LanguageCode.Equals(loginResponse.workingLang) && menu.MenuActive
-                                   select new NavigationM()
-                                   {
-                                       id = menu.ID,
-                                       modulID = menu.ModulID,
-                                       parentID = menu.ParentID,
-                                       menuLevel = menu.MenuLevel,
-                                       menuOrder = menu.MenuOrder,
-                                       formType = menu.MenuFormType,
-                                       menuIcon = menu.MenuIcon,
-                                       menuLink = menu.MenuLink ?? "",
-                                       menuTag = menu.MenuTag,
-                                       menuCardType = menu.MenuCardType ?? 0,
-                                       isInternational = menu.IsInternational,
-                                       menuName = translation.MenuName ?? "",
-                                       formCaption = translation.FormCaption ?? "",
-                                       editFormCaption = translation.EditFormCaption ?? "",
-                                       editFormName = menu.EditFormName ?? "",
-                                       listFormName = menu.ListFormName ?? "",
-                                       menuPath = menu.MenuPath ?? "",
-                                       listMethodName = menu.ListMethodName ??"",
-                                       allowList = false,
-                                       allowDelete = false,
-                                       allowEdit = false,
-                                       allowNew = false,
-                                       allowPrint = false,
-                                       reportIDs = ""
-                                   }).ToList();
+            var translationsList = globalDataContext.NavigationTranslations.Where(x => x.LanguageCode == loginResponse.workingLang).ToList();
+            var authoryIDs =authories.Select(s=>s.id).ToList();
+            //level 3 menu Items
+            var level3MenuItems = globalDataContext
+                                  .Navigations
+                                  .Where(x => x.MenuActive && (isMainMenu ? x.MenuFormType > 1 : x.MenuFormType == 1)
+                                        && authoryIDs.Contains(x.ID))
+                                  .ToList();
+            //level 2 menu items
+            var level3MenuItemsParentIDs = level3MenuItems.Select(s => s.ParentID).Distinct().ToList();
+            var level2MenuItems = globalDataContext.Navigations.Where(x => level3MenuItemsParentIDs.Contains(x.ID)).ToList();
+            
+            //level 1 menu items
+            var level2MenuItemsParentIDs = level2MenuItems.Select(s => s.ParentID).Distinct().ToList();
+            var level1MenuItems = globalDataContext.Navigations.Where(x => level2MenuItemsParentIDs.Contains(x.ID)).ToList();
 
-            var menuitemList = defaultMenulist.Where(x => authListIDs.Contains(x.menuTag) && x.menuLevel == 2 && x.formType == 1);
-
-            foreach (var menuitem in menuitemList)
+            List<NavigationMenu> menuTree = new List<NavigationMenu>();
+            foreach (var modulMenuItem in level1MenuItems.OrderBy(x => x.MenuOrder).ToList())
             {
-                var auth = authories.FirstOrDefault(x => x.menuTag == menuitem.menuTag);
-                menuitem.allowList = auth.allowList;
-                menuitem.allowNew = auth.allowNew;
-                menuitem.allowEdit = auth.allowEdit;
-                menuitem.allowDelete = auth.allowDelete;
-                menuitem.allowPrint = auth.allowPrint;
-                menuitem.reportIDs = auth.reportIDs;
-            }
-
-            List<NavigationM> MenuLevel0 = new List<NavigationM>();
-            List<NavigationM> MenuLevel1 = new List<NavigationM>();
-
-            foreach (var item in menuitemList)
-            {
-                try
+                //Modul Grupları
+                var parentMenuitem = new NavigationMenu();
+                menuTree.Add(parentMenuitem);
+                parentMenuitem.id = modulMenuItem.ID;
+                parentMenuitem.authoryID = modulMenuItem.MenuTag;
+                parentMenuitem.menuIcon = modulMenuItem.MenuIcon;
+                parentMenuitem.modulID = modulMenuItem.ModulID;
+                parentMenuitem.menuType = modulMenuItem.MenuFormType;
+                var parentTranslation = translationsList.FirstOrDefault(x => x.ParentID == modulMenuItem.ID);
+                if (parentTranslation == null)
+                    parentMenuitem.menuName = "menuID:" + modulMenuItem.ID.ToString() + "--";
+                else
+                    parentMenuitem.menuName = parentTranslation.MenuName ?? "";
+                // Alt Gruplar
+                foreach (var childItem in level2MenuItems.Where(x => x.ParentID == modulMenuItem.ID).OrderBy(x => x.MenuOrder).ToList())
                 {
-                    var mlv1 = MenuLevel1.FirstOrDefault(x => x.id == item.parentID);
-                    if (mlv1 == null)
+                    var childMenuitem = new NavigationMenu();
+                    parentMenuitem.items.Add(childMenuitem);
+                    childMenuitem.id = childItem.ID;
+                    childMenuitem.authoryID = childItem.MenuTag;
+                    childMenuitem.menuIcon = childItem.MenuIcon;
+                    childMenuitem.modulID = childItem.ModulID;
+                    childMenuitem.menuType = childItem.MenuFormType;
+                    var childTranslation = translationsList.FirstOrDefault(x => x.ParentID == childItem.ID);
+                    if (childTranslation == null)
+                        childMenuitem.menuName = "menuID:" + childItem.ID.ToString() + "--";
+                    else
+                        childMenuitem.menuName = childTranslation.MenuName ?? "";
+
+                    // Menu Items
+                    foreach (var item in level3MenuItems.Where(x => x.ParentID == childItem.ID).OrderBy(x => x.MenuOrder).ToList())
                     {
-                        mlv1 = defaultMenulist.FirstOrDefault(x => x.id == item.parentID);
-                        if (mlv1 != null)
-                            MenuLevel1.Add(mlv1);
+                        var menuitem = new NavigationMenu();
+                        childMenuitem.items.Add(menuitem);
+                        menuitem.id = item.ID;
+                        menuitem.authoryID = item.MenuTag;
+                        menuitem.menuIcon = item.MenuIcon;
+                        menuitem.modulID = item.ModulID;
+                        menuitem.menuType = item.MenuFormType;
+                        var itemTranslation = translationsList.FirstOrDefault(x => x.ParentID == item.ID);
+                        if (itemTranslation == null)
+                            menuitem.menuName = "menuID:" + item.ID.ToString() + "--";
+                        else
+                            menuitem.menuName = itemTranslation.MenuName ?? "";
                     }
-                    if (mlv1 != null)
-                        mlv1.items.Add(item);
                 }
-                catch (System.Exception ex)
-                {
-                }
-
             }
-            foreach (var item in MenuLevel1)
-            {
-                try
-                {
-                    var mlv0 = MenuLevel0.FirstOrDefault(x => x.id == item.parentID);
-                    if (mlv0 == null)
-                    {
-                        mlv0 = defaultMenulist.FirstOrDefault(x => x.id == item.parentID);
-                        if (mlv0 != null)
-                            MenuLevel0.Add(mlv0);
-                    }
-                    if (mlv0 != null)
-                        mlv0.items.Add(item);
-                }
-                catch (System.Exception ex)
-                {
-                }
-
-            }
-            return MenuLevel0;
+            return menuTree;
         }
 
         public string Sifrele(string text)

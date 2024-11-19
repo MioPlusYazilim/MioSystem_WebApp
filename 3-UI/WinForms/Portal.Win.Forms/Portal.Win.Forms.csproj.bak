@@ -8,12 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="System\User\FrmUserGroup.cs" />
-    <Compile Remove="System\User\FrmUserGroup.Designer.cs" />
+    <Compile Remove="UI\System\User\FrmUserGroup.cs" />
+    <Compile Remove="UI\System\User\FrmUserGroup.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Remove="System\User\FrmUserGroup.resx" />
+    <EmbeddedResource Remove="UI\System\User\FrmUserGroup.resx" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,35 +22,64 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="DevExpress.Data" Version="23.2.3" />
-    <PackageReference Include="DevExpress.Utils" Version="23.2.3" />
-    <PackageReference Include="DevExpress.Win" Version="23.2.3" />
-    <PackageReference Include="DevExpress.Win.Design" Version="23.2.3" />
+    <PackageReference Include="DevExpress.Data" Version="23.2.4" />
+    <PackageReference Include="DevExpress.Utils" Version="23.2.4" />
+    <PackageReference Include="DevExpress.Win" Version="23.2.4" />
+    <PackageReference Include="DevExpress.Win.Design" Version="23.2.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\2-Shared\MioPortal.Model\MioPortal.Model.csproj" />
-    <ProjectReference Include="..\..\..\2-Shared\MioPortal.Util\MioPortal.Util.csproj" />
-    <ProjectReference Include="..\MioPortal.Win.Utils\MioPortal.Win.Utils.csproj" />
+    <ProjectReference Include="..\..\..\1-Data\Portal.Data.Services\Portal.Data.Services.csproj" />
+    <ProjectReference Include="..\..\..\2-Shared\Portal.Helpers\Portal.Helpers.csproj" />
+    <ProjectReference Include="..\..\..\2-Shared\Portal.Models\Portal.Model.csproj" />
+    <ProjectReference Include="..\Portal.Win.DxUtils\Portal.Win.DxUtils.csproj" />
+    <ProjectReference Include="..\Portal.Win.Utils\Portal.Win.Utils.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Base\BaseForm.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
     <Compile Update="Base\FrmAbout.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Base\FrmLogin.cs">
-      <SubType>Form</SubType>
+    <Compile Update="Base\FrmLogin.cs" />
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Update="Base\FrmMainForm.cs">
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Update="UI\System\FrmDashboardMain.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="System\User\" />
+    <Folder Include="UI\Cruise\" />
+    <Folder Include="UI\FlightTicket\" />
+    <Folder Include="UI\Hotel\" />
+    <Folder Include="UI\RentACar\" />
+    <Folder Include="UI\System\User\" />
+    <Folder Include="UI\Tour\" />
+    <Folder Include="UI\Transfer\" />
+    <Folder Include="UI\Visa\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
 
 </Project>

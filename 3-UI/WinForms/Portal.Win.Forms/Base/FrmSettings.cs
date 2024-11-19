@@ -1,35 +1,31 @@
-﻿using DevExpress.CodeParser;
-using DevExpress.Utils;
-using DevExpress.XtraBars;
+﻿using DevExpress.XtraBars;
 using DevExpress.XtraBars.Navigation;
-using DevExpress.XtraEditors;
 using DevExpress.XtraGrid.Views.Grid;
 using DevExpress.XtraGrid.Views.Grid.ViewInfo;
 using DevExpress.XtraPrinting;
-using Portal.Data.Services;
+using MioSystem.DxUtils;
+using MioSystem.Utils;
 using Portal.Data.Services.GlobalContextService;
 using Portal.Helpers;
 using Portal.Model;
-using Portal.Win.DxUtils;
 using Portal.Win.Forms.Base;
-using Portal.Win.Utils;
 using System.Data;
 using System.Reflection;
 
 namespace Portal.Win.Forms
 {
-    public partial class FrmSettings : FrmAppBaseForm
+    public partial class FrmSettings : FrmBaseForm
     {
         string HeaderlabelText = string.Empty;
         DxFunctions dxFunctions;
-        LoginResponse loginResponse;
-        NavigationRole menuClicked;
+        Login loginResponse;
+        NavigationAuthory menuClicked;
 
         public FrmSettings()
         {
             InitializeComponent();
             dxFunctions = new DxFunctions();
-            loginResponse = LoginResponse.GetLoginResponse();
+            loginResponse = Login.GetLoginUser();
         }
 
         private void MainFormYeni_Load(object sender, EventArgs e)
@@ -54,7 +50,7 @@ namespace Portal.Win.Forms
             MainMenuaccordionControl.Elements.Clear();
             AccordionControlElement ParentGroup;
             AccordionControlElement ChildItem;
-            var navigationItems = loginResponse.settingsMenuNavigations.FirstOrDefault(x => x.modulID == modulID);
+            var navigationItems = loginResponse.settingsMenu.FirstOrDefault(x => x.modulID == modulID);
             if (navigationItems == null) 
                 return;
             foreach (var item in navigationItems.items)
@@ -71,7 +67,7 @@ namespace Portal.Win.Forms
                 {
                     ChildItem = new AccordionControlElement();
                     ChildItem.Text = child.menuName;
-                    ChildItem.Tag = child.menuTag;
+                    ChildItem.Tag = child.authoryID;
                     ChildItem.Style = ElementStyle.Item;
                     ChildItem.Click += new EventHandler(accordionControlElement_Click);
                     ParentGroup.Elements.Add(ChildItem);
@@ -84,7 +80,7 @@ namespace Portal.Win.Forms
             try
             {
                 int MenuID = Convert.ToInt32(((AccordionControlElement)sender).Tag);
-                menuClicked = loginResponse.navigationAuthories.FirstOrDefault(x => x.menuTag == MenuID);
+                menuClicked = loginResponse.authories.FirstOrDefault(x => x.authoryID == MenuID);
                 if (menuClicked == null) return;
                 RefreshGridDataSource();
             }
@@ -126,16 +122,16 @@ namespace Portal.Win.Forms
                 return;
 
             object[] args = { new CustomDataObject("FormID", FormID),
-                              new CustomDataObject("MenuID", menuClicked.menuTag),
+                              new CustomDataObject("MenuID", menuClicked.authoryID),
                               new CustomDataObject("FormType", menuClicked.formType),
                               new CustomDataObject("NavigationAuthory",menuClicked)};
 
-            if (menuClicked.menuTag > 0)
+            if (menuClicked.authoryID > 0)
             {
                 Type tForm = new CheckForm().GetFormTypeFromDll(menuClicked.editFormName);
                 if (tForm != null)
                 {
-                    FrmAppBaseFormEdit baseForm = new CheckForm().OpenForm<FrmAppBaseFormEdit>(args);
+                    FrmBaseFormEdit baseForm = new CheckForm().OpenForm<FrmBaseFormEdit>(args);
                     if (baseForm.ShowDialog() == DialogResult.OK)
                     {
                         RefreshGridDataSource();
@@ -154,7 +150,7 @@ namespace Portal.Win.Forms
             tempGridControl.DataSource = null;
 
             BindingSource source = new BindingSource();
-            string[] listparams = (menuClicked.listMethodName ?? "").Split('.');
+            string[] listparams = (menuClicked.listSourceName ?? "").Split('.');
 
             var assembly = AppDomain.CurrentDomain.GetAssemblies().FirstOrDefault(a => a.FullName.StartsWith("Portal.Data.Services"));
             if (assembly == null) return;

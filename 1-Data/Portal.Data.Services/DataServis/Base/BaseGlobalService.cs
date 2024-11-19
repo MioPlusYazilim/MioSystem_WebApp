@@ -11,10 +11,10 @@ namespace Portal.Data.Services.Base
     public class BaseGlobalService : IBaseGlobalService
     {
         public GlobalDataContext dbContext;
-        public readonly LoginResponse loginResponse;
+        public readonly Login loginResponse;
         public IMapper mapper;
 
-        public BaseGlobalService(LoginResponse _loginResponse)
+        public BaseGlobalService(Login _loginResponse)
         {
             this.loginResponse = _loginResponse;
             SetDbContext();
@@ -22,7 +22,7 @@ namespace Portal.Data.Services.Base
         }
         public BaseGlobalService()
         {
-            this.loginResponse = LoginResponse.GetLoginResponse();
+            this.loginResponse = Login.GetLoginUser();
             SetDbContext();
             mapper = createMapConfig().CreateMapper();
         }
