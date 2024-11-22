@@ -9,13 +9,15 @@ using System;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Collections.Generic;
+using DevExpress.XtraEditors;
 
 namespace MioSystem
 {
-    public partial class FrmLogin : FrmBaseForm
+    public partial class FrmLogin : XtraForm
     {
         public string version = string.Empty;
         public bool CheckUser = false;
+        public Login loginUser = Login.GetLoginUser();
         private void chkHatirla_CheckedChanged(object sender, EventArgs e)
         {
             if (chkHatirla.Checked == false)
@@ -42,7 +44,7 @@ namespace MioSystem
             DxFunctions dxFunctions = new DxFunctions();
             try
             {
-                dxFunctions.ShowWaitForm("Kullanıcı Doğrulanıyor...");
+                dxFunctions.ShowWaitForm("...");
 
                 dxValidationProvider1.Validate();
                 if (dxValidationProvider1.GetInvalidControls().Count == 0)
@@ -83,7 +85,7 @@ namespace MioSystem
             loginUser.authories = response.authories;
             loginUser.mainMenu = response.mainMenu;
             loginUser.settingsMenu = response.settingsMenu;
-            loginUser.winTheme = response.winTheme ?? "Office 2013 Light Gray";
+            loginUser.winTheme = response.winTheme ?? "Basic";
             loginUser.displayLanguage = response.displayLanguage;
             loginUser.clientKey = response.clientKey;
 

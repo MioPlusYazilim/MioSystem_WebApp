@@ -13,10 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="UI\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\..\1-Data\Portal.Data.Services\Portal.Data.Services.csproj" />
     <ProjectReference Include="..\..\..\2-Shared\Portal.Helpers\Portal.Helpers.csproj" />
     <ProjectReference Include="..\..\..\2-Shared\Portal.Models\Portal.Model.csproj" />
@@ -25,9 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Base\FrmBaseForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

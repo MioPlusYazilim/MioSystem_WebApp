@@ -30,7 +30,6 @@
         {
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMainForm));
-            fluentDesignFormContainer1 = new DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormContainer();
             MainMenuAccordionControl = new DevExpress.XtraBars.Navigation.AccordionControl();
             accordionControlElement1 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             fluentDesignFormControl1 = new DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormControl();
@@ -39,22 +38,14 @@
             skinBarSubItem2 = new DevExpress.XtraBars.SkinBarSubItem();
             barStaticItemNavigation = new DevExpress.XtraBars.BarStaticItem();
             fluentFormDefaultManager1 = new DevExpress.XtraBars.FluentDesignSystem.FluentFormDefaultManager(components);
-            accordionControlOpenedModules = new DevExpress.XtraBars.Navigation.AccordionControl();
+            documentManager1 = new DevExpress.XtraBars.Docking2010.DocumentManager(components);
+            tabbedView1 = new DevExpress.XtraBars.Docking2010.Views.Tabbed.TabbedView(components);
             ((System.ComponentModel.ISupportInitialize)MainMenuAccordionControl).BeginInit();
             ((System.ComponentModel.ISupportInitialize)fluentDesignFormControl1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)fluentFormDefaultManager1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)accordionControlOpenedModules).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)documentManager1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)tabbedView1).BeginInit();
             SuspendLayout();
-            // 
-            // fluentDesignFormContainer1
-            // 
-            fluentDesignFormContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            fluentDesignFormContainer1.Location = new System.Drawing.Point(62, 39);
-            fluentDesignFormContainer1.Name = "fluentDesignFormContainer1";
-            fluentDesignFormContainer1.Size = new System.Drawing.Size(641, 470);
-            fluentDesignFormContainer1.TabIndex = 0;
-            fluentDesignFormContainer1.ControlAdded += fluentDesignFormContainer1_ControlAdded;
-            fluentDesignFormContainer1.ControlRemoved += fluentDesignFormContainer1_ControlRemoved;
             // 
             // MainMenuAccordionControl
             // 
@@ -67,13 +58,12 @@
             MainMenuAccordionControl.OptionsMinimizing.State = DevExpress.XtraBars.Navigation.AccordionControlState.Minimized;
             MainMenuAccordionControl.ScrollBarMode = DevExpress.XtraBars.Navigation.ScrollBarMode.Touch;
             MainMenuAccordionControl.ShowFilterControl = DevExpress.XtraBars.Navigation.ShowFilterControl.Always;
-            MainMenuAccordionControl.Size = new System.Drawing.Size(62, 470);
+            MainMenuAccordionControl.Size = new System.Drawing.Size(60, 470);
             MainMenuAccordionControl.TabIndex = 1;
             MainMenuAccordionControl.ViewType = DevExpress.XtraBars.Navigation.AccordionControlViewType.HamburgerMenu;
             // 
             // accordionControlElement1
             // 
-            accordionControlElement1.ImageOptions.SvgImage = Properties.Resources.ContactPresence;
             accordionControlElement1.Name = "accordionControlElement1";
             accordionControlElement1.Text = "Element1";
             // 
@@ -122,19 +112,12 @@
             fluentFormDefaultManager1.Items.AddRange(new DevExpress.XtraBars.BarItem[] { skinPaletteDropDownButtonItem1, skinBarSubItem1, skinBarSubItem2, barStaticItemNavigation });
             fluentFormDefaultManager1.MaxItemId = 4;
             // 
-            // accordionControlOpenedModules
+            // documentManager1
             // 
-            accordionControlOpenedModules.Dock = System.Windows.Forms.DockStyle.Right;
-            accordionControlOpenedModules.ElementPositionOnExpanding = DevExpress.XtraBars.Navigation.ElementPositionOnExpanding.Fixed;
-            accordionControlOpenedModules.Location = new System.Drawing.Point(643, 39);
-            accordionControlOpenedModules.Name = "accordionControlOpenedModules";
-            accordionControlOpenedModules.OptionsHamburgerMenu.DisplayMode = DevExpress.XtraBars.Navigation.AccordionControlDisplayMode.Minimal;
-            accordionControlOpenedModules.OptionsMinimizing.State = DevExpress.XtraBars.Navigation.AccordionControlState.Minimized;
-            accordionControlOpenedModules.ScrollBarMode = DevExpress.XtraBars.Navigation.ScrollBarMode.Touch;
-            accordionControlOpenedModules.ShowFilterControl = DevExpress.XtraBars.Navigation.ShowFilterControl.Always;
-            accordionControlOpenedModules.Size = new System.Drawing.Size(60, 470);
-            accordionControlOpenedModules.TabIndex = 3;
-            accordionControlOpenedModules.ViewType = DevExpress.XtraBars.Navigation.AccordionControlViewType.HamburgerMenu;
+            documentManager1.ContainerControl = this;
+            documentManager1.MenuManager = fluentFormDefaultManager1;
+            documentManager1.View = tabbedView1;
+            documentManager1.ViewCollection.AddRange(new DevExpress.XtraBars.Docking2010.Views.BaseView[] { tabbedView1 });
             // 
             // FrmMainForm
             // 
@@ -142,15 +125,11 @@
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(703, 509);
-            ControlContainer = fluentDesignFormContainer1;
-            Controls.Add(accordionControlOpenedModules);
-            Controls.Add(fluentDesignFormContainer1);
             Controls.Add(MainMenuAccordionControl);
             Controls.Add(fluentDesignFormControl1);
             FluentDesignFormControl = fluentDesignFormControl1;
             IconOptions.Image = (System.Drawing.Image)resources.GetObject("FrmMainForm.IconOptions.Image");
             Name = "FrmMainForm";
-            NavigationControl = accordionControlOpenedModules;
             StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             Text = "MioSystem";
             WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -158,12 +137,12 @@
             ((System.ComponentModel.ISupportInitialize)MainMenuAccordionControl).EndInit();
             ((System.ComponentModel.ISupportInitialize)fluentDesignFormControl1).EndInit();
             ((System.ComponentModel.ISupportInitialize)fluentFormDefaultManager1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)accordionControlOpenedModules).EndInit();
+            ((System.ComponentModel.ISupportInitialize)documentManager1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)tabbedView1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
-        private DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormContainer fluentDesignFormContainer1;
         private DevExpress.XtraBars.Navigation.AccordionControl MainMenuAccordionControl;
         private DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormControl fluentDesignFormControl1;
         private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement1;
@@ -171,8 +150,9 @@
         private DevExpress.XtraBars.SkinPaletteDropDownButtonItem skinPaletteDropDownButtonItem1;
         private DevExpress.XtraBars.SkinBarSubItem skinBarSubItem1;
         private DevExpress.XtraBars.SkinBarSubItem skinBarSubItem2;
-        private DevExpress.XtraBars.Navigation.AccordionControl accordionControlOpenedModules;
         private DevExpress.XtraBars.BarStaticItem barStaticItemNavigation;
+        private DevExpress.XtraBars.Docking2010.DocumentManager documentManager1;
+        private DevExpress.XtraBars.Docking2010.Views.Tabbed.TabbedView tabbedView1;
     }
 }
 

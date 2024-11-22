@@ -34,8 +34,8 @@ namespace Portal.Data.Context
         public DbSet<CustomerCorporate> CustomerCorporates { get; set; }
         public DbSet<CustomerCorporateSelectView> CustomerCorporateSelectViews { get; set; }
 
-        public DbSet<Role> Roles { get; set; }
         public DbSet<RoleAuthory> RoleAuthories { get; set; }
+        public DbSet<RoleAuthoryPermission> RoleAuthoryPermissions { get; set; }
 
         public DbSet<TransactionStatus> transactionStatuses { get; set; }
         public DbSet<TransactionStatusSelectView> TransactionStatusSelectViews { get; set; }

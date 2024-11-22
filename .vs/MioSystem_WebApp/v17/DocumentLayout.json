@@ -1,32 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\WorkSpaces\\MioSystem_WebApp\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|c:\\workspaces\\miosystem_webapp\\3-ui\\winforms\\miosystem\\base\\frmmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|solutionrelative:3-ui\\winforms\\miosystem\\base\\frmmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|c:\\workspaces\\miosystem_webapp\\3-ui\\winforms\\miosystem\\base\\frmmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|solutionrelative:3-ui\\winforms\\miosystem\\base\\frmmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|c:\\workspaces\\miosystem_webapp\\3-ui\\winforms\\miosystem\\base\\frmmainlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|solutionrelative:3-ui\\winforms\\miosystem\\base\\frmmainlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\1-data\\portal.data\\entities\\globalentities\\navigation\\navigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\globalentities\\navigation\\navigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\3-ui\\winforms\\miosystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|solutionrelative:3-ui\\winforms\\miosystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{762C87FD-B19D-4F05-8F03-2AF1649F9DD7}|1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\1-data\\portal.data.services\\dataservis\\authenticate\\authenticateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{762C87FD-B19D-4F05-8F03-2AF1649F9DD7}|1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj|solutionrelative:1-data\\portal.data.services\\dataservis\\authenticate\\authenticateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -34,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,80 +38,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmMainList.cs [Design]",
-              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\FrmMainList.cs",
-              "RelativeDocumentMoniker": "3-UI\\WinForms\\MioSystem\\Base\\FrmMainList.cs",
-              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\FrmMainList.cs [Design]",
-              "RelativeToolTip": "3-UI\\WinForms\\MioSystem\\Base\\FrmMainList.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T13:43:14.617Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmMainForm.cs [Design]",
-              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\FrmMainForm.cs",
-              "RelativeDocumentMoniker": "3-UI\\WinForms\\MioSystem\\Base\\FrmMainForm.cs",
-              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\FrmMainForm.cs [Design]",
-              "RelativeToolTip": "3-UI\\WinForms\\MioSystem\\Base\\FrmMainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T10:12:05.295Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Navigation.cs",
-              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\GlobalEntities\\Navigation\\Navigation.cs",
-              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\GlobalEntities\\Navigation\\Navigation.cs",
-              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\GlobalEntities\\Navigation\\Navigation.cs",
-              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\GlobalEntities\\Navigation\\Navigation.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAzwA0AAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T07:39:37.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthenticateService.cs",
-              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\DataServis\\Authenticate\\AuthenticateService.cs",
-              "RelativeDocumentMoniker": "1-Data\\Portal.Data.Services\\DataServis\\Authenticate\\AuthenticateService.cs",
-              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\DataServis\\Authenticate\\AuthenticateService.cs",
-              "RelativeToolTip": "1-Data\\Portal.Data.Services\\DataServis\\Authenticate\\AuthenticateService.cs",
-              "ViewState": "AQIAALMAAAAAAAAAAAAtwNYAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T11:37:30.897Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmMainForm.cs",
-              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\FrmMainForm.cs",
-              "RelativeDocumentMoniker": "3-UI\\WinForms\\MioSystem\\Base\\FrmMainForm.cs",
-              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\FrmMainForm.cs",
-              "RelativeToolTip": "3-UI\\WinForms\\MioSystem\\Base\\FrmMainForm.cs",
-              "ViewState": "AQIAAMsAAAAAAAAAAAAMwNYAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T07:48:18.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Program.cs",
-              "RelativeDocumentMoniker": "3-UI\\WinForms\\MioSystem\\Program.cs",
-              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Program.cs",
-              "RelativeToolTip": "3-UI\\WinForms\\MioSystem\\Program.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAIAwwEEAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T15:18:46.287Z"
             }
           ]
         }

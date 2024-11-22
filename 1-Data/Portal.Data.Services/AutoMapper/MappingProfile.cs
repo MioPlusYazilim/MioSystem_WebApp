@@ -12,8 +12,8 @@ namespace Portal.Api.Mapper
             CreateMap<EmployeeAuthorization, EmployeeParameters_Dto>().ReverseMap();
             CreateMap<EmployeeSystemCode, EmployeeSystemCode_Dto>().ReverseMap();
 
-            CreateMap<Role, Role_Dto>().ReverseMap();
-            CreateMap<RoleAuthory, RoleAuthory_Dto>().ReverseMap();
+            CreateMap<RoleAuthory, Role_Dto>().ReverseMap();
+            CreateMap<RoleAuthoryPermission, RoleAuthory_Dto>().ReverseMap();
 
 
             //CreateMap<Company, Company_Model>().ReverseMap();

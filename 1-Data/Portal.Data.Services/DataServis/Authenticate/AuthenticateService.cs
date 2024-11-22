@@ -126,17 +126,17 @@ namespace Portal.Data.Services
 
 
             string connstr = string.Empty;
-            using (CryptoManager engine = new CryptoManager(""))
+            using (CryptoManager engine = new(""))
                 connstr = engine.Decrypt(client.ClientValue);
 
-            using (ClientDataContext dbContext = new ClientDataContext(connstr))
+            using (ClientDataContext dbContext = new(connstr))
             {
                 var employee = dbContext.Employees.Include(i => i.employeeAuthorizations).FirstOrDefault(x => x.ID == clientUser.EmployeeID);
                 if (employee == null)
-                    return new Login();
+                    return response;
                 var company = dbContext.Companies.FirstOrDefault(x => x.ID == employee.CompanyID);
                 if(company == null)
-                    return new Login();
+                    return response;
 
                 response.clientKey = client.ClientValue;
                 response.companyID = employee.CompanyID;
@@ -157,7 +157,7 @@ namespace Portal.Data.Services
                 response.profileImagePath = string.Empty;
 
 
-                var roleAuthories = dbContext.RoleAuthories.Where(x => x.AllowList && x.RoleID == employee.employeeAuthorizations.AuthoryRole).ToList();
+                var roleAuthories = dbContext.RoleAuthoryPermissions.Where(x => x.AllowList && x.RoleID == employee.employeeAuthorizations.AuthoryRole).ToList();
                 response.authories = GetUserAuthories(roleAuthories);
                 response.mainMenu = GetUserMenuTree(response.authories, true);
                 response.settingsMenu = GetUserMenuTree(response.authories, false);
@@ -168,7 +168,7 @@ namespace Portal.Data.Services
             return response;
         }
 
-        private List<NavigationAuthory> GetUserAuthories(List<RoleAuthory> roleAuthories)
+        private List<NavigationAuthory> GetUserAuthories(List<RoleAuthoryPermission> roleAuthories)
         {
             var roleAuthIDs = roleAuthories.Select(s=>s.MenuID).ToList();
             var navigationAuths = (from nvg in globalDataContext.Navigations.AsNoTracking()
@@ -217,7 +217,7 @@ namespace Portal.Data.Services
             //level 3 menu Items
             var level3MenuItems = globalDataContext
                                   .Navigations
-                                  .Where(x => x.MenuActive && (isMainMenu ? x.MenuFormType > 1 : x.MenuFormType == 1)
+                                  .Where(x => x.MenuActive && (isMainMenu ? (x.MenuFormType > 1 || x.ModulID == 1) : (x.MenuFormType == 1 && x.ModulID > 1))
                                         && authoryIDs.Contains(x.ID))
                                   .ToList();
             //level 2 menu items

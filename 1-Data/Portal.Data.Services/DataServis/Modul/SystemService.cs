@@ -28,8 +28,8 @@ namespace Portal.Data.Services
         {
             var config = new MapperConfiguration(cfg =>
             {
-                cfg.CreateMap<Role, Role_Dto>().ReverseMap();
-                cfg.CreateMap<RoleAuthory, RoleAuthory_Dto>().ReverseMap();
+                cfg.CreateMap<RoleAuthory, Role_Dto>().ReverseMap();
+                cfg.CreateMap<RoleAuthoryPermission, RoleAuthory_Dto>().ReverseMap();
 
             });
             return config;
@@ -39,13 +39,13 @@ namespace Portal.Data.Services
             var result = new SaveResult();
             try
             {
-                var rolegroup = mapper.Map<Role>(model);
+                var rolegroup = mapper.Map<RoleAuthory>(model);
                 using (UnitOfWork uow = new UnitOfWork(clientContext))
                 {
                     if (model.deleted)
                         clientContext.Entry(rolegroup).State = Microsoft.EntityFrameworkCore.EntityState.Deleted;
                     else
-                        clientContext.Set<Role>().Update(rolegroup);
+                        clientContext.Set<RoleAuthory>().Update(rolegroup);
 
                     uow.BeginTransaction();
                     result = await uow.SaveChangesAsync();
@@ -57,12 +57,12 @@ namespace Portal.Data.Services
                         if (model.deleted)
                             roleModel.deleted = true;
 
-                        var role = mapper.Map<RoleAuthory>(roleModel);
+                        var role = mapper.Map<RoleAuthoryPermission>(roleModel);
 
                         if (roleModel.deleted)
                             clientContext.Entry(role).State = Microsoft.EntityFrameworkCore.EntityState.Deleted;
                         else
-                            clientContext.Set<RoleAuthory>().Update(role);
+                            clientContext.Set<RoleAuthoryPermission>().Update(role);
 
                         result = await uow.SaveChangesAsync();
                         if (result.isSuccess == false)
@@ -87,7 +87,7 @@ namespace Portal.Data.Services
         {
             try
             {
-                var rolgroup = await clientContext.Roles.Include(i => i.authories).FirstOrDefaultAsync(s => s.ID == id);
+                var rolgroup = await clientContext.RoleAuthories.Include(i => i.permissions).FirstOrDefaultAsync(s => s.ID == id);
                 if (rolgroup == null) return null;
                 var model = mapper.Map<Role_Dto>(rolgroup);
                 return model;
@@ -104,7 +104,7 @@ namespace Portal.Data.Services
             {
                 return await Task.Run(() =>
                                   clientContext
-                                  .Roles
+                                  .RoleAuthories
                                   .Select(s => new SelectItem()
                                   {
                                       value = s.ID,
@@ -123,7 +123,7 @@ namespace Portal.Data.Services
             {
                 return await Task.Run(() =>
                                   clientContext
-                                  .Roles
+                                  .RoleAuthories
                                   .Select(s => new
                                   {
                                       id = s.ID,
