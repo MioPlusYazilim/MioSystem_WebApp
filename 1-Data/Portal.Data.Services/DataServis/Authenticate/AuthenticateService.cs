@@ -168,7 +168,7 @@ namespace Portal.Data.Services
             return response;
         }
 
-        private List<NavigationAuthory> GetUserAuthories(List<RoleAuthoryPermission> roleAuthories)
+        private List<NavigationAuthory_Model> GetUserAuthories(List<RoleAuthoryPermission> roleAuthories)
         {
             var roleAuthIDs = roleAuthories.Select(s=>s.MenuID).ToList();
             var navigationAuths = (from nvg in globalDataContext.Navigations.AsNoTracking()
@@ -176,7 +176,7 @@ namespace Portal.Data.Services
                                    where roleAuthIDs.Contains(nvg.MenuTag)
                                          && trs.LanguageCode == loginResponse.workingLang
                                          && nvg.MenuActive
-                                   select (new NavigationAuthory()
+                                   select (new NavigationAuthory_Model()
                                    {
                                        id = nvg.ID,
                                        authoryID = nvg.MenuTag,
@@ -210,7 +210,7 @@ namespace Portal.Data.Services
             return navigationAuths;
         }
 
-        private List<NavigationMenu> GetUserMenuTree(List<NavigationAuthory> authories, bool isMainMenu)
+        private List<NavigationMenu_Model> GetUserMenuTree(List<NavigationAuthory_Model> authories, bool isMainMenu)
         {
             var translationsList = globalDataContext.NavigationTranslations.Where(x => x.LanguageCode == loginResponse.workingLang).ToList();
             var authoryIDs =authories.Select(s=>s.id).ToList();
@@ -228,11 +228,11 @@ namespace Portal.Data.Services
             var level2MenuItemsParentIDs = level2MenuItems.Select(s => s.ParentID).Distinct().ToList();
             var level1MenuItems = globalDataContext.Navigations.Where(x => level2MenuItemsParentIDs.Contains(x.ID)).ToList();
 
-            List<NavigationMenu> menuTree = new List<NavigationMenu>();
+            List<NavigationMenu_Model> menuTree = new List<NavigationMenu_Model>();
             foreach (var modulMenuItem in level1MenuItems.OrderBy(x => x.MenuOrder).ToList())
             {
                 //Modul Grupları
-                var parentMenuitem = new NavigationMenu();
+                var parentMenuitem = new NavigationMenu_Model();
                 menuTree.Add(parentMenuitem);
                 parentMenuitem.id = modulMenuItem.ID;
                 parentMenuitem.authoryID = modulMenuItem.MenuTag;
@@ -247,7 +247,7 @@ namespace Portal.Data.Services
                 // Alt Gruplar
                 foreach (var childItem in level2MenuItems.Where(x => x.ParentID == modulMenuItem.ID).OrderBy(x => x.MenuOrder).ToList())
                 {
-                    var childMenuitem = new NavigationMenu();
+                    var childMenuitem = new NavigationMenu_Model();
                     parentMenuitem.items.Add(childMenuitem);
                     childMenuitem.id = childItem.ID;
                     childMenuitem.authoryID = childItem.MenuTag;
@@ -263,7 +263,7 @@ namespace Portal.Data.Services
                     // Menu Items
                     foreach (var item in level3MenuItems.Where(x => x.ParentID == childItem.ID).OrderBy(x => x.MenuOrder).ToList())
                     {
-                        var menuitem = new NavigationMenu();
+                        var menuitem = new NavigationMenu_Model();
                         childMenuitem.items.Add(menuitem);
                         menuitem.id = item.ID;
                         menuitem.authoryID = item.MenuTag;

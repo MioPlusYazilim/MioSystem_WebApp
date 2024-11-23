@@ -28,12 +28,7 @@ namespace MioSystem
         public FrmMainForm()
         {
             InitializeComponent();
-            tabbedView1.QueryControl += TabbedView1_QueryControl;
             tabbedView1.DocumentAdded += TabbedView1_DocumentAdded;
-        }
-
-        private void TabbedView1_QueryControl(object sender, DevExpress.XtraBars.Docking2010.Views.QueryControlEventArgs e)
-        {
         }
 
         private void TabbedView1_DocumentAdded(object sender, DevExpress.XtraBars.Docking2010.Views.DocumentEventArgs e)
@@ -168,63 +163,29 @@ namespace MioSystem
                 var navAuth = loginUser.authories.FirstOrDefault(x => x.id == Convert.ToInt32(element.Tag));
                 if (navAuth != null)
                 {
-                    switch (navAuth.formType)
-                    {
-                        case 1:
-                        case 2:
-                             OpenMainList(navAuth);
-                            break;
-                        case 3:
-                        case 4:
-                        case 5:
-                            OpenSingleForm(navAuth);
-                            break;
-                        case 6:
-                             OpenSingleForm(navAuth);
-                            break;
-                    }
+                    CreateForm(navAuth, navAuth.formType);
                 }
             }
+            MainMenuAccordionControl.OptionsMinimizing.State = AccordionControlState.Minimized;
         }
 
-        void OpenMainList(NavigationAuthory navAuth)
+        void CreateForm(NavigationAuthory_Model navAuth, int  FormTypeID)
         {
-            var listName = navAuth.menuName + "_" + navAuth.modulID + "_" + navAuth.formType;
-            
-            foreach (var doc in documentManager1.View.Documents)
-            {
-                var control = (FrmBaseUserControl)doc.Control;
-                if (control.Name == listName && control.formSettings.FormID == 0 && control.formSettings.FormModulID == navAuth.modulID)
-                {
-                    documentManager1.View.ActivateDocument(control);
-                    return;
-                }
-            }
-            FrmMainList mainList = new(new()
+            var nFormSettings = new BaseFormSettings()
             {
                 FormID = 0,
                 FormAuthoryID = navAuth.id,
                 FormModulID = navAuth.modulID,
-            })
-            {
-                AppDocumentManager = documentManager1,
             };
-            documentManager1.View.AddDocument(mainList);
-            documentManager1.View.ActivateDocument(mainList);
-            mainList.InitCaption("");
+            nFormSettings.Init();
+            if (FormTypeID == 6)
+            {
+                FormFactory.CreateOrActivateEditForm(documentManager1, nFormSettings);
+            }
+            else
+            {
+                FormFactory.CreateOrActivateListForm(documentManager1, nFormSettings, FormTypeID);
+            }
         }
-        void OpenReportForm(NavigationAuthory navAuth)
-        {
-
-        }
-        void OpenSingleForm(NavigationAuthory navAuth)
-        {
-
-        }
-
-        private void ModuleItm_Click(object sender, EventArgs e)
-        {
-        }
-
     }
 }

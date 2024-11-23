@@ -18,6 +18,7 @@ namespace MioSystem.UI
         public FrmRoleAuthory(BaseFormSettings _formSettings) : base(_formSettings)
         {
             InitializeComponent();
+            FormCaption = _formSettings.FormID.ToString();
         }
     }
 }

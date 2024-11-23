@@ -36,7 +36,7 @@ namespace Portal.Win.Forms
             {
                 int FormID = new ObjectConvert().ToInt32(args, "FormID");
                 int FormType = new ObjectConvert().ToInt32(args, "FormType");
-                NavigationAuthory MyYetki = (NavigationAuthory)new ObjectConvert().ToObject(args, "NavigationAuthory");
+                NavigationAuthory_Model MyYetki = (NavigationAuthory_Model)new ObjectConvert().ToObject(args, "NavigationAuthory");
                 string EditFormName = MyYetki.editFormName;
                 string ListFormName = MyYetki.listFormName;
 
@@ -152,7 +152,7 @@ namespace Portal.Win.Forms
             {
                 int FormID = new ObjectConvert().ToInt32(args, "FormID");
                 int FormType = new ObjectConvert().ToInt32(args, "FormType");
-                NavigationAuthory MyYetki = (NavigationAuthory)new ObjectConvert().ToObject(args, "NavigationAuthory");
+                NavigationAuthory_Model MyYetki = (NavigationAuthory_Model)new ObjectConvert().ToObject(args, "NavigationAuthory");
                 string EditFormName = MyYetki.editFormName;
                 string ListFormName = MyYetki.listFormName;
                 string FormCaption = MyYetki.editFormCaption;

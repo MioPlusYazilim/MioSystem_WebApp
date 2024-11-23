@@ -10,7 +10,7 @@ namespace MioSystem.Utils
     public class BaseFormSettings
     {
         public Login FormUser { get; set; } = Login.GetLoginUser();
-        public NavigationAuthory FormPermissions { get; set; }
+        public NavigationAuthory_Model FormPermissions { get; set; }
         public int FormModulID { get; set; } = 0;
         public int FormID { get; set; } = 0;
         public int FormAuthoryID { get; set; } = 0;

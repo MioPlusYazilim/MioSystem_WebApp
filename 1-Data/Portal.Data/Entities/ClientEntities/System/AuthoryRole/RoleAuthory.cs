@@ -12,7 +12,7 @@ namespace Portal.Data.Entities.ClientEntities
         }
 
         public string RoleName { get; set; }
-        public string Description { get; set; }
+        public string Note { get; set; }
         public bool Active { get; set; }
         public int CompanyID { get; set; }
         public virtual List<RoleAuthoryPermission> permissions { get; set; }

@@ -23,7 +23,7 @@ namespace Portal.Win.Forms
         public int FormID = 0;
         public int ParentID = 0;
 
-        public NavigationAuthory yetki;
+        public NavigationAuthory_Model yetki;
 
         public bool FormDoluyor = false;
         public bool CanClose = true;
@@ -57,7 +57,7 @@ namespace Portal.Win.Forms
             this.ParentID = new ObjectConvert().ToInt32(args, "ParentID");
             this.FormCaption = new ObjectConvert().ToString(args, "FormCaption");
             this.PopupMode = new ObjectConvert().ToBoolean(args, "PopupMode");
-            this.yetki = (NavigationAuthory)new ObjectConvert().ToObject(args, "NavigationAuthory");
+            this.yetki = (NavigationAuthory_Model)new ObjectConvert().ToObject(args, "NavigationAuthory");
             FormType = yetki != null ? yetki.formType : 0;
             FormValidator.ValidationMode = ValidationMode.Manual;
             InitializeComponent();

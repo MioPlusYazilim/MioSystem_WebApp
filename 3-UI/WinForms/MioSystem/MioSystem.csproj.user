@@ -2,20 +2,29 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="Base\FrmBaseEditForm.cs">
+    <Compile Update="Base\BaseForm\FrmBaseEditForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Base\FrmBaseUserControl.cs">
+    <Compile Update="Base\BaseForm\FrmBaseUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Base\ReportForm\FrmDocReport.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Base\FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Base\FrmMainList.cs">
+    <Compile Update="Base\ListForm\FrmMainList.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Base\FrmMainForm.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Base\ReportForm\FrmPivotReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Base\ReportForm\FrmTableReport.cs">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UI\FrmRoleAuthory.cs">
       <SubType>UserControl</SubType>

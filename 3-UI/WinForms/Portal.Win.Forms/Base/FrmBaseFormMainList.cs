@@ -19,7 +19,7 @@ namespace Portal.Win.Forms
     {
         public int MenuID;
         public int FormID = 0;
-        public NavigationAuthory yetki;
+        public NavigationAuthory_Model yetki;
         string FormCaption = string.Empty;
         public bool btnYeni = true;
         public int SelectedID = 0;

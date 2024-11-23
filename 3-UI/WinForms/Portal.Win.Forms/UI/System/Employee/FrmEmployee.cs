@@ -45,11 +45,11 @@ namespace Portal.Win.Forms
         public override SaveResult EntityKaydet()
         {
             dxFunctions.ShowWaitForm("Form Kaydediliyor...");
-            SaveResult result = employeeService.AddOrUpdateEmployee((Employee_Dto)FormEntity);
+            SaveResult result = employeeService.AddOrUpdateEmployee((Employee_Model)FormEntity);
             dxFunctions.CloseWaitForm();
             if (result.isSuccess)
             {
-                FormID = ((Employee_Dto)result.returnValue).id;
+                FormID = ((Employee_Model)result.returnValue).id;
             }
             else
             {
@@ -60,11 +60,11 @@ namespace Portal.Win.Forms
         public override void SetFormEntity()
         {
 
-            FormEntity = FormID > 0 ? employeeService.GetEmployee(FormID) : new Employee_Dto();
+            FormEntity = FormID > 0 ? employeeService.GetEmployee(FormID) : new Employee_Model();
             
             base.SetFormEntity();
             BindingSource phkbs = new BindingSource();
-            phkbs.DataSource = ((Employee_Dto)FormEntity).employeeSystemCodes;
+            phkbs.DataSource = ((Employee_Model)FormEntity).employeeSystemCodes;
             GridPersonelHavaYolu.DataSource = phkbs;
 
         }
@@ -81,13 +81,13 @@ namespace Portal.Win.Forms
 
         private void repositoryItemHyperLinkEditHavayoluDelete_OpenLink(object sender, DevExpress.XtraEditors.Controls.OpenLinkEventArgs e)
         {
-            EmployeeSystemCode_Dto fRow = (EmployeeSystemCode_Dto)ViewPersonelHavaYolu.GetFocusedRow();
+            EmployeeSystemCode_Model fRow = (EmployeeSystemCode_Model)ViewPersonelHavaYolu.GetFocusedRow();
             if (MessageManager.MessageBoxOnay("Dikkat","Kayıt Silinecek","Onaylıyor musunuz?")==DialogResult.Yes)
             {
                 if (fRow.id == 0)
                 {
                     
-                    ((Employee_Dto)FormEntity).employeeSystemCodes.Remove(fRow);
+                    ((Employee_Model)FormEntity).employeeSystemCodes.Remove(fRow);
                     ViewPersonelHavaYolu.PostEditor();
                     GridPersonelHavaYolu.RefreshDataSource();
                 }

@@ -10,14 +10,14 @@ namespace Portal.Data.Services
     public interface IEmployeeService : IBaseClientService
     {
         
-        SaveResult AddOrUpdateEmployee(Employee_Dto model);
-        Task<SaveResult> AddOrUpdateEmployeeAsync(Employee_Dto model);
+        SaveResult AddOrUpdateEmployee(Employee_Model model);
+        Task<SaveResult> AddOrUpdateEmployeeAsync(Employee_Model model);
         SaveResult DeleteEmployee(int id);
         Task<SaveResult> DeleteEmployeeAsync(int id);
         object EmployeeMainList();
         Task<object> EmployeeMainListAsync();
-        Employee_Dto GetEmployee(int id);
-        Task<Employee_Dto> GetEmployeeAsync(int id);
+        Employee_Model GetEmployee(int id);
+        Task<Employee_Model> GetEmployeeAsync(int id);
         List<SelectItem> GetEmployeeSelectList();
         Task<List<SelectItem>> GetEmployeeSelectListAsync();
     }
@@ -33,14 +33,14 @@ namespace Portal.Data.Services
         {
             var config = new MapperConfiguration(cfg =>
             {
-                cfg.CreateMap<Employee, Employee_Dto>().ReverseMap();
-                cfg.CreateMap<EmployeeAuthorization, EmployeeParameters_Dto>().ReverseMap();
-                cfg.CreateMap<EmployeeSystemCode, EmployeeSystemCode_Dto>().ReverseMap();
+                cfg.CreateMap<Employee, Employee_Model>().ReverseMap();
+                cfg.CreateMap<EmployeeAuthorization, EmployeeAuthory_Model>().ReverseMap();
+                cfg.CreateMap<EmployeeSystemCode, EmployeeSystemCode_Model>().ReverseMap();
 
             });
             return config;
         }
-        public SaveResult AddOrUpdateEmployee(Employee_Dto model)
+        public SaveResult AddOrUpdateEmployee(Employee_Model model)
         {
             SaveResult result = new SaveResult();
 
@@ -92,7 +92,7 @@ namespace Portal.Data.Services
             return result;
         }
 
-        public async Task<SaveResult> AddOrUpdateEmployeeAsync(Employee_Dto model)
+        public async Task<SaveResult> AddOrUpdateEmployeeAsync(Employee_Model model)
         {
             return await Task.Run(() => AddOrUpdateEmployee(model));
         }
@@ -162,7 +162,7 @@ namespace Portal.Data.Services
             return await Task.Run(EmployeeMainList);
         }
 
-        public Employee_Dto GetEmployee(int id)
+        public Employee_Model GetEmployee(int id)
         {
             var user = clientContext.Employees
                                       .Include(i => i.employeeAuthorizations)
@@ -170,9 +170,9 @@ namespace Portal.Data.Services
                                       .FirstOrDefault(x => x.ID == id);
             if (user == null)
                 return null;
-            return mapper.Map<Employee_Dto>(user);
+            return mapper.Map<Employee_Model>(user);
         }
-        public async Task<Employee_Dto> GetEmployeeAsync(int id)
+        public async Task<Employee_Model> GetEmployeeAsync(int id)
         {
             return await Task.Run(() => GetEmployee(id));
         }

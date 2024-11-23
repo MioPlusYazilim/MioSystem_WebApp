@@ -19,7 +19,7 @@ namespace Portal.Win.Forms
         string HeaderlabelText = string.Empty;
         DxFunctions dxFunctions;
         Login loginResponse;
-        NavigationAuthory menuClicked;
+        NavigationAuthory_Model menuClicked;
 
         public FrmSettings()
         {

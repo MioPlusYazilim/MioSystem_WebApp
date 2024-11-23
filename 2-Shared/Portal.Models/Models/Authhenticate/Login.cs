@@ -39,9 +39,9 @@ namespace Portal.Model
         public string globalKey { get; set; } = string.Empty;
         public List<int> customerIDs { get; set; } = [];
         public List<int> customerGroupIDs { get; set; } = [];
-        public List<NavigationAuthory> authories { get; set; } = [];
-        public List<NavigationMenu> mainMenu { get; set; } = [];
-        public List<NavigationMenu> settingsMenu { get; set; } = [];
+        public List<NavigationAuthory_Model> authories { get; set; } = [];
+        public List<NavigationMenu_Model> mainMenu { get; set; } = [];
+        public List<NavigationMenu_Model> settingsMenu { get; set; } = [];
 
         
     }

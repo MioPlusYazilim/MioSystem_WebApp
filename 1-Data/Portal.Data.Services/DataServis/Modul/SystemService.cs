@@ -10,8 +10,8 @@ namespace Portal.Data.Services
 
     public interface ISystemService : IBaseClientService
     {
-        Task<Role_Dto> GetRole(int id);
-        Task<SaveResult> SaveRole(Role_Dto model);
+        Task<RoleAuthory_Model> GetRole(int id);
+        Task<SaveResult> SaveRole(RoleAuthory_Model model);
         Task<List<SelectItem>> RoleSelectList();
         Task<object> RoleMainList();
 
@@ -28,13 +28,13 @@ namespace Portal.Data.Services
         {
             var config = new MapperConfiguration(cfg =>
             {
-                cfg.CreateMap<RoleAuthory, Role_Dto>().ReverseMap();
-                cfg.CreateMap<RoleAuthoryPermission, RoleAuthory_Dto>().ReverseMap();
+                cfg.CreateMap<RoleAuthory, RoleAuthory_Model>().ReverseMap();
+                cfg.CreateMap<RoleAuthoryPermission, RoleAuthoryPermission_Model>().ReverseMap();
 
             });
             return config;
         }
-        public async Task<SaveResult> SaveRole(Role_Dto model)
+        public async Task<SaveResult> SaveRole(RoleAuthory_Model model)
         {
             var result = new SaveResult();
             try
@@ -83,13 +83,13 @@ namespace Portal.Data.Services
             }
         }
 
-        public async Task<Role_Dto> GetRole(int id)
+        public async Task<RoleAuthory_Model> GetRole(int id)
         {
             try
             {
                 var rolgroup = await clientContext.RoleAuthories.Include(i => i.permissions).FirstOrDefaultAsync(s => s.ID == id);
                 if (rolgroup == null) return null;
-                var model = mapper.Map<Role_Dto>(rolgroup);
+                var model = mapper.Map<RoleAuthory_Model>(rolgroup);
                 return model;
             }
             catch (Exception ex)

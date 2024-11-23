@@ -49,7 +49,7 @@ namespace Portal.Win.Forms
         {
             try
             {
-                NavigationAuthory yetki = (NavigationAuthory)new ObjectConvert().ToObject(args, "NavigationAuthory");
+                NavigationAuthory_Model yetki = (NavigationAuthory_Model)new ObjectConvert().ToObject(args, "NavigationAuthory");
                 return (T)Activator.CreateInstance(GetFormTypeFromDll(yetki.editFormName), (object)args);
             }
             catch (Exception ex)
