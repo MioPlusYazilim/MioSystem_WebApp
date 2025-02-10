@@ -14,8 +14,6 @@ namespace MioPortal.Data.Services
     public interface IClientDefinitionsService : IBaseClientService
     {
         Task<List<SelectItem>> GetTransactionStatusSelectList(int TypeID);
-        Task<List<SelectItem>> GetPositionSelectList();
-        Task<List<SelectItem>> GetSpecialCodeSelectList(int TypeID);
         Task<object> GetObjectMainListAsync(string Query);
         object GetObjectMainList(string Query);
     }
@@ -58,29 +56,6 @@ namespace MioPortal.Data.Services
                                             code = s.Code,
                                             name = s.Name,
                                             text = s.FullName
-                                        }).ToList());
-        }
-        public async Task<List<SelectItem>> GetPositionSelectList()
-        {
-            return await Task.Run(() => clientContext
-                                        .PositionSelectViews
-                                        .Select(s => new SelectItem()
-                                        {
-                                            value = s.ID,
-                                            code = s.Code,
-                                            name = s.FullName
-                                        }).ToList());
-        }
-        public async Task<List<SelectItem>> GetSpecialCodeSelectList(int TypeID)
-        {
-            return await Task.Run(() => clientContext
-                                        .SpecialCodeSelectViews
-                                        .Where(x => x.TypeID == TypeID)
-                                        .Select(s => new SelectItem()
-                                        {
-                                            value = s.ID,
-                                            code = s.Code,
-                                            name = s.FullName
                                         }).ToList());
         }
     }

@@ -26,32 +26,12 @@ namespace Portal.Data.Context
         public DbSet<EmployeeSelectView> EmployeeSelectViews { get; set; }
 
 
-        public DbSet<Customer> Customers { get; set; }
-        public DbSet<CustomerSelectView> CustomerSelectViews { get; set; }
-        public DbSet<CustomerProjectSelectView> CustomerProjectSelectViews { get; set; }
-        public DbSet<CustomerGroup> CustomerGroups { get; set; }
-        public DbSet<CustomerGroupSelectView> CustomerGroupSelectViews { get; set; }
-        public DbSet<CustomerCorporate> CustomerCorporates { get; set; }
-        public DbSet<CustomerCorporateSelectView> CustomerCorporateSelectViews { get; set; }
-
         public DbSet<RoleAuthory> RoleAuthories { get; set; }
         public DbSet<RoleAuthoryPermission> RoleAuthoryPermissions { get; set; }
 
         public DbSet<TransactionStatus> transactionStatuses { get; set; }
         public DbSet<TransactionStatusSelectView> TransactionStatusSelectViews { get; set; }
 
-        public DbSet<Position> Positions { get; set; }
-        public DbSet<PositionSelectView> PositionSelectViews { get; set; }
-        public DbSet<SpecialCode> SpecialCodes { get; set; }
-        public DbSet<SpecialCodeSelectView> SpecialCodeSelectViews { get; set; }
-        public DbSet<SupplierChain> SupplierChains { get; set; }
-
-        public DbSet<FlightTicketWebReportView> FlightTicketWebReportViews { get; set; }
-        public DbSet<HotelWebReportView> HotelWebReportViews { get; set; }
-        public DbSet<InvoiceWebReportView> InvoiceWebReportViews { get; set; }
-        public DbSet<ModulWebReportView> ModulWebReportViews { get; set; }
-
-        public DbSet<InvoiceCheckView> InvoiceCheckViews { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -63,32 +43,11 @@ namespace Portal.Data.Context
 
             modelBuilder.ApplyConfiguration(new EmployeeSelectView_Configuration());
 
-            modelBuilder.ApplyConfiguration(new Customer_Configuration());
-            modelBuilder.ApplyConfiguration(new CustomerSelectView_Configuration());
-            modelBuilder.ApplyConfiguration(new CustomerProjectSelectView_Configuration());
-            modelBuilder.ApplyConfiguration(new CustomerGroup_Configuration());
-            modelBuilder.ApplyConfiguration(new CustomerGroupSelectView_Configuration());
-            modelBuilder.ApplyConfiguration(new CustomerCorporate_Configuration());
-            modelBuilder.ApplyConfiguration(new CustomerCorporateSelectView_Configuration());
-
-
-
             modelBuilder.ApplyConfiguration(new Role_Configuration());
             modelBuilder.ApplyConfiguration(new RoleAuthory_Configuration());
 
             modelBuilder.ApplyConfiguration(new TransactionStatus_Configuration());
             modelBuilder.ApplyConfiguration(new TransactionStatusSelectView_Configuration());
-            modelBuilder.ApplyConfiguration(new Position_Configuration());
-            modelBuilder.ApplyConfiguration(new PositionSelectView_Configuration());
-            modelBuilder.ApplyConfiguration(new SpecialCode_Configuration());
-            modelBuilder.ApplyConfiguration(new SpecialCodeSelectView_Configuration());
-            modelBuilder.ApplyConfiguration(new SupplierChain_Configuration());
-            
-            modelBuilder.ApplyConfiguration(new FlightTicketWebReportView_Configuration());
-            modelBuilder.ApplyConfiguration(new HotelWebReportView_Configuration());
-            modelBuilder.ApplyConfiguration(new InvoiceWebReportView_Configuration());
-            modelBuilder.ApplyConfiguration(new ModulWebReportView_Configuration());
-            modelBuilder.ApplyConfiguration(new InvoiceCheckView_Configuration());
 
         }
     }

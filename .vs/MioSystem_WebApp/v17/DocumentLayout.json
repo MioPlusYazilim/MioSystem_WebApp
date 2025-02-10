@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\WorkSpaces\\MioSystem_WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\3-ui\\winforms\\miosystem\\ui\\frmroleauthory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|solutionrelative:3-ui\\winforms\\miosystem\\ui\\frmroleauthory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|c:\\workspaces\\miosystem_webapp\\3-ui\\winforms\\miosystem\\ui\\frmroleauthory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|solutionrelative:3-ui\\winforms\\miosystem\\ui\\frmroleauthory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\3-ui\\winforms\\miosystem\\base\\baseform\\frmbaseeditform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|solutionrelative:3-ui\\winforms\\miosystem\\base\\baseform\\frmbaseeditform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{762C87FD-B19D-4F05-8F03-2AF1649F9DD7}|1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj|c:\\workspaces\\miosystem_webapp\\1-data\\portal.data.services\\dataservis\\modul\\flightticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762C87FD-B19D-4F05-8F03-2AF1649F9DD7}|1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj|solutionrelative:1-data\\portal.data.services\\dataservis\\modul\\flightticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,38 +42,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmRoleAuthory.cs [Design]",
-              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\UI\\FrmRoleAuthory.cs",
-              "RelativeDocumentMoniker": "3-UI\\WinForms\\MioSystem\\UI\\FrmRoleAuthory.cs",
-              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\UI\\FrmRoleAuthory.cs [Design]",
-              "RelativeToolTip": "3-UI\\WinForms\\MioSystem\\UI\\FrmRoleAuthory.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T06:32:12.873Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmBaseEditForm.cs [Design]",
-              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\BaseForm\\FrmBaseEditForm.cs",
-              "RelativeDocumentMoniker": "3-UI\\WinForms\\MioSystem\\Base\\BaseForm\\FrmBaseEditForm.cs",
-              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\BaseForm\\FrmBaseEditForm.cs [Design]",
-              "RelativeToolTip": "3-UI\\WinForms\\MioSystem\\Base\\BaseForm\\FrmBaseEditForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T06:31:25.286Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FrmRoleAuthory.cs",
-              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\UI\\FrmRoleAuthory.cs",
-              "RelativeDocumentMoniker": "3-UI\\WinForms\\MioSystem\\UI\\FrmRoleAuthory.cs",
-              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\UI\\FrmRoleAuthory.cs",
-              "RelativeToolTip": "3-UI\\WinForms\\MioSystem\\UI\\FrmRoleAuthory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Title": "FlightTicketService.cs",
+              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\DataServis\\Modul\\FlightTicketService.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data.Services\\DataServis\\Modul\\FlightTicketService.cs",
+              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\DataServis\\Modul\\FlightTicketService.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data.Services\\DataServis\\Modul\\FlightTicketService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T06:29:39.273Z",
+              "WhenOpened": "2025-02-10T08:28:23.355Z",
               "EditorCaption": ""
             }
           ]
