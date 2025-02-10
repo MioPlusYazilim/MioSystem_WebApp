@@ -3,48 +3,16 @@
   "WorkspaceRootPath": "C:\\WorkSpaces\\MioSystem_WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|c:\\workspaces\\miosystem_webapp\\3-ui\\winforms\\miosystem\\utils\\formfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|solutionrelative:3-ui\\winforms\\miosystem\\utils\\formfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\3-ui\\winforms\\miosystem\\base\\baseform\\frmbaseusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|solutionrelative:3-ui\\winforms\\miosystem\\base\\baseform\\frmbaseusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\3-ui\\winforms\\miosystem\\base\\baseform\\frmbaseusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|solutionrelative:3-ui\\winforms\\miosystem\\base\\baseform\\frmbaseusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\3-ui\\winforms\\miosystem\\base\\listform\\frmmainlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|solutionrelative:3-ui\\winforms\\miosystem\\base\\listform\\frmmainlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\3-ui\\winforms\\miosystem\\base\\frmmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|solutionrelative:3-ui\\winforms\\miosystem\\base\\frmmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\3-ui\\winforms\\miosystem\\base\\baseform\\frmbaseeditform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|solutionrelative:3-ui\\winforms\\miosystem\\base\\baseform\\frmbaseeditform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\3-ui\\winforms\\miosystem\\base\\reportform\\frmtablereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|solutionrelative:3-ui\\winforms\\miosystem\\base\\reportform\\frmtablereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\3-ui\\winforms\\miosystem\\base\\frmmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|solutionrelative:3-ui\\winforms\\miosystem\\base\\frmmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\3-ui\\winforms\\miosystem\\base\\reportform\\frmpivotreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|solutionrelative:3-ui\\winforms\\miosystem\\base\\reportform\\frmpivotreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\3-ui\\winforms\\miosystem\\base\\reportform\\frmdocreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|solutionrelative:3-ui\\winforms\\miosystem\\base\\reportform\\frmdocreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\3-ui\\winforms\\miosystem\\ui\\frmroleauthory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|solutionrelative:3-ui\\winforms\\miosystem\\ui\\frmroleauthory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|c:\\workspaces\\miosystem_webapp\\3-ui\\winforms\\miosystem\\ui\\frmroleauthory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|solutionrelative:3-ui\\winforms\\miosystem\\ui\\frmroleauthory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|C:\\WorkSpaces\\MioSystem_WebApp\\3-ui\\winforms\\miosystem\\base\\baseform\\frmbaseeditform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|solutionrelative:3-ui\\winforms\\miosystem\\base\\baseform\\frmbaseeditform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -83,130 +51,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FrmBaseUserControl.cs",
-              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\BaseForm\\FrmBaseUserControl.cs",
-              "RelativeDocumentMoniker": "3-UI\\WinForms\\MioSystem\\Base\\BaseForm\\FrmBaseUserControl.cs",
-              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\BaseForm\\FrmBaseUserControl.cs",
-              "RelativeToolTip": "3-UI\\WinForms\\MioSystem\\Base\\BaseForm\\FrmBaseUserControl.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAgwCUAAAAlAAAA",
+              "Title": "FrmRoleAuthory.cs [Design]",
+              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\UI\\FrmRoleAuthory.cs",
+              "RelativeDocumentMoniker": "3-UI\\WinForms\\MioSystem\\UI\\FrmRoleAuthory.cs",
+              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\UI\\FrmRoleAuthory.cs [Design]",
+              "RelativeToolTip": "3-UI\\WinForms\\MioSystem\\UI\\FrmRoleAuthory.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T12:36:23.122Z"
+              "WhenOpened": "2024-11-29T06:32:12.873Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FrmBaseUserControl.cs [Design]",
-              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\BaseForm\\FrmBaseUserControl.cs",
-              "RelativeDocumentMoniker": "3-UI\\WinForms\\MioSystem\\Base\\BaseForm\\FrmBaseUserControl.cs",
-              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\BaseForm\\FrmBaseUserControl.cs [Design]",
-              "RelativeToolTip": "3-UI\\WinForms\\MioSystem\\Base\\BaseForm\\FrmBaseUserControl.cs [Design]",
+              "Title": "FrmBaseEditForm.cs [Design]",
+              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\BaseForm\\FrmBaseEditForm.cs",
+              "RelativeDocumentMoniker": "3-UI\\WinForms\\MioSystem\\Base\\BaseForm\\FrmBaseEditForm.cs",
+              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\BaseForm\\FrmBaseEditForm.cs [Design]",
+              "RelativeToolTip": "3-UI\\WinForms\\MioSystem\\Base\\BaseForm\\FrmBaseEditForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T12:35:32.002Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FrmPivotReport.cs [Design]",
-              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\ReportForm\\FrmPivotReport.cs",
-              "RelativeDocumentMoniker": "3-UI\\WinForms\\MioSystem\\Base\\ReportForm\\FrmPivotReport.cs",
-              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\ReportForm\\FrmPivotReport.cs [Design]",
-              "RelativeToolTip": "3-UI\\WinForms\\MioSystem\\Base\\ReportForm\\FrmPivotReport.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T10:37:01.265Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FrmTableReport.cs [Design]",
-              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\ReportForm\\FrmTableReport.cs",
-              "RelativeDocumentMoniker": "3-UI\\WinForms\\MioSystem\\Base\\ReportForm\\FrmTableReport.cs",
-              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\ReportForm\\FrmTableReport.cs [Design]",
-              "RelativeToolTip": "3-UI\\WinForms\\MioSystem\\Base\\ReportForm\\FrmTableReport.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T10:36:41.511Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmMainList.cs",
-              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\ListForm\\FrmMainList.cs",
-              "RelativeDocumentMoniker": "3-UI\\WinForms\\MioSystem\\Base\\ListForm\\FrmMainList.cs",
-              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\ListForm\\FrmMainList.cs",
-              "RelativeToolTip": "3-UI\\WinForms\\MioSystem\\Base\\ListForm\\FrmMainList.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAswFQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T09:08:18.103Z"
+              "WhenOpened": "2024-11-29T06:31:25.286Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormFactory.cs",
-              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Utils\\FormFactory.cs",
-              "RelativeDocumentMoniker": "3-UI\\WinForms\\MioSystem\\Utils\\FormFactory.cs",
-              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Utils\\FormFactory.cs",
-              "RelativeToolTip": "3-UI\\WinForms\\MioSystem\\Utils\\FormFactory.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwGcAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T08:50:20.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FrmBaseEditForm.cs",
-              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\BaseForm\\FrmBaseEditForm.cs",
-              "RelativeDocumentMoniker": "3-UI\\WinForms\\MioSystem\\Base\\BaseForm\\FrmBaseEditForm.cs",
-              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\BaseForm\\FrmBaseEditForm.cs",
-              "RelativeToolTip": "3-UI\\WinForms\\MioSystem\\Base\\BaseForm\\FrmBaseEditForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T12:14:39.615Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FrmMainForm.cs",
-              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\FrmMainForm.cs",
-              "RelativeDocumentMoniker": "3-UI\\WinForms\\MioSystem\\Base\\FrmMainForm.cs",
-              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\FrmMainForm.cs",
-              "RelativeToolTip": "3-UI\\WinForms\\MioSystem\\Base\\FrmMainForm.cs",
-              "ViewState": "AQIAAKIAAAAAAAAAAAAowLQAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T08:40:52.137Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FrmMainForm.cs [Design]",
-              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\FrmMainForm.cs",
-              "RelativeDocumentMoniker": "3-UI\\WinForms\\MioSystem\\Base\\FrmMainForm.cs",
-              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\FrmMainForm.cs [Design]",
-              "RelativeToolTip": "3-UI\\WinForms\\MioSystem\\Base\\FrmMainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T08:37:57.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FrmDocReport.cs [Design]",
-              "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\ReportForm\\FrmDocReport.cs",
-              "RelativeDocumentMoniker": "3-UI\\WinForms\\MioSystem\\Base\\ReportForm\\FrmDocReport.cs",
-              "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\Base\\ReportForm\\FrmDocReport.cs [Design]",
-              "RelativeToolTip": "3-UI\\WinForms\\MioSystem\\Base\\ReportForm\\FrmDocReport.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T10:36:02.729Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "FrmRoleAuthory.cs",
               "DocumentMoniker": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\UI\\FrmRoleAuthory.cs",
               "RelativeDocumentMoniker": "3-UI\\WinForms\\MioSystem\\UI\\FrmRoleAuthory.cs",
               "ToolTip": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\UI\\FrmRoleAuthory.cs",
               "RelativeToolTip": "3-UI\\WinForms\\MioSystem\\UI\\FrmRoleAuthory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T09:09:32.655Z"
+              "WhenOpened": "2024-11-29T06:29:39.273Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -16,6 +16,10 @@ namespace MioSystem.Base
     public partial class FrmBaseEditForm : FrmBaseUserControl
     {
 
+        public FrmBaseEditForm()
+        {
+
+        }
         public FrmBaseEditForm(BaseFormSettings _formSettings) : base(_formSettings)
         {
             InitializeComponent();

@@ -21,7 +21,7 @@ namespace MioSystem.Base
         {
             formSettings = _formSettings;
             InitializeComponent();
-            formSettings.Init();
+            formSettings?.Init();
         }
         public virtual void InitCaption()
         {
