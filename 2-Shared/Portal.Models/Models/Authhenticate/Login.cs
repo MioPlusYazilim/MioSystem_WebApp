@@ -31,10 +31,9 @@ namespace Portal.Model
         public string companyName { get; set; } = string.Empty;
         public string companyCode { get; set; } = string.Empty;
         public int departmentID { get; set; } = 0;
-        public string workingLang { get; set; } = "tr-TR";
         public string winTheme { get; set; } = string.Empty;
         public string webTheme { get; set; } = string.Empty;
-        public string displayLanguage { get; set; } = string.Empty;
+        public string displayLanguage { get; set; } = "tr-TR";
         public string clientKey { get; set; } = string.Empty;
         public string globalKey { get; set; } = string.Empty;
         public List<int> customerIDs { get; set; } = [];

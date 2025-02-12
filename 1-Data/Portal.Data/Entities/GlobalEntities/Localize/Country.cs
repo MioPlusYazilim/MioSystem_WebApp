@@ -8,8 +8,10 @@ namespace Portal.Data.Entities.GlobalEntities
         public Country()
         {
         }
-
-        public int ContinentID { get; set; }
+        public string LanguageCode { get; set; }
+        public string FieldValue { get; set; }
+        public string FieldName { get; set; }
+        public string ContinentCode { get; set; }
     }
 
     /*EntityMap Oluştur*/
@@ -22,9 +24,6 @@ namespace Portal.Data.Entities.GlobalEntities
 
             // Properties, Table & Column Mappings
             builder.Property(t => t.ID).HasColumnName("ID").ValueGeneratedOnAdd();
-            builder.Property(t => t.ContinentID).HasColumnName("ContinentID").IsRequired();
-
-            builder.Ignore(i => i.Deleted);
             builder.ToTable("Country");
             // Navigate Properties
         }

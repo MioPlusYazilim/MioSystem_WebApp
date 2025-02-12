@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\MioSystem.csproj": {}
+    "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\MioSystem.csproj": {}
   },
   "projects": {
-    "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj": {
+    "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj",
+        "projectUniqueName": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj",
         "projectName": "Portal.Data.Services",
-        "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj",
-        "packagesPath": "C:\\Users\\Süleyman\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\obj\\",
+        "projectPath": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj",
+        "packagesPath": "C:\\Users\\OZKAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\OZKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -39,14 +39,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data\\Portal.Data.csproj": {
-                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data\\Portal.Data.csproj"
+              "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Portal.Data.csproj": {
+                "projectPath": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Portal.Data.csproj"
               },
-              "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj": {
-                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj"
+              "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj": {
+                "projectPath": "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj"
               },
-              "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj": {
-                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj"
+              "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj": {
+                "projectPath": "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj"
               }
             }
           }
@@ -99,14 +99,14 @@
         }
       }
     },
-    "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data\\Portal.Data.csproj": {
+    "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Portal.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data\\Portal.Data.csproj",
+        "projectUniqueName": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Portal.Data.csproj",
         "projectName": "Portal.Data",
-        "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data\\Portal.Data.csproj",
-        "packagesPath": "C:\\Users\\Süleyman\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data\\obj\\",
+        "projectPath": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Portal.Data.csproj",
+        "packagesPath": "C:\\Users\\OZKAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -114,7 +114,7 @@
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\OZKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -134,8 +134,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj": {
-                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj"
+              "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj": {
+                "projectPath": "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj"
               }
             }
           }
@@ -184,14 +184,14 @@
         }
       }
     },
-    "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj": {
+    "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj",
+        "projectUniqueName": "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj",
         "projectName": "Portal.Helpers",
-        "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj",
-        "packagesPath": "C:\\Users\\Süleyman\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\obj\\",
+        "projectPath": "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj",
+        "packagesPath": "C:\\Users\\OZKAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -199,7 +199,7 @@
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\OZKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -261,14 +261,14 @@
         }
       }
     },
-    "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj": {
+    "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj",
+        "projectUniqueName": "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj",
         "projectName": "Portal.Model",
-        "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj",
-        "packagesPath": "C:\\Users\\Süleyman\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Models\\obj\\",
+        "projectPath": "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj",
+        "packagesPath": "C:\\Users\\OZKAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -276,7 +276,7 @@
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\OZKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -338,14 +338,14 @@
         }
       }
     },
-    "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.DxUtils\\MioSystem.DxUtils.csproj": {
+    "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.DxUtils\\MioSystem.DxUtils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.DxUtils\\MioSystem.DxUtils.csproj",
+        "projectUniqueName": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.DxUtils\\MioSystem.DxUtils.csproj",
         "projectName": "MioSystem.DxUtils",
-        "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.DxUtils\\MioSystem.DxUtils.csproj",
-        "packagesPath": "C:\\Users\\Süleyman\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.DxUtils\\obj\\",
+        "projectPath": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.DxUtils\\MioSystem.DxUtils.csproj",
+        "packagesPath": "C:\\Users\\OZKAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.DxUtils\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -353,7 +353,7 @@
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\OZKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -373,11 +373,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj": {
-                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj"
+              "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj": {
+                "projectPath": "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj"
               },
-              "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.Utils\\MioSystem.Utils.csproj": {
-                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.Utils\\MioSystem.Utils.csproj"
+              "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.Utils\\MioSystem.Utils.csproj": {
+                "projectPath": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.Utils\\MioSystem.Utils.csproj"
               }
             }
           }
@@ -437,14 +437,14 @@
         }
       }
     },
-    "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.Utils\\MioSystem.Utils.csproj": {
+    "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.Utils\\MioSystem.Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.Utils\\MioSystem.Utils.csproj",
+        "projectUniqueName": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.Utils\\MioSystem.Utils.csproj",
         "projectName": "MioSystem.Utils",
-        "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.Utils\\MioSystem.Utils.csproj",
-        "packagesPath": "C:\\Users\\Süleyman\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.Utils\\obj\\",
+        "projectPath": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.Utils\\MioSystem.Utils.csproj",
+        "packagesPath": "C:\\Users\\OZKAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.Utils\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -452,7 +452,7 @@
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\OZKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -518,14 +518,14 @@
         }
       }
     },
-    "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\MioSystem.csproj": {
+    "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\MioSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\MioSystem.csproj",
+        "projectUniqueName": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\MioSystem.csproj",
         "projectName": "MioSystem",
-        "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\MioSystem.csproj",
-        "packagesPath": "C:\\Users\\Süleyman\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\obj\\",
+        "projectPath": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\MioSystem.csproj",
+        "packagesPath": "C:\\Users\\OZKAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -533,7 +533,7 @@
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Süleyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\OZKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -553,20 +553,20 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj": {
-                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj"
+              "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj": {
+                "projectPath": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj"
               },
-              "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj": {
-                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj"
+              "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj": {
+                "projectPath": "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Helpers\\Portal.Helpers.csproj"
               },
-              "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj": {
-                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj"
+              "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj": {
+                "projectPath": "C:\\Workspace\\MioSystem_WebApp\\2-Shared\\Portal.Models\\Portal.Model.csproj"
               },
-              "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.DxUtils\\MioSystem.DxUtils.csproj": {
-                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.DxUtils\\MioSystem.DxUtils.csproj"
+              "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.DxUtils\\MioSystem.DxUtils.csproj": {
+                "projectPath": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.DxUtils\\MioSystem.DxUtils.csproj"
               },
-              "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.Utils\\MioSystem.Utils.csproj": {
-                "projectPath": "C:\\WorkSpaces\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.Utils\\MioSystem.Utils.csproj"
+              "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.Utils\\MioSystem.Utils.csproj": {
+                "projectPath": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem.Utils\\MioSystem.Utils.csproj"
               }
             }
           }

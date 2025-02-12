@@ -10,3 +10,16 @@ C:\WorkSpaces\MioSystem_WebApp\2-Shared\MioPortal.Util\obj\Debug\net8.0\Portal.H
 C:\WorkSpaces\MioSystem_WebApp\2-Shared\MioPortal.Util\obj\Debug\net8.0\refint\Portal.Helpers.dll
 C:\WorkSpaces\MioSystem_WebApp\2-Shared\MioPortal.Util\obj\Debug\net8.0\Portal.Helpers.pdb
 C:\WorkSpaces\MioSystem_WebApp\2-Shared\MioPortal.Util\obj\Debug\net8.0\ref\Portal.Helpers.dll
+C:\Workspace\MioSystem_WebApp\2-Shared\Portal.Helpers\bin\Debug\net8.0\Portal.Helpers.deps.json
+C:\Workspace\MioSystem_WebApp\2-Shared\Portal.Helpers\bin\Debug\net8.0\Portal.Helpers.dll
+C:\Workspace\MioSystem_WebApp\2-Shared\Portal.Helpers\bin\Debug\net8.0\Portal.Helpers.pdb
+C:\Workspace\MioSystem_WebApp\2-Shared\Portal.Helpers\obj\Debug\net8.0\Portal.Helpers.csproj.AssemblyReference.cache
+C:\Workspace\MioSystem_WebApp\2-Shared\Portal.Helpers\obj\Debug\net8.0\Portal.Helpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\MioSystem_WebApp\2-Shared\Portal.Helpers\obj\Debug\net8.0\Portal.Helpers.AssemblyInfoInputs.cache
+C:\Workspace\MioSystem_WebApp\2-Shared\Portal.Helpers\obj\Debug\net8.0\Portal.Helpers.AssemblyInfo.cs
+C:\Workspace\MioSystem_WebApp\2-Shared\Portal.Helpers\obj\Debug\net8.0\Portal.Helpers.csproj.CoreCompileInputs.cache
+C:\Workspace\MioSystem_WebApp\2-Shared\Portal.Helpers\obj\Debug\net8.0\Portal.Helpers.sourcelink.json
+C:\Workspace\MioSystem_WebApp\2-Shared\Portal.Helpers\obj\Debug\net8.0\Portal.Helpers.dll
+C:\Workspace\MioSystem_WebApp\2-Shared\Portal.Helpers\obj\Debug\net8.0\refint\Portal.Helpers.dll
+C:\Workspace\MioSystem_WebApp\2-Shared\Portal.Helpers\obj\Debug\net8.0\Portal.Helpers.pdb
+C:\Workspace\MioSystem_WebApp\2-Shared\Portal.Helpers\obj\Debug\net8.0\ref\Portal.Helpers.dll

@@ -86,7 +86,7 @@ namespace MioSystem
             loginUser.mainMenu = response.mainMenu;
             loginUser.settingsMenu = response.settingsMenu;
             loginUser.winTheme = response.winTheme ?? "Basic";
-            loginUser.displayLanguage = response.displayLanguage;
+            loginUser.displayLanguage = response.displayLanguage ?? "tr-TR";
             loginUser.clientKey = response.clientKey;
 
             string[] skininfo = loginUser.winTheme.Split(new char[] { ';' }, StringSplitOptions.RemoveEmptyEntries);

@@ -1,0 +1,16 @@
+C:\Workspace\MioSystem_WebApp\1-Data\Portal.Data\bin\Debug\net8.0\Portal.Data.deps.json
+C:\Workspace\MioSystem_WebApp\1-Data\Portal.Data\bin\Debug\net8.0\Portal.Data.dll
+C:\Workspace\MioSystem_WebApp\1-Data\Portal.Data\bin\Debug\net8.0\Portal.Data.pdb
+C:\Workspace\MioSystem_WebApp\1-Data\Portal.Data\bin\Debug\net8.0\Portal.Helpers.dll
+C:\Workspace\MioSystem_WebApp\1-Data\Portal.Data\bin\Debug\net8.0\Portal.Helpers.pdb
+C:\Workspace\MioSystem_WebApp\1-Data\Portal.Data\obj\Debug\net8.0\Portal.Data.csproj.AssemblyReference.cache
+C:\Workspace\MioSystem_WebApp\1-Data\Portal.Data\obj\Debug\net8.0\Portal.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\MioSystem_WebApp\1-Data\Portal.Data\obj\Debug\net8.0\Portal.Data.AssemblyInfoInputs.cache
+C:\Workspace\MioSystem_WebApp\1-Data\Portal.Data\obj\Debug\net8.0\Portal.Data.AssemblyInfo.cs
+C:\Workspace\MioSystem_WebApp\1-Data\Portal.Data\obj\Debug\net8.0\Portal.Data.csproj.CoreCompileInputs.cache
+C:\Workspace\MioSystem_WebApp\1-Data\Portal.Data\obj\Debug\net8.0\Portal.Data.sourcelink.json
+C:\Workspace\MioSystem_WebApp\1-Data\Portal.Data\obj\Debug\net8.0\Portal.D.6E96CFDE.Up2Date
+C:\Workspace\MioSystem_WebApp\1-Data\Portal.Data\obj\Debug\net8.0\Portal.Data.dll
+C:\Workspace\MioSystem_WebApp\1-Data\Portal.Data\obj\Debug\net8.0\refint\Portal.Data.dll
+C:\Workspace\MioSystem_WebApp\1-Data\Portal.Data\obj\Debug\net8.0\Portal.Data.pdb
+C:\Workspace\MioSystem_WebApp\1-Data\Portal.Data\obj\Debug\net8.0\ref\Portal.Data.dll

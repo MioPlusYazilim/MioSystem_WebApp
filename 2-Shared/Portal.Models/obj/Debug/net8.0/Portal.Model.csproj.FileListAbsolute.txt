@@ -1,0 +1,13 @@
+C:\Workspace\MioSystem_WebApp\2-Shared\Portal.Models\bin\Debug\net8.0\Portal.Model.deps.json
+C:\Workspace\MioSystem_WebApp\2-Shared\Portal.Models\bin\Debug\net8.0\Portal.Model.dll
+C:\Workspace\MioSystem_WebApp\2-Shared\Portal.Models\bin\Debug\net8.0\Portal.Model.pdb
+C:\Workspace\MioSystem_WebApp\2-Shared\Portal.Models\obj\Debug\net8.0\Portal.Model.csproj.AssemblyReference.cache
+C:\Workspace\MioSystem_WebApp\2-Shared\Portal.Models\obj\Debug\net8.0\Portal.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\MioSystem_WebApp\2-Shared\Portal.Models\obj\Debug\net8.0\Portal.Model.AssemblyInfoInputs.cache
+C:\Workspace\MioSystem_WebApp\2-Shared\Portal.Models\obj\Debug\net8.0\Portal.Model.AssemblyInfo.cs
+C:\Workspace\MioSystem_WebApp\2-Shared\Portal.Models\obj\Debug\net8.0\Portal.Model.csproj.CoreCompileInputs.cache
+C:\Workspace\MioSystem_WebApp\2-Shared\Portal.Models\obj\Debug\net8.0\Portal.Model.sourcelink.json
+C:\Workspace\MioSystem_WebApp\2-Shared\Portal.Models\obj\Debug\net8.0\Portal.Model.dll
+C:\Workspace\MioSystem_WebApp\2-Shared\Portal.Models\obj\Debug\net8.0\refint\Portal.Model.dll
+C:\Workspace\MioSystem_WebApp\2-Shared\Portal.Models\obj\Debug\net8.0\Portal.Model.pdb
+C:\Workspace\MioSystem_WebApp\2-Shared\Portal.Models\obj\Debug\net8.0\ref\Portal.Model.dll

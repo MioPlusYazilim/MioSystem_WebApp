@@ -1,6 +1,9 @@
 ﻿using DevExpress.XtraEditors;
+using MioPortal.Data.Services;
 using MioSystem.Base;
+using MioSystem.DxUtils;
 using MioSystem.Utils;
+using Portal.Data.Services.GlobalContextService;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,6 +22,15 @@ namespace MioSystem.UI
         {
             InitializeComponent();
             FormCaption = _formSettings.FormID.ToString();
+            LoadData();
+        }
+        void LoadData()
+        {
+            using (var service = new GlobalContextService())
+            {
+                using(var dxfunc = new DxFunctions())
+               dxfunc.SetEditDataSource(cbTest,service.GetAirLineSelectList(formSettings.FormUser.displayLanguage),"value","code,name","");
+            }
         }
     }
 }

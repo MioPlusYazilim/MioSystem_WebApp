@@ -19,12 +19,8 @@ namespace Portal.Data.Entities.GlobalEntities
         {
             // Primary Key
             builder.HasKey(t => t.ID);
-
             // Properties, Table & Column Mappings
             builder.Property(t => t.ID).HasColumnName("ID").ValueGeneratedOnAdd();
-            builder.Property(t => t.MessageName).HasColumnName("MessageName");
-
-            builder.Ignore(i => i.Deleted);
             builder.ToTable("SystemMessages");
             // Navigate Properties
         }

@@ -174,7 +174,7 @@ namespace Portal.Data.Services
             var navigationAuths = (from nvg in globalDataContext.Navigations.AsNoTracking()
                                    join trs in globalDataContext.NavigationTranslations.AsNoTracking() on nvg.ID equals trs.ParentID
                                    where roleAuthIDs.Contains(nvg.MenuTag)
-                                         && trs.LanguageCode == loginResponse.workingLang
+                                         && trs.LanguageCode == loginResponse.displayLanguage
                                          && nvg.MenuActive
                                    select (new NavigationAuthory_Model()
                                    {
@@ -212,7 +212,7 @@ namespace Portal.Data.Services
 
         private List<NavigationMenu_Model> GetUserMenuTree(List<NavigationAuthory_Model> authories, bool isMainMenu)
         {
-            var translationsList = globalDataContext.NavigationTranslations.Where(x => x.LanguageCode == loginResponse.workingLang).ToList();
+            var translationsList = globalDataContext.NavigationTranslations.Where(x => x.LanguageCode == loginResponse.displayLanguage).ToList();
             var authoryIDs =authories.Select(s=>s.id).ToList();
             //level 3 menu Items
             var level3MenuItems = globalDataContext

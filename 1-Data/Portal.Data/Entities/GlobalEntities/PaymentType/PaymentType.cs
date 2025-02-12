@@ -25,8 +25,6 @@ namespace Portal.Data.Entities.GlobalEntities
 
             // Properties, Table & Column Mappings
             builder.Property(t => t.ID).HasColumnName("ID").IsRequired();
-
-            builder.Ignore(i => i.Deleted);
             builder.ToTable("PaymentType");
             // Navigate Properties
         }

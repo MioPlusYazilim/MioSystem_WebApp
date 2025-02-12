@@ -56,13 +56,16 @@
             // ribbonControl1
             // 
             ribbonControl1.DrawGroupCaptions = DevExpress.Utils.DefaultBoolean.False;
+            ribbonControl1.EmptyAreaImageOptions.ImagePadding = new System.Windows.Forms.Padding(26, 23, 26, 23);
             ribbonControl1.ExpandCollapseItem.Id = 0;
             ribbonControl1.Items.AddRange(new DevExpress.XtraBars.BarItem[] { ribbonControl1.ExpandCollapseItem, barButtonItemNew, barButtonItemSave, barButtonItemDelete, barButtonItemPrint, barButtonItemClose });
             ribbonControl1.Location = new System.Drawing.Point(0, 0);
+            ribbonControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             ribbonControl1.MaxItemId = 7;
             ribbonControl1.Name = "ribbonControl1";
             ribbonControl1.OptionsExpandCollapseMenu.ShowQuickAccessToolbarItem = DevExpress.Utils.DefaultBoolean.False;
             ribbonControl1.OptionsExpandCollapseMenu.ShowRibbonGroup = DevExpress.Utils.DefaultBoolean.False;
+            ribbonControl1.OptionsMenuMinWidth = 283;
             ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] { ribbonPage1 });
             ribbonControl1.ShowApplicationButton = DevExpress.Utils.DefaultBoolean.False;
             ribbonControl1.ShowDisplayOptionsMenuButton = DevExpress.Utils.DefaultBoolean.False;
@@ -73,7 +76,7 @@
             ribbonControl1.ShowPageKeyTipsMode = DevExpress.XtraBars.Ribbon.ShowPageKeyTipsMode.Hide;
             ribbonControl1.ShowQatLocationSelector = false;
             ribbonControl1.ShowToolbarCustomizeItem = false;
-            ribbonControl1.Size = new System.Drawing.Size(749, 163);
+            ribbonControl1.Size = new System.Drawing.Size(642, 133);
             ribbonControl1.Toolbar.ShowCustomizeItem = false;
             // 
             // barButtonItemNew
@@ -145,11 +148,11 @@
             // 
             // FrmBaseEditForm
             // 
-            AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             Controls.Add(ribbonControl1);
             Name = "FrmBaseEditForm";
-            Size = new System.Drawing.Size(749, 480);
+            Size = new System.Drawing.Size(642, 367);
             ((System.ComponentModel.ISupportInitialize)ribbonControl1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -157,7 +160,6 @@
 
         #endregion
         private DevExpress.XtraBars.Bar bar3;
-        private DevExpress.XtraBars.Ribbon.RibbonControl ribbonControl1;
         private DevExpress.XtraBars.BarButtonItem barButtonItemNew;
         private DevExpress.XtraBars.BarButtonItem barButtonItemSave;
         private DevExpress.XtraBars.BarButtonItem barButtonItemDelete;
@@ -166,5 +168,6 @@
         private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage1;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroupEdit;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroupClose;
+        public DevExpress.XtraBars.Ribbon.RibbonControl ribbonControl1;
     }
 }

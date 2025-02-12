@@ -16,6 +16,9 @@ namespace Portal.Data.Services
         Task<object> RoleMainList();
 
         Task<object> GetCompanyInfo();
+
+        Department_Model GetDepartment(int ID);
+       Task<Department_Model> GetDepartmentAsync(int ID);
     }
 
     public class SystemService : BaseClientService, ISystemService
@@ -30,9 +33,23 @@ namespace Portal.Data.Services
             {
                 cfg.CreateMap<RoleAuthory, RoleAuthory_Model>().ReverseMap();
                 cfg.CreateMap<RoleAuthoryPermission, RoleAuthoryPermission_Model>().ReverseMap();
+                cfg.CreateMap<Department, Department_Model>().ReverseMap();
 
             });
             return config;
+        }
+
+        public Department_Model GetDepartment(int ID)
+        {
+            var department= clientContext.Departments.AsNoTracking().FirstOrDefault(x => x.ID == ID);
+            return mapper.Map<Department_Model>(department);
+        }
+        public async Task<Department_Model> GetDepartmentAsync(int ID)
+        {
+            return await Task.Run(() =>
+            {
+                return GetDepartment(ID);
+            });
         }
         public async Task<SaveResult> SaveRole(RoleAuthory_Model model)
         {
