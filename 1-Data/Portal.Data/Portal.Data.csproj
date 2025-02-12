@@ -15,4 +15,16 @@
     <ProjectReference Include="..\..\2-Shared\Portal.Helpers\Portal.Helpers.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Entities\ClientEntities\Customer\" />
+    <Folder Include="Entities\ClientEntities\Position\" />
+    <Folder Include="Entities\ClientEntities\Report\Core\" />
+    <Folder Include="Entities\ClientEntities\Report\Customer\" />
+    <Folder Include="Entities\ClientEntities\Report\Hotel\" />
+    <Folder Include="Entities\ClientEntities\Report\Ticket\" />
+    <Folder Include="Entities\ClientEntities\SpecialCode\" />
+    <Folder Include="Entities\ClientEntities\SupplierChain\" />
+    <Folder Include="Entities\GlobalEntities\CarBrand\" />
+  </ItemGroup>
+
 </Project>
