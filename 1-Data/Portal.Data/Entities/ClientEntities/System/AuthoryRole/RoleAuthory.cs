@@ -29,6 +29,7 @@ namespace Portal.Data.Entities.ClientEntities
             // Properties, Table & Column Mappings
             builder.Property(t => t.ID).HasColumnName("ID").ValueGeneratedOnAdd();
 
+            builder.HasQueryFilter(m => EF.Property<bool>(m, "Deleted") == false);
             builder.Ignore(i => i.Deleted);
             builder.ToTable("RoleAuthory");
             // Navigate Properties

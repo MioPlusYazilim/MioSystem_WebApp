@@ -30,16 +30,8 @@ namespace Portal.Data.Entities.ClientEntities
 
             // Properties, Table & Column Mappings
             builder.Property(t => t.ID).HasColumnName("ID").ValueGeneratedOnAdd();
-            builder.Property(t => t.Code).HasColumnName("Code").HasMaxLength(80);
-            builder.Property(t => t.CodeName).HasColumnName("CodeName").IsRequired().HasMaxLength(400);
-            builder.Property(t => t.LoginName).HasColumnName("LoginName").HasMaxLength(50);
-            builder.Property(t => t.SystemID).HasColumnName("SystemID").IsRequired();
-            builder.Property(t => t.IsActive).HasColumnName("IsActive").IsRequired();
-            builder.Property(t => t.RefKey).HasColumnName("RefKey").IsRequired();
-            builder.Property(t => t.CompanyID).HasColumnName("CompanyID").IsRequired();
-            builder.Property(t => t.Deleted).HasColumnName("Deleted").IsRequired();
-            builder.Property(t => t.FState).HasColumnName("FState").IsRequired();
 
+            builder.HasQueryFilter(m => EF.Property<bool>(m, "Deleted") == false);
             builder.Ignore(i => i.Deleted);
             builder.ToTable("Company");
             // Navigate Properties

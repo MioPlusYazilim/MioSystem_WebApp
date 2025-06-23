@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Portal.Data.Entities.ClientEntities;
+using Portal.Data.Entities.ClientEntities.System.Company;
 
 namespace Portal.Data.Context
 {

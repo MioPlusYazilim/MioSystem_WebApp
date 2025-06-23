@@ -1,7 +1,424 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Workspace\\MioSystem_WebApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|c:\\workspace\\miosystem_webapp\\1-data\\portal.data\\entities\\cliententities\\travelpolicys\\travelpolicytransfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\travelpolicys\\travelpolicytransfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762C87FD-B19D-4F05-8F03-2AF1649F9DD7}|1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data.services\\dataservis\\clientcontextservice\\clientcontextservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762C87FD-B19D-4F05-8F03-2AF1649F9DD7}|1-Data\\Portal.Data.Services\\Portal.Data.Services.csproj|solutionrelative:1-data\\portal.data.services\\dataservis\\clientcontextservice\\clientcontextservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\travelpolicys\\travelpolicyrentacar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\travelpolicys\\travelpolicyrentacar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\travelpolicys\\travelpolicyhotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\travelpolicys\\travelpolicyhotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\travelpolicys\\travelpolicyflight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\travelpolicys\\travelpolicyflight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\travelpolicys\\travelpolicycustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\travelpolicys\\travelpolicycustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\travelpolicys\\travelpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\travelpolicys\\travelpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\transaction\\transactionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\transaction\\transactionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\transaction\\transactionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\transaction\\transactionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\transaction\\transactionprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\transaction\\transactionprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\transaction\\transactionpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\transaction\\transactionpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\transaction\\transactionemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\transaction\\transactionemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\transaction\\transactiondocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\transaction\\transactiondocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\transaction\\transactioncustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\transaction\\transactioncustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\transaction\\transactioncomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\transaction\\transactioncomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\modules\\request\\requesthotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\modules\\request\\requesthotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\globalentities\\commenttype\\commenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\globalentities\\commenttype\\commenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\globalentities\\airport\\airport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\globalentities\\airport\\airport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\system\\company\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\system\\company\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\system\\company\\companyaccounting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\system\\company\\companyaccounting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\system\\company\\companygetinfoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\system\\company\\companygetinfoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\modules\\request\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\modules\\request\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\modules\\request\\requestflight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\modules\\request\\requestflight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\modules\\request\\requestvisa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\modules\\request\\requestvisa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\modules\\request\\requesttransfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\modules\\request\\requesttransfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\modules\\request\\requestrentacar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\modules\\request\\requestrentacar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\modules\\request\\requestparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\modules\\request\\requestparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\modules\\request\\requestflightdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\modules\\request\\requestflightdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\modules\\request\\requestemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\modules\\request\\requestemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\accounting\\invoice\\invoicetransport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\accounting\\invoice\\invoicetransport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\accounting\\integratorsystemparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\accounting\\integratorsystemparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\document\\documentmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\document\\documentmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\customer\\customerurnaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\customer\\customerurnaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\accounting\\accountingtransferparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\accounting\\accountingtransferparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\accounting\\servicecard\\servicegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\accounting\\servicecard\\servicegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\accounting\\servicecard\\servicecardaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\accounting\\servicecard\\servicecardaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\accounting\\servicecard\\servicecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\accounting\\servicecard\\servicecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\customer\\customersubaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\customer\\customersubaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\modules\\fligthticket\\flighttickettemplate\\flighttickettemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\modules\\fligthticket\\flighttickettemplate\\flighttickettemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\supplierchain\\supplierchain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\supplierchain\\supplierchain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\specialcode\\specialcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\specialcode\\specialcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\modules\\hotels\\definitions\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\modules\\hotels\\definitions\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\system\\reportfile\\reportfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\system\\reportfile\\reportfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\system\\position\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\system\\position\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\accounting\\paymentterm\\paymenttermgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\accounting\\paymentterm\\paymenttermgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\accounting\\paymentterm\\paymenttermdefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\accounting\\paymentterm\\paymenttermdefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\accounting\\paymentterm\\paymentterm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\accounting\\paymentterm\\paymentterm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\system\\parseparameter\\parseparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\system\\parseparameter\\parseparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\system\\iataofficecode\\iataofficecode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\system\\iataofficecode\\iataofficecode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\system\\mailsms\\smstemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\system\\mailsms\\smstemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\system\\mailsms\\smssetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\system\\mailsms\\smssetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\system\\mailsms\\smssendlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\system\\mailsms\\smssendlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\system\\mailsms\\mailtemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\system\\mailsms\\mailtemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\system\\mailsms\\mailsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\system\\mailsms\\mailsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\system\\mailsms\\mailingsendlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\system\\mailsms\\mailingsendlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\accounting\\invoice\\invoicetemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\accounting\\invoice\\invoicetemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\accounting\\invoice\\invoiceseries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\accounting\\invoice\\invoiceseries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\accounting\\invoice\\invoicesend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\accounting\\invoice\\invoicesend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\accounting\\invoice\\invoicepayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\accounting\\invoice\\invoicepayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\accounting\\invoice\\invoiceother.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\accounting\\invoice\\invoiceother.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\accounting\\invoice\\invoicedocumenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\accounting\\invoice\\invoicedocumenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\accounting\\invoice\\invoicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\accounting\\invoice\\invoicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\accounting\\invoice\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\accounting\\invoice\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\globalreport\\globalreportdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\globalreport\\globalreportdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\globalreport\\globalreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\globalreport\\globalreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\system\\employee\\employeepassport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\system\\employee\\employeepassport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\system\\employee\\employeeparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\system\\employee\\employeeparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\system\\employee\\employeemilescard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\system\\employee\\employeemilescard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\system\\employee\\employeedocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\system\\employee\\employeedocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\system\\employee\\employeecorporate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\system\\employee\\employeecorporate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\system\\employee\\employeeapprover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\system\\employee\\employeeapprover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\document\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\document\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\system\\department\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\system\\department\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\customer\\customersystemcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\customer\\customersystemcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\customer\\customerservicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\customer\\customerservicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\customer\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\customer\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\customer\\customerpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\customer\\customerpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\customer\\customernote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\customer\\customernote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\customer\\customermaplogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\customer\\customermaplogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\customer\\customergroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\customer\\customergroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\customer\\customerglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\customer\\customerglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\customer\\customercreditlimit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\customer\\customercreditlimit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\customer\\customercorporate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\customer\\customercorporate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\customer\\customerbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\customer\\customerbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\customer\\customerautoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\customer\\customerautoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\customer\\customerautoinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\customer\\customerautoinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\customer\\customerautoinstruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\customer\\customerautoinstruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\customer\\customeraddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\customer\\customeraddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\customer\\customeraccountcodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\customer\\customeraccountcodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\customer\\customeraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\customer\\customeraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\customer\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\customer\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\system\\company\\companyshift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\system\\company\\companyshift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\system\\company\\companyparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\system\\company\\companyparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\system\\company\\companymaplogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\system\\company\\companymaplogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\system\\company\\companydepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\system\\company\\companydepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\bankbranch\\bankbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\bankbranch\\bankbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\system\\authoryrole\\roleauthorypermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\system\\authoryrole\\roleauthorypermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\system\\authoryrole\\roleauthory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\system\\authoryrole\\roleauthory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\bankbranch\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\bankbranch\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\airlineservice\\airlineservicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\airlineservice\\airlineservicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\airlineservice\\airlineservicecustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\airlineservice\\airlineservicecustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|C:\\Workspace\\MioSystem_WebApp\\1-data\\portal.data\\entities\\cliententities\\airlineservice\\airlineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF1585-4B8F-409A-BFFC-62C5956EBB96}|1-Data\\Portal.Data\\Portal.Data.csproj|solutionrelative:1-data\\portal.data\\entities\\cliententities\\airlineservice\\airlineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|C:\\Workspace\\MioSystem_WebApp\\3-ui\\winforms\\miosystem\\ui\\frmroleauthory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|solutionrelative:3-ui\\winforms\\miosystem\\ui\\frmroleauthory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|C:\\Workspace\\MioSystem_WebApp\\3-ui\\winforms\\miosystem\\ui\\frmroleauthory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1130A1-B535-49DE-828B-AE6B3C256014}|3-UI\\WinForms\\MioSystem\\MioSystem.csproj|solutionrelative:3-ui\\winforms\\miosystem\\ui\\frmroleauthory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +426,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,6 +463,1254 @@
             {
               "$type": "Bookmark",
               "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientContextService.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\DataServis\\ClientContextService\\ClientContextService.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data.Services\\DataServis\\ClientContextService\\ClientContextService.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data.Services\\DataServis\\ClientContextService\\ClientContextService.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data.Services\\DataServis\\ClientContextService\\ClientContextService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAIwBUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:21:18.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TravelPolicyTransfer.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\TravelPolicys\\TravelPolicyTransfer.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\TravelPolicys\\TravelPolicyTransfer.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\TravelPolicys\\TravelPolicyTransfer.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\TravelPolicys\\TravelPolicyTransfer.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T10:49:15.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TravelPolicyRentACar.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\TravelPolicys\\TravelPolicyRentACar.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\TravelPolicys\\TravelPolicyRentACar.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\TravelPolicys\\TravelPolicyRentACar.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\TravelPolicys\\TravelPolicyRentACar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T10:48:33.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TravelPolicyHotel.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\TravelPolicys\\TravelPolicyHotel.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\TravelPolicys\\TravelPolicyHotel.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\TravelPolicys\\TravelPolicyHotel.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\TravelPolicys\\TravelPolicyHotel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T10:47:37.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TravelPolicyFlight.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\TravelPolicys\\TravelPolicyFlight.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\TravelPolicys\\TravelPolicyFlight.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\TravelPolicys\\TravelPolicyFlight.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\TravelPolicys\\TravelPolicyFlight.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T10:46:24.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TravelPolicyCustomer.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\TravelPolicys\\TravelPolicyCustomer.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\TravelPolicys\\TravelPolicyCustomer.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\TravelPolicys\\TravelPolicyCustomer.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\TravelPolicys\\TravelPolicyCustomer.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAYwAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T10:45:49.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TravelPolicy.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\TravelPolicys\\TravelPolicy.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\TravelPolicys\\TravelPolicy.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\TravelPolicys\\TravelPolicy.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\TravelPolicys\\TravelPolicy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T10:45:19.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TransactionStatus.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionStatus.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionStatus.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionStatus.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T10:14:48.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TransactionRequest.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionRequest.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionRequest.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionRequest.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T10:12:54.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TransactionPrice.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionPrice.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionPrice.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionPrice.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionPrice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T10:12:18.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TransactionPayment.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionPayment.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionPayment.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionPayment.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionPayment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T22:34:00.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TransactionEmployee.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionEmployee.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionEmployee.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionEmployee.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionEmployee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T22:33:19.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TransactionDocument.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionDocument.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionDocument.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionDocument.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionDocument.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAqwAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T22:32:25.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TransactionCustomer.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionCustomer.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionCustomer.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionCustomer.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionCustomer.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA5wAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T22:31:19.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TransactionComment.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionComment.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionComment.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionComment.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Transaction\\TransactionComment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T22:29:10.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AirPort.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\GlobalEntities\\AirPort\\AirPort.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\GlobalEntities\\AirPort\\AirPort.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\GlobalEntities\\AirPort\\AirPort.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\GlobalEntities\\AirPort\\AirPort.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T22:25:37.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CommentType.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\GlobalEntities\\CommentType\\CommentType.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\GlobalEntities\\CommentType\\CommentType.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\GlobalEntities\\CommentType\\CommentType.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\GlobalEntities\\CommentType\\CommentType.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T22:25:48.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RequestVisa.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestVisa.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestVisa.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestVisa.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestVisa.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAzwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T22:08:53.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RequestTransfer.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestTransfer.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestTransfer.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestTransfer.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestTransfer.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T22:08:26.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RequestRentAcar.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestRentAcar.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestRentAcar.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestRentAcar.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestRentAcar.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAkwCYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T22:07:55.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RequestParameter.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestParameter.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestParameter.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestParameter.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestParameter.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAYwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T22:07:21.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RequestHotel.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestHotel.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestHotel.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestHotel.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestHotel.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAuwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T22:06:46.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RequestFlight.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestFlight.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestFlight.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestFlight.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestFlight.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA4wB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T22:05:26.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Request.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\Request.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\Request.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\Request.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\Request.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T22:03:12.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CompanyGetInfoView.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\CompanyGetInfoView.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\CompanyGetInfoView.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\CompanyGetInfoView.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\CompanyGetInfoView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T07:59:54.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CompanyAccounting.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\CompanyAccounting.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\CompanyAccounting.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\CompanyAccounting.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\CompanyAccounting.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAA3wAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T08:02:02.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\Company.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\Company.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\Company.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\Company.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T07:46:58.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RequestFlightDetails.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestFlightDetails.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestFlightDetails.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestFlightDetails.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestFlightDetails.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAswCQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T22:06:11.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RequestEmployee.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestEmployee.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestEmployee.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestEmployee.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Request\\RequestEmployee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T22:04:35.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ServiceCardAccount.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\ServiceCard\\ServiceCardAccount.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\ServiceCard\\ServiceCardAccount.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\ServiceCard\\ServiceCardAccount.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\ServiceCard\\ServiceCardAccount.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T07:32:01.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ServiceCard.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\ServiceCard\\ServiceCard.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\ServiceCard\\ServiceCard.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\ServiceCard\\ServiceCard.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\ServiceCard\\ServiceCard.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T07:31:22.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IntegratorSystemParameter.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\IntegratorSystemParameter.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\IntegratorSystemParameter.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\IntegratorSystemParameter.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\IntegratorSystemParameter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T10:52:02.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AccountingTransferParameter.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\AccountingTransferParameter.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\AccountingTransferParameter.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\AccountingTransferParameter.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\AccountingTransferParameter.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAxwCwAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T03:30:42.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CustomerUrnAddress.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerUrnAddress.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerUrnAddress.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerUrnAddress.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerUrnAddress.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:50:20.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DocumentManagement.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Document\\DocumentManagement.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Document\\DocumentManagement.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Document\\DocumentManagement.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Document\\DocumentManagement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T10:02:47.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "InvoiceTransport.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceTransport.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceTransport.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceTransport.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceTransport.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T10:59:59.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ServiceGroup.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\ServiceCard\\ServiceGroup.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\ServiceCard\\ServiceGroup.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\ServiceCard\\ServiceGroup.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\ServiceCard\\ServiceGroup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T07:32:34.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "SupplierChain.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\SupplierChain\\SupplierChain.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\SupplierChain\\SupplierChain.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\SupplierChain\\SupplierChain.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\SupplierChain\\SupplierChain.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAzwBQAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T07:34:06.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "FlightTicketTemplate.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\FligthTicket\\FlightTicketTemplate\\FlightTicketTemplate.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\FligthTicket\\FlightTicketTemplate\\FlightTicketTemplate.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\FligthTicket\\FlightTicketTemplate\\FlightTicketTemplate.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\FligthTicket\\FlightTicketTemplate\\FlightTicketTemplate.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAzwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T08:30:05.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CustomerSubAccount.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerSubAccount.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerSubAccount.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerSubAccount.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerSubAccount.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAswBMAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T08:39:21.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "SpecialCode.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\SpecialCode\\SpecialCode.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\SpecialCode\\SpecialCode.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\SpecialCode\\SpecialCode.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\SpecialCode\\SpecialCode.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAzwBoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T07:33:22.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "RoomType.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Hotels\\Definitions\\RoomType.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Hotels\\Definitions\\RoomType.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Hotels\\Definitions\\RoomType.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Modules\\Hotels\\Definitions\\RoomType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T07:30:22.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ReportFile.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\ReportFile\\ReportFile.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\ReportFile\\ReportFile.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\ReportFile\\ReportFile.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\ReportFile\\ReportFile.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAYwDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T07:17:40.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Position.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Position\\Position.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Position\\Position.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Position\\Position.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Position\\Position.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T07:16:07.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "PaymentTermGroup.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\PaymentTerm\\PaymentTermGroup.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\PaymentTerm\\PaymentTermGroup.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\PaymentTerm\\PaymentTermGroup.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\PaymentTerm\\PaymentTermGroup.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA5wAgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T12:04:36.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "PaymentTermDefinition.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\PaymentTerm\\PaymentTermDefinition.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\PaymentTerm\\PaymentTermDefinition.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\PaymentTerm\\PaymentTermDefinition.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\PaymentTerm\\PaymentTermDefinition.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T12:04:01.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "PaymentTerm.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\PaymentTerm\\PaymentTerm.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\PaymentTerm\\PaymentTerm.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\PaymentTerm\\PaymentTerm.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\PaymentTerm\\PaymentTerm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T12:03:27.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ParseParameter.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\ParseParameter\\ParseParameter.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\ParseParameter\\ParseParameter.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\ParseParameter\\ParseParameter.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\ParseParameter\\ParseParameter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T11:51:37.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "SmsTemplate.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\MailSms\\SmsTemplate.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\MailSms\\SmsTemplate.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\MailSms\\SmsTemplate.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\MailSms\\SmsTemplate.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAwwA8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T11:41:01.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "SmsSetting.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\MailSms\\SmsSetting.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\MailSms\\SmsSetting.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\MailSms\\SmsSetting.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\MailSms\\SmsSetting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T11:40:20.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "SmsSendList.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\MailSms\\SmsSendList.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\MailSms\\SmsSendList.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\MailSms\\SmsSendList.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\MailSms\\SmsSendList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T11:38:17.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "MailTemplate.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\MailSms\\MailTemplate.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\MailSms\\MailTemplate.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\MailSms\\MailTemplate.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\MailSms\\MailTemplate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T11:37:23.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "MailSetting.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\MailSms\\MailSetting.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\MailSms\\MailSetting.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\MailSms\\MailSetting.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\MailSms\\MailSetting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T11:36:39.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "MailingSendList.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\MailSms\\MailingSendList.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\MailSms\\MailingSendList.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\MailSms\\MailingSendList.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\MailSms\\MailingSendList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAIwAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T11:35:41.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "InvoiceTemplate.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceTemplate.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceTemplate.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceTemplate.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceTemplate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T10:59:06.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IataOfficeCode.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\IataOfficeCode\\IataOfficeCode.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\IataOfficeCode\\IataOfficeCode.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\IataOfficeCode\\IataOfficeCode.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\IataOfficeCode\\IataOfficeCode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T10:50:47.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "InvoiceSeries.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceSeries.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceSeries.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceSeries.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceSeries.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T10:57:42.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "InvoiceSend.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceSend.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceSend.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceSend.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceSend.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T10:56:56.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "InvoicePayment.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoicePayment.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoicePayment.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoicePayment.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoicePayment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T10:56:30.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "InvoiceOther.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceOther.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceOther.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceOther.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceOther.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T10:55:38.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "InvoiceDocumentType.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceDocumentType.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceDocumentType.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceDocumentType.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceDocumentType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T10:55:05.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "InvoiceDetail.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceDetail.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceDetail.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceDetail.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\InvoiceDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T10:54:27.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\Invoice.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\Invoice.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\Invoice.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Accounting\\Invoice\\Invoice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T10:53:25.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "GlobalReportDetail.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\GlobalReport\\GlobalReportDetail.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\GlobalReport\\GlobalReportDetail.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\GlobalReport\\GlobalReportDetail.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\GlobalReport\\GlobalReportDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T10:49:15.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "GlobalReport.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\GlobalReport\\GlobalReport.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\GlobalReport\\GlobalReport.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\GlobalReport\\GlobalReport.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\GlobalReport\\GlobalReport.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T10:48:41.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "EmployeePassport.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Employee\\EmployeePassport.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Employee\\EmployeePassport.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Employee\\EmployeePassport.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Employee\\EmployeePassport.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T10:11:25.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "EmployeeParameter.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Employee\\EmployeeParameter.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Employee\\EmployeeParameter.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Employee\\EmployeeParameter.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Employee\\EmployeeParameter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T10:09:37.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "EmployeeMilesCard.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Employee\\EmployeeMilesCard.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Employee\\EmployeeMilesCard.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Employee\\EmployeeMilesCard.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Employee\\EmployeeMilesCard.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T10:09:03.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "EmployeeDocument.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Employee\\EmployeeDocument.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Employee\\EmployeeDocument.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Employee\\EmployeeDocument.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Employee\\EmployeeDocument.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T10:07:58.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "EmployeeCorporate.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Employee\\EmployeeCorporate.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Employee\\EmployeeCorporate.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Employee\\EmployeeCorporate.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Employee\\EmployeeCorporate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T10:07:25.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "EmployeeApprover.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Employee\\EmployeeApprover.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Employee\\EmployeeApprover.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Employee\\EmployeeApprover.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Employee\\EmployeeApprover.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T10:06:34.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Document.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Document\\Document.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Document\\Document.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Document\\Document.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Document\\Document.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T10:02:06.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "CustomerGroup.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerGroup.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerGroup.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerGroup.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerGroup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:45:01.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "CustomerMapLogo.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerMapLogo.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerMapLogo.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerMapLogo.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerMapLogo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:45:34.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "CustomerNote.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerNote.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerNote.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerNote.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerNote.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:46:20.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "CustomerPayment.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerPayment.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerPayment.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerPayment.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerPayment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:46:57.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerService.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerService.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerService.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:47:35.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "CustomerServiceDetail.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerServiceDetail.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerServiceDetail.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerServiceDetail.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerServiceDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:48:08.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "CustomerSystemCode.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerSystemCode.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerSystemCode.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerSystemCode.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerSystemCode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:49:40.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Department\\Department.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Department\\Department.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Department\\Department.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Department\\Department.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAwwBMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T07:59:22.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "CustomerGlobal.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerGlobal.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerGlobal.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerGlobal.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerGlobal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:44:19.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "CustomerCreditLimit.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerCreditLimit.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerCreditLimit.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerCreditLimit.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerCreditLimit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:43:38.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "CustomerCorporate.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerCorporate.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerCorporate.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerCorporate.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerCorporate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:42:59.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "CustomerBank.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerBank.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerBank.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerBank.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerBank.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:41:33.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "CustomerAutoService.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerAutoService.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerAutoService.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerAutoService.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerAutoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:40:41.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "CustomerAutoInvoice.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerAutoInvoice.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerAutoInvoice.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerAutoInvoice.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerAutoInvoice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:38:45.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "CustomerAutoInstruction.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerAutoInstruction.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerAutoInstruction.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerAutoInstruction.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerAutoInstruction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:33:22.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "CustomerAddress.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerAddress.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerAddress.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerAddress.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerAddress.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:32:48.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "CustomerAccountCodes.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerAccountCodes.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerAccountCodes.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerAccountCodes.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerAccountCodes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:31:42.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "CustomerAccount.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerAccount.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerAccount.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerAccount.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\CustomerAccount.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:22:53.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\Customer.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\Customer.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\Customer.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\Customer\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:21:38.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "CompanyShift.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\CompanyShift.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\CompanyShift.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\CompanyShift.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\CompanyShift.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:12:55.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "CompanyParameter.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\CompanyParameter.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\CompanyParameter.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\CompanyParameter.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\CompanyParameter.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAA5wAgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T08:05:06.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "CompanyMapLogo.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\CompanyMapLogo.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\CompanyMapLogo.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\CompanyMapLogo.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\CompanyMapLogo.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T08:04:18.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "CompanyDepartment.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\CompanyDepartment.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\CompanyDepartment.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\CompanyDepartment.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\Company\\CompanyDepartment.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAuwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T08:03:19.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "RoleAuthoryPermission.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\AuthoryRole\\RoleAuthoryPermission.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\AuthoryRole\\RoleAuthoryPermission.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\AuthoryRole\\RoleAuthoryPermission.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\AuthoryRole\\RoleAuthoryPermission.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAuwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T07:59:03.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "BankBranch.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\BankBranch\\BankBranch.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\BankBranch\\BankBranch.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\BankBranch\\BankBranch.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\BankBranch\\BankBranch.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAzwA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T16:15:42.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "RoleAuthory.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\AuthoryRole\\RoleAuthory.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\AuthoryRole\\RoleAuthory.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\AuthoryRole\\RoleAuthory.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\System\\AuthoryRole\\RoleAuthory.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T07:58:53.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "Bank.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\BankBranch\\Bank.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\BankBranch\\Bank.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\BankBranch\\Bank.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\BankBranch\\Bank.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAYwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T16:15:35.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "FrmRoleAuthory.cs [Design]",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\UI\\FrmRoleAuthory.cs",
+              "RelativeDocumentMoniker": "3-UI\\WinForms\\MioSystem\\UI\\FrmRoleAuthory.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\UI\\FrmRoleAuthory.cs [Design]",
+              "RelativeToolTip": "3-UI\\WinForms\\MioSystem\\UI\\FrmRoleAuthory.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T04:01:31.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "FrmRoleAuthory.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\UI\\FrmRoleAuthory.cs",
+              "RelativeDocumentMoniker": "3-UI\\WinForms\\MioSystem\\UI\\FrmRoleAuthory.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\3-UI\\WinForms\\MioSystem\\UI\\FrmRoleAuthory.cs",
+              "RelativeToolTip": "3-UI\\WinForms\\MioSystem\\UI\\FrmRoleAuthory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T04:01:16.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "AirlineServiceDetail.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\AirlineService\\AirlineServiceDetail.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\AirlineService\\AirlineServiceDetail.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\AirlineService\\AirlineServiceDetail.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\AirlineService\\AirlineServiceDetail.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAwwCQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T03:59:14.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "AirlineServiceCustomer.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\AirlineService\\AirlineServiceCustomer.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\AirlineService\\AirlineServiceCustomer.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\AirlineService\\AirlineServiceCustomer.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\AirlineService\\AirlineServiceCustomer.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T03:50:43.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "AirlineService.cs",
+              "DocumentMoniker": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\AirlineService\\AirlineService.cs",
+              "RelativeDocumentMoniker": "1-Data\\Portal.Data\\Entities\\ClientEntities\\AirlineService\\AirlineService.cs",
+              "ToolTip": "C:\\Workspace\\MioSystem_WebApp\\1-Data\\Portal.Data\\Entities\\ClientEntities\\AirlineService\\AirlineService.cs",
+              "RelativeToolTip": "1-Data\\Portal.Data\\Entities\\ClientEntities\\AirlineService\\AirlineService.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAmwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T03:47:52.484Z"
             }
           ]
         }
